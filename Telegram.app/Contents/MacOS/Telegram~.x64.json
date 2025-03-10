@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 73611145,
+          "size": 73615241,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10059,7 +10059,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 361573,
+          "size": 361617,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10072,7 +10072,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1883145,
+          "size": 1883225,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -53298,6 +53298,7 @@
             "groups",
             "groupsAndNamespaces",
             "groupsCount",
+            "groupsInCommon",
             "growingForegroundCircleLayer",
             "gs",
             "gsm",
@@ -60763,6 +60764,7 @@
             "premiumGiftMonths",
             "premiumHeader",
             "premiumInfo",
+            "premiumOrStarsRequiredDisposable",
             "premiumProductOptions",
             "premiumProductsAndPrice",
             "premiumRate",
@@ -69218,7 +69220,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 532200,
+          "size": 532252,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -86170,7 +86172,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 648812,
+          "size": 648820,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -86369,7 +86371,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1505112,
+          "size": 1505176,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -86453,7 +86455,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2413064,
+          "size": 2413088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -86466,7 +86468,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1020677,
+          "size": 1020869,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -86684,7 +86686,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17309728,
+      "entryoff": 17308128,
       "stacksize": 0,
       "fileoff": 4880
     },
@@ -87436,8 +87438,8 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 91902072,
-      "datasize": 394968,
+      "dataoff": 91902088,
+      "datasize": 394952,
       "fileoff": 12256
     },
     {
