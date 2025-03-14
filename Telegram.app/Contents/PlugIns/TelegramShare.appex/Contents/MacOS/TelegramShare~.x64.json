@@ -17653,7 +17653,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1034532,
+          "size": 1034596,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -25194,6 +25194,8 @@
             "Gift.Send.Upgrade.Info",
             "Gift.SendSelf.HideMyName.Info",
             "Gift.SoldOut.Error",
+            "Gift.Tooltip.Pinned",
+            "Gift.Tooltip.Unpinned",
             "Gift.Transfer.Confirmation.Text",
             "Gift.Transfer.Confirmation.TextFree",
             "Gift.Transfer.Confirmation.Title",
@@ -52683,7 +52685,7 @@
       "vmaddr": 4357144576,
       "vmsize": 3932160,
       "fileoff": 4168,
-      "filesize": 3919696,
+      "filesize": 3919760,
       "maxprot": {
         "read": true,
         "write": false,
@@ -52704,9 +52706,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 46922624,
+      "symoff": 46922688,
       "nsyms": 12040,
-      "stroff": 47142240,
+      "stroff": 47142304,
       "strsize": 312744,
       "fileoff": 4288
     },
@@ -52724,7 +52726,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 47115264,
+      "indirectsymoff": 47115328,
       "nindirectsyms": 6744,
       "extreloff": 0,
       "nextrel": 0,
@@ -53206,19 +53208,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 46719688,
+      "dataoff": 46719752,
       "datasize": 202936,
       "fileoff": 8664
     },
     {
       "type": "data_in_code",
-      "dataoff": 46922624,
+      "dataoff": 46922688,
       "datasize": 0,
       "fileoff": 8680
     },
     {
       "type": "code_signature",
-      "dataoff": 47454992,
+      "dataoff": 47455056,
       "datasize": 390208,
       "fileoff": 8696
     }
