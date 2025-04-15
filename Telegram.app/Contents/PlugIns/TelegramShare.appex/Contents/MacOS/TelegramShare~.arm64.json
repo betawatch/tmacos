@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 30124812,
+          "size": 30128908,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1141974,
+          "size": 1142486,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -162,7 +162,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 276846,
+          "size": 277008,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3703,7 +3703,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 226212,
+          "size": 226380,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3716,7 +3716,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 11300,
+          "size": 11320,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3729,7 +3729,7 @@
         {
           "sectname": "__swift5_mpenum",
           "segname": "__TEXT",
-          "size": 16472,
+          "size": 16480,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3742,7 +3742,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 236537,
+          "size": 236745,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -6518,6 +6518,10 @@
             "blockQuotes",
             "blockQuotes",
             "blockchain",
+            "blockchain",
+            "blockchainParticipants",
+            "blockchainParticipantsValue",
+            "blockchainState",
             "blocked",
             "blocked",
             "blockedSlice",
@@ -8523,6 +8527,7 @@
             "e2ePoll1Offset",
             "e2ePoll1Timer",
             "e2eState",
+            "e2eStateUpdateDisposable",
             "earlier",
             "earlier",
             "earlier",
@@ -10624,6 +10629,7 @@
             "intermediateMessage",
             "internal",
             "internalChecked",
+            "internalId",
             "internalId",
             "internalId",
             "internalPassport",
@@ -13023,6 +13029,7 @@
             "partialmediareferenceWebpage",
             "participant",
             "participant",
+            "participant",
             "participantCount",
             "participantCount",
             "participantCount",
@@ -13444,6 +13451,8 @@
             "pending",
             "pending",
             "pendingActionsTable",
+            "pendingApplyBlockchainStateTimer",
+            "pendingBlockchainState",
             "pendingChannels",
             "pendingEntries",
             "pendingFetch",
@@ -17744,7 +17753,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 267540,
+          "size": 267760,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17757,7 +17766,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 256596,
+          "size": 256680,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17783,7 +17792,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 26500,
+          "size": 26528,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17796,7 +17805,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 17728,
+          "size": 17744,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17809,7 +17818,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1038610,
+          "size": 1038978,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -18522,6 +18531,7 @@
             "(RequestContext in _5677F3777B98856DDFDE109D63EDCE90)",
             "(RequestData in _7CDC4CBF662BA4BCDCB9F57A1E2B728B)",
             "(RequestTargetContext in _7CDC4CBF662BA4BCDCB9F57A1E2B728B)",
+            "(ResolvedBlockchainParticipant in _D7A28FC93A9676858E9D9702D878BE21)",
             "(TEST_ENG_OPENSSL_PKEY)Loading Private key %s\n",
             "(TEST_ENG_OPENSSL_RC4) test_init_key() called\n",
             "(TextNodeLine in _49E5EE053704098DC6C39AE86B531C54)",
@@ -35781,6 +35791,7 @@
             "_TtCC12TelegramCore27EngineAvailableColorOptions15ColorOptionPack",
             "_TtCC12TelegramCore27EngineAvailableColorOptions6Option",
             "_TtCC12TelegramCore28GroupCallParticipantsContext11MemberEvent",
+            "_TtCC12TelegramCore28GroupCallParticipantsContextP33_D7A28FC93A9676858E9D9702D878BE2129ResolvedBlockchainParticipant",
             "_TtCC12TelegramCore28PeerExpiringStoryListContext5State",
             "_TtCC12TelegramCore28PeerExpiringStoryListContextP33_57DD610CA59870D1DC3656FE7FC6B2354Impl",
             "_TtCC12TelegramCore29AutomaticCacheEvictionContextP33_7C9F0FFB68349B34F7A18381DE18BA084Impl",
@@ -38347,6 +38358,7 @@
             "block_align not set\n",
             "block_lr",
             "block_rl",
+            "blockchainParticipantsValue",
             "blocking strategy change detected in adjacent frames\n",
             "blocks",
             "blocksize",
@@ -41161,6 +41173,7 @@
             "e2ePoll1Disposable",
             "e2ePoll1Offset",
             "e2ePoll1Timer",
+            "e2eStateUpdateDisposable",
             "eContent",
             "eContentType",
             "eXtended BINary text",
@@ -46681,6 +46694,7 @@
             "partialReference",
             "partialState",
             "partially overlapping buffers",
+            "participant",
             "participantCount",
             "participants",
             "participantsCount",
@@ -46937,6 +46951,8 @@
             "pending",
             "pending messages: ",
             "pendingActionsTable",
+            "pendingApplyBlockchainStateTimer",
+            "pendingBlockchainState",
             "pendingChannels",
             "pendingEntries",
             "pendingFetch",
@@ -52513,7 +52529,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 365552,
+          "size": 365752,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -52565,7 +52581,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 20368,
+          "size": 20384,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -52591,7 +52607,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1340176,
+          "size": 1340720,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -52617,7 +52633,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 12096,
+          "size": 12104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -52710,7 +52726,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 518384,
+          "size": 518728,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -52809,7 +52825,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 405586,
+          "size": 405834,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -52828,9 +52844,7 @@
           "nreloc": 0,
           "type": "regular",
           "attributes": {
-            "usr": {
-              "no_dead_strip": true
-            },
+            "usr": {},
             "sys": {}
           }
         },
@@ -52889,7 +52903,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1053456,
+          "size": 1054352,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -52920,7 +52934,7 @@
       "vmaddr": 4350509056,
       "vmsize": 3850240,
       "fileoff": 4240,
-      "filesize": 3837456,
+      "filesize": 3838960,
       "maxprot": {
         "read": true,
         "write": false,
@@ -52941,9 +52955,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 40289368,
+      "symoff": 40290856,
       "nsyms": 11229,
-      "stroff": 40492408,
+      "stroff": 40493904,
       "strsize": 280632,
       "fileoff": 4360
     },
@@ -52961,8 +52975,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 40469032,
-      "nindirectsyms": 5844,
+      "indirectsymoff": 40470520,
+      "nindirectsyms": 5846,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -53440,19 +53454,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 40087440,
-      "datasize": 201928,
+      "dataoff": 40088808,
+      "datasize": 202048,
       "fileoff": 8896
     },
     {
       "type": "data_in_code",
-      "dataoff": 40289368,
+      "dataoff": 40290856,
       "datasize": 0,
       "fileoff": 8912
     },
     {
       "type": "code_signature",
-      "dataoff": 40773040,
+      "dataoff": 40774544,
       "datasize": 338016,
       "fileoff": 8928
     }
