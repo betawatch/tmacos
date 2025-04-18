@@ -86031,7 +86031,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 344816,
+          "size": 344820,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -87102,7 +87102,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 771036,
+          "size": 771040,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -87176,7 +87176,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2318080,
+          "size": 2318032,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -87596,7 +87596,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14623952,
+      "entryoff": 14623348,
       "stacksize": 0,
       "fileoff": 4888
     },
