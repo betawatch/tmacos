@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_stubs",
           "segname": "__TEXT",
-          "size": 95520,
+          "size": 95552,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -87596,7 +87596,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14623348,
+      "entryoff": 14623840,
       "stacksize": 0,
       "fileoff": 4888
     },

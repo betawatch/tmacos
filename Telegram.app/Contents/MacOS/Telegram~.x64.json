@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 74462553,
+          "size": 74466649,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -87056,7 +87056,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 657112,
+          "size": 657108,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -87268,7 +87268,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 42296,
+          "size": 42304,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -87570,7 +87570,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17549008,
+      "entryoff": 17545296,
       "stacksize": 0,
       "fileoff": 4880
     },
