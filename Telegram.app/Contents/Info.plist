@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>APPCENTER_SECRET</key>
-	<string>4ff72ee6-40ca-438b-a068-7ba14a53e288</string>
 	<key>ATSApplicationFontsPath</key>
 	<string>fonts</string>
 	<key>BuildMachineOSBuild</key>
@@ -43,7 +41,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>272030</string>
+	<string>272252</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -92,7 +90,7 @@
 	<key>SOURCE</key>
 	<string>BETA</string>
 	<key>SUFeedURL</key>
-	<string>https://api.appcenter.ms/v0.1/public/sparkle/apps/4ff72ee6-40ca-438b-a068-7ba14a53e288</string>
+	<string>https://mac-updates.telegram.org/beta/versions.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 	<key>UIAppFonts</key>

@@ -8731,6 +8731,10 @@
 "ChannelBoost.EnableReactionsText.Group" = "Your group needs to reach **%1$@ level** to add %2$@ custom emoji as reactions.\n\nAsk your **Premium** subscribers to boost your group with this link:";
 
 
+
+"ChannelBoost.EnableAutoTranslationText" = "Your channel needs to reach **%1$@ level** to enable autotranslation of messages.\n\nAsk your **Premium** subscribers to boost your channel with this link:";
+
+
 "ChannelBoost.EnableStoriesForChannel" = "Enable Stories for This Channel";
 "ChannelBoost.EnableStoriesForOtherChannel" = "Enable Stories for The Channel";
 "ChannelBoost.EnableStoriesForChannelText" = "**%1$@** needs %2$@ to enable posting stories. Help make it possible!";
@@ -9756,6 +9760,7 @@
 "ChannelBoost.Table.NoAds" = "Switch Off Ads";
 "ChannelBoost.NoAds" = "Switch Off Ads";
 "ChannelBoost.EnableNoAdsLevelText" = "Your channel needs **Level %1$@** to switch off ads.";
+"ChannelBoost.Autotranslation" = "Autotranslations of Messages";
 
 
 "ChannelBoost.Table.ProfileLogo" = "Custom Logo for Channel Cover";
@@ -11576,6 +11581,23 @@
 "Stars.GiftPreview.Send" = "Send a Gift for %@";
 "Stars.GiftPreview.Buy" = "Buy a Gift for %@";
 
+"Stars.GiftPreview.BuyMulti_countable" = "%d %@";
+"Stars.GiftPreview.BuyMulti_zero" = "Buy %d Gifts for %@";
+"Stars.GiftPreview.BuyMulti_one" = "Buy %d Gift for %@";
+"Stars.GiftPreview.BuyMulti_two" = "Buy %d Gifts for %@";
+"Stars.GiftPreview.BuyMulti_few" = "Buy %d Gifts for %@";
+"Stars.GiftPreview.BuyMulti_many" = "Buy %d Gifts for %@";
+"Stars.GiftPreview.BuyMulti_other" = "Buy %d Gifts for %@";
+
+
+"Stars.GiftPreview.SendMulti_countable" = "%d %@";
+"Stars.GiftPreview.SendMulti_zero" = "Send %d Gifts for %@";
+"Stars.GiftPreview.SendMulti_one" = "Send %d Gift for %@";
+"Stars.GiftPreview.SendMulti_two" = "Send %d Gifts for %@";
+"Stars.GiftPreview.SendMulti_few" = "Send %d Gifts for %@";
+"Stars.GiftPreview.SendMulti_many" = "Send %d Gifts for %@";
+"Stars.GiftPreview.SendMulti_other" = "Send %d Gifts for %@";
+
 
 "Star.Transaction.ConvertAlert.Header" = "Convert Gift to Stars";
 "Star.Transaction.ConvertAlert.Info" = "Do you want to convert this gift from **%1$@** to **%2$@**?\n\nThis action cannot be undone.";
@@ -12149,6 +12171,8 @@
 "Star.Nft.TakeOff" = "take off";
 "Star.Nft.Wear" = "wear";
 "Star.Nft.Share" = "Share";
+"Star.Nft.Sell" = "sell";
+"Star.Nft.Unlist" = "unlist";
 
 
 "Emoji.Collectibles" = "COLLECTIBLES";
@@ -12534,5 +12558,8 @@
 "RecentCalls.RecentCalls" = "Recent Calls";
 
 
-"RecentCalls.NewCallLink" = "New Call Link";
+"RecentCalls.NewCallLink" = "Create Call Link";
 "RecentCalls.NewCall.OK" = "Call";
+
+
+"PeerInfo.Verified" = "%@ This bot is verified as official by the representatives of Telegram.";
