@@ -11627,6 +11627,7 @@
 "Gifting.StarGift.Limited" = "Limited";
 "Gifting.StarGift.All" = "All";
 "Gifting.StarGift.InStock" = "In Stock";
+"Gifting.StarGift.Resale" = "Resale";
 
 
 "Report.Complicated.SendReport" = "Send Report";
@@ -11657,6 +11658,10 @@
 "Gift.SoldOut" = "sold out";
 "Gift.SoldOut.Error" = "This gift has sold out";
 "Gift.Unavailable" = "Unavailable";
+
+
+"Gift.Resale" = "resale";
+"Gift.Sale" = "sale";
 
 
 
@@ -12563,3 +12568,117 @@
 
 
 "PeerInfo.Verified" = "%@ This bot is verified as official by the representatives of Telegram.";
+
+
+
+"Star.Nft.Sell.Header" = "PRICE IN STARS";
+"Star.Nft.Sell.Title" = "Sell Gift";
+
+"Star.Nft.Sell.Button.Sell" = "Sell";
+"Star.Nft.Sell.Button.Update" = "Update";
+
+
+"Star.Nft.Sell.Info" = "You will receive **%@**.";
+"Star.Nft.Sell.Floor" = "The lowest price for gifts from this collection is currently **%@**";
+
+
+"Star.Nft.Price.Edit" = "edit";
+"Star.Nft.Price.Sale" = "Sale";
+
+
+"Star.Nft.Gift.Buy.Confirm.Self" = "Are you sure you want to buy **%1$@** for **%2$@**";
+"Star.Nft.Gift.Buy.Confirm" = "Are you sure you want to buy **%1$@** for **%2$@** and gift it to **%3$@**";
+
+
+"Star.Nft.Gift.Confirm.Title" = "Buy Gift";
+"Star.Nft.Gift.Confirm.Ok" = "Buy for %@";
+
+"Star.Nft.Gift.Buy.Success.Self" = "You successfully bought **%1$@** for **%2$@**";
+"Star.Nft.Gift.Buy.Success" = "You successfully bought **%1$@** for **%2$@** and gifted it to **%3$@**";
+
+
+"Gift.Resale.Unavailable.Title" = "Too Early";
+"Gift.Resale.Unavailable.Text" = "You will be able to resell this gift on %@.";
+
+
+"Gift.Resale.SetSuccess" = "Gift successfully set on sale.";
+"Gift.Resale.PriceUpdate" = "Price successfully updated.";
+
+
+"Gift.Sell.Confirm.Title" = "Sell Gift";
+"Gift.Sell.Confirm.Text" = "Are you sure you want to sell **%1$@** for **%2$@**";
+
+
+"Star.Nft.BuyFor" = "Buy for %@";
+
+
+"Gift.Transfer.Unavailable.Title" = "Too Early";
+"Gift.Transfer.Unavailable.Text" = "You will be able to transfer this gift on %@.";
+
+
+"Gift.Unlist.Confirm.Title" = "Unlist this gift?";
+"Gift.Unlist.Confirm.Text" = "It will no longer be for sale.";
+"Gift.Unlist.Confirm.Ok" = "Unlist";
+
+
+
+"PrivacySettingsController.Gift.ShowGiftIcon" = "Show Gift Icon in Chats";
+"PrivacySettingsController.Gift.ShowGiftIcon.Info" = "Display the Gift Icon in the message input field for both participants in all chats.";
+
+
+
+"Gift.Marketplace.EmptyFilters" = "No Matching Gifts";
+"Gift.Marketplace.EmptyFilters.Clear" = "Clear Filters";
+
+
+"Gift.Marketplace.Sort.Date" = "Sort by Date";
+"Gift.Marketplace.Sort.Price" = "Sort by Price";
+"Gift.Marketplace.Sort.Number" = "Sort by Number";
+
+
+"Gift.Marketplace.SelectAll" = "Select All";
+
+
+"Gift.Marketplace.Attr.Date" = "Date";
+"Gift.Marketplace.Attr.Price" = "Price";
+"Gift.Marketplace.Attr.Number" = "Number";
+
+
+"Gift.Marketplace.Attr.Model_countable" = "%d";
+"Gift.Marketplace.Attr.Model_zero" = "%d Models";
+"Gift.Marketplace.Attr.Model_one" = "%d Model";
+"Gift.Marketplace.Attr.Model_two" = "%d Models";
+"Gift.Marketplace.Attr.Model_few" = "%d Models";
+"Gift.Marketplace.Attr.Model_many" = "%d Models";
+"Gift.Marketplace.Attr.Model_other" = "%d Models";
+"Gift.Marketplace.Attr.Model_ZeroValueHolder" = "Model";
+
+
+"Gift.Marketplace.Attr.Backdrop_countable" = "%d";
+"Gift.Marketplace.Attr.Backdrop_zero" = "%d Backdrops";
+"Gift.Marketplace.Attr.Backdrop_one" = "%d Backdrop";
+"Gift.Marketplace.Attr.Backdrop_two" = "%d Backdrops";
+"Gift.Marketplace.Attr.Backdrop_few" = "%d Backdrops";
+"Gift.Marketplace.Attr.Backdrop_many" = "%d Backdrops";
+"Gift.Marketplace.Attr.Backdrop_other" = "%d Backdrops";
+"Gift.Marketplace.Attr.Backdrop_ZeroValueHolder" = "Backdrop";
+
+
+"Gift.Marketplace.Attr.Symbol_countable" = "%d";
+"Gift.Marketplace.Attr.Symbol_zero" = "%d Symbols";
+"Gift.Marketplace.Attr.Symbol_one" = "%d Symbol";
+"Gift.Marketplace.Attr.Symbol_two" = "%d Symbols";
+"Gift.Marketplace.Attr.Symbol_few" = "%d Symbols";
+"Gift.Marketplace.Attr.Symbol_many" = "%d Symbols";
+"Gift.Marketplace.Attr.Symbol_other" = "%d Symbols";
+"Gift.Marketplace.Attr.Symbol_ZeroValueHolder" = "Symbol";
+
+
+
+"Chat.Service.Resale.You.Self" = "You bought **%1$@** for **%2$@**";
+"Chat.Service.Resale.You" = "You bought **%1$@** for **%2$@** and gifted it to %3$@";
+"Chat.Service.Resale" = "%1$@ bought **%2$@** for **%3$@** and gifted it to you";
+
+
+"Star.Transaction.GiftSale" = "Gift Sale";
+"Star.Transaction.GiftPurchase" = "Gift Purchase";
