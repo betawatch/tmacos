@@ -17867,7 +17867,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1043458,
+          "size": 1043490,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -29065,6 +29065,7 @@
             "PeerInfo.AdminLabel",
             "PeerInfo.Administrators",
             "PeerInfo.AnonymousPhone",
+            "PeerInfo.AutoTranslateMessages",
             "PeerInfo.BlackList",
             "PeerInfo.Block.Header",
             "PeerInfo.Block.OK",
@@ -53099,7 +53100,7 @@
       "vmaddr": 4350705664,
       "vmsize": 3866624,
       "fileoff": 4240,
-      "filesize": 3856944,
+      "filesize": 3856992,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53120,9 +53121,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 40520008,
+      "symoff": 40520056,
       "nsyms": 11229,
-      "stroff": 40723096,
+      "stroff": 40723144,
       "strsize": 280632,
       "fileoff": 4360
     },
@@ -53140,7 +53141,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 40699672,
+      "indirectsymoff": 40699720,
       "nindirectsyms": 5855,
       "extreloff": 0,
       "nextrel": 0,
@@ -53619,19 +53620,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 40316896,
-      "datasize": 203112,
+      "dataoff": 40316936,
+      "datasize": 203120,
       "fileoff": 8896
     },
     {
       "type": "data_in_code",
-      "dataoff": 40520008,
+      "dataoff": 40520056,
       "datasize": 0,
       "fileoff": 8912
     },
     {
       "type": "code_signature",
-      "dataoff": 41003728,
+      "dataoff": 41003776,
       "datasize": 339808,
       "fileoff": 8928
     }

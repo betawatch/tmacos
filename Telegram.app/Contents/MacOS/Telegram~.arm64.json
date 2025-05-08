@@ -20434,7 +20434,6 @@
             "Authority Information Access",
             "Authorization",
             "AuthorizedApplicationContext",
-            "Auto-Translate Messages",
             "AutoCommit",
             "AutoDownloadSettings.Delimeter",
             "AutoDownloadSettings.LastDelimeter",
@@ -33215,6 +33214,7 @@
             "PeerInfo.AdminLabel",
             "PeerInfo.Administrators",
             "PeerInfo.AnonymousPhone",
+            "PeerInfo.AutoTranslateMessages",
             "PeerInfo.BlackList",
             "PeerInfo.Block.Header",
             "PeerInfo.Block.OK",
@@ -91771,7 +91771,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 788412,
+          "size": 788408,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92198,7 +92198,7 @@
       "vmaddr": 4392435712,
       "vmsize": 4767744,
       "fileoff": 4480,
-      "filesize": 4761760,
+      "filesize": 4761952,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92219,9 +92219,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 82731184,
+      "symoff": 82731232,
       "nsyms": 4126,
-      "stroff": 82832120,
+      "stroff": 82832168,
       "strsize": 166880,
       "fileoff": 4600
     },
@@ -92239,7 +92239,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 82797200,
+      "indirectsymoff": 82797248,
       "nindirectsyms": 8730,
       "extreloff": 0,
       "nextrel": 0,
@@ -92265,7 +92265,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14731724,
+      "entryoff": 14731992,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -93033,20 +93033,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 82343616,
+      "dataoff": 82343664,
       "datasize": 387568,
       "fileoff": 12536
     },
     {
       "type": "data_in_code",
-      "dataoff": 82731184,
+      "dataoff": 82731232,
       "datasize": 0,
       "fileoff": 12552
     },
     {
       "type": "code_signature",
-      "dataoff": 82999008,
-      "datasize": 668096,
+      "dataoff": 82999056,
+      "datasize": 668240,
       "fileoff": 12568
     }
   ],

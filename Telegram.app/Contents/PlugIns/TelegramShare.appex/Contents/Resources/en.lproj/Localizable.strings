@@ -12682,3 +12682,6 @@
 
 "Star.Transaction.GiftSale" = "Gift Sale";
 "Star.Transaction.GiftPurchase" = "Gift Purchase";
+
+
+"PeerInfo.AutoTranslateMessages" = "Auto-Translate Messages";
