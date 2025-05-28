@@ -387,6 +387,10 @@
 "Chat.Input.TopicClosed" = "The topic closed by admin";
 "Chat.Input.ReplyToAnswer" = "Reply to message in topics";
 
+
+"Chat.Input.ReplyToAnswer.Monoforum" = "Reply to message to answer";
+
+
 "Message.Context.Reply1" = "Reply";
 "Message.Context.ReplyHelp" = "double click";
 "Message.Context.Report" = "Report";
@@ -11009,6 +11013,7 @@
 "Star.Transaction.Reason" = "Reason";
 "Star.Transaction.Availability" = "Availability";
 "Star.Transaction.Availability.Of" = "%1$d of %2$@";
+"Star.Transaction.TransactionUrl" = "Transaction URL";
 
 "Star.Transaction.Availability.OfText" = "%1$@ of %2$@";
 
@@ -12685,3 +12690,56 @@
 
 
 "PeerInfo.AutoTranslateMessages" = "Auto-Translate Messages";
+
+
+
+"ChatbotSetup.Gift.Warning.Title" = "Warning";
+"ChatbotSetup.Gift.Warning.CombinedText" = "The bot **%@** will be able to **manage your gifts and stars**, including giving them away to other users.";
+"ChatbotSetup.Gift.Warning.GiftsText" = "The bot **%@** will be able to **manage your gifts**, including giving them away to other users.";
+"ChatbotSetup.Gift.Warning.StarsText" = "The bot **%@** will be able to **transfer your stars**.";
+"ChatbotSetup.Gift.Warning.UsernameText" = "The bot **%@** will be able to **set and remove usernames** for your account, which may result in the loss of your current username.";
+"ChatbotSetup.Gift.Warning.Proceed" = "Proceed";
+
+
+
+"Chat.Title.Chats_countable" = "%d";
+"Chat.Title.Chats_zero" = "%d Chats";
+"Chat.Title.Chats_one" = "%d Chat";
+"Chat.Title.Chats_two" = "%d Chats";
+"Chat.Title.Chats_few" = "%d Chats";
+"Chat.Title.Chats_many" = "%d Chats";
+"Chat.Title.Chats_other" = "%d Chats";
+
+
+"ChatList.Monoforum.Holder" = "MESSAGES";
+
+
+"ChatList.Monoforum.TabBar.Tabs" = "Tabs";
+"ChatList.Monoforum.TabBar.List" = "List";
+
+
+"PeerInfo.DirectMessages.Text" = "Allow Channel Messages";
+"PeerInfo.DirectMessages.On" = "On";
+"PeerInfo.DirectMessages.Off" = "Off";
+
+
+"PeerInfo.DirectMessages.Off" = "Off";
+
+
+"Chat.MonoforumUI.AllTab" = "All";
+
+
+"ForumSettings.Title" = "Topics";
+"ForumSettings.TopicInfo" = "The group chat will be divided into topics created by admins or users.";
+"ForumSettings.Enable" = "Enable";
+"ForumSettings.DisplayAs" = "DISPLAY AS";
+"ForumSettings.DisplayAs.Info" = "Choose how topics appear for all members.";
+
+
+"ChannelMessages.Paid.Free" = "Free";
+"ChannelMessages.Title" = "Channel Messages";
+"ChannelMessages.Text" = "Allow Channel Messages";
+"ChannelMessages.Header" = "Allow users to send messages to your channel, with option to charge a fee for each message.";
+"ChannelMessages.Paid.Header" = "PRICE FOR EACH MESSAGE";
+"ChannelMessages.Paid.Info.Zero" = "You will receive %1$@ of the selected fee for each incoming message.";
+"ChannelMessages.Paid.Info" = "You will receive %1$@ of the selected fee (~%2$@$) for each incoming message.";
