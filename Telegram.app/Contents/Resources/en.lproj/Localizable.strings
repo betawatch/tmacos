@@ -12711,7 +12711,7 @@
 "Chat.Title.Chats_other" = "%d Chats";
 
 
-"ChatList.Monoforum.Holder" = "MESSAGES";
+"ChatList.Monoforum.Holder" = "DIRECT";
 
 
 "ChatList.Monoforum.TabBar.Tabs" = "Tabs";

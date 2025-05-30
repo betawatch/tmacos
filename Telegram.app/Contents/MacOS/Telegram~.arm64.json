@@ -12011,7 +12011,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2022467,
+          "size": 2022499,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -61476,9 +61476,9 @@
             "machdep.cpu.brand_string",
             "machine",
             "macos",
+            "macos_beta_updates_xml",
             "macos_calls_prioritize_vp8",
             "macos_side_menu_static",
-            "macos_stable_updates_xml",
             "macroblock (MB) type",
             "macroblock compare function",
             "macroblock decision algorithm (high quality mode)",
@@ -62921,6 +62921,7 @@
             "monoforumMessagesView",
             "monoforumPeer",
             "monoforumState",
+            "monoforumStaticView",
             "monoforumTopics",
             "monoforumTopicsDisposable",
             "monoforum_HorizontalView",
@@ -74482,7 +74483,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 544424,
+          "size": 544492,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74495,7 +74496,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 34980,
+          "size": 34984,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74508,7 +74509,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 32144,
+          "size": 32148,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -91927,7 +91928,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 788976,
+          "size": 788984,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -91956,9 +91957,9 @@
       "type": "segment_64",
       "name": "__DATA_CONST",
       "vmaddr": 4366467072,
-      "vmsize": 2686976,
+      "vmsize": 2703360,
       "fileoff": 2256,
-      "filesize": 2686976,
+      "filesize": 2703360,
       "maxprot": {
         "read": true,
         "write": true,
@@ -92001,7 +92002,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2357600,
+          "size": 2357744,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92100,8 +92101,8 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4369154048,
-      "vmsize": 23609344,
+      "vmaddr": 4369170432,
+      "vmsize": 23592960,
       "fileoff": 3048,
       "filesize": 5029888,
       "maxprot": {
@@ -92135,7 +92136,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1435960,
+          "size": 1435992,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92219,7 +92220,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2275664,
+          "size": 2275696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92232,7 +92233,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1193138,
+          "size": 1193154,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92323,7 +92324,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1319744,
+          "size": 1319872,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92354,7 +92355,7 @@
       "vmaddr": 4392763392,
       "vmsize": 4784128,
       "fileoff": 4480,
-      "filesize": 4775648,
+      "filesize": 4775680,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92375,9 +92376,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 83069152,
+      "symoff": 83069184,
       "nsyms": 4142,
-      "stroff": 83170464,
+      "stroff": 83170496,
       "strsize": 167560,
       "fileoff": 4600
     },
@@ -92395,7 +92396,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 83135424,
+      "indirectsymoff": 83135456,
       "nindirectsyms": 8759,
       "extreloff": 0,
       "nextrel": 0,
@@ -92421,7 +92422,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14863516,
+      "entryoff": 14863568,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -92451,19 +92452,11 @@
     },
     {
       "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5064
-    },
-    {
-      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5160
+      "fileoff": 5064
     },
     {
       "type": "load_dylib",
@@ -92471,7 +92464,15 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5216
+      "fileoff": 5120
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5168
     },
     {
       "type": "load_dylib",
@@ -93197,19 +93198,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 82680576,
-      "datasize": 388576,
+      "dataoff": 82680592,
+      "datasize": 388592,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 83069152,
+      "dataoff": 83069184,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 83338032,
+      "dataoff": 83338064,
       "datasize": 670640,
       "fileoff": 12632
     }
