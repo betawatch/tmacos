@@ -17877,7 +17877,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1047988,
+          "size": 1048020,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27827,6 +27827,7 @@
             "Monetization.Withdraw.EnterPassword.Title",
             "Monetization.Withdraw.Error.Text",
             "Monkey's Audio",
+            "Monoforum.SentBy",
             "Month.GenApril",
             "Month.GenAugust",
             "Month.GenDecember",
@@ -53253,7 +53254,7 @@
       "vmaddr": 4357849088,
       "vmsize": 3981312,
       "fileoff": 4168,
-      "filesize": 3978688,
+      "filesize": 3978720,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53274,9 +53275,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 47663240,
+      "symoff": 47663272,
       "nsyms": 12050,
-      "stroff": 47883280,
+      "stroff": 47883312,
       "strsize": 313032,
       "fileoff": 4288
     },
@@ -53294,7 +53295,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 47856040,
+      "indirectsymoff": 47856072,
       "nindirectsyms": 6809,
       "extreloff": 0,
       "nextrel": 0,
@@ -53784,19 +53785,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 47456880,
+      "dataoff": 47456912,
       "datasize": 206360,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 47663240,
+      "dataoff": 47663272,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 48196320,
+      "dataoff": 48196352,
       "datasize": 396000,
       "fileoff": 8760
     }

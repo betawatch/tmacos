@@ -17906,7 +17906,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1046238,
+          "size": 1046270,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27899,6 +27899,7 @@
             "Monetization.Withdraw.EnterPassword.Title",
             "Monetization.Withdraw.Error.Text",
             "Monkey's Audio",
+            "Monoforum.SentBy",
             "Month.GenApril",
             "Month.GenAugust",
             "Month.GenDecember",
@@ -52801,7 +52802,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 368768,
+          "size": 368776,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -53206,7 +53207,7 @@
       "vmaddr": 4350869504,
       "vmsize": 3883008,
       "fileoff": 4240,
-      "filesize": 3867568,
+      "filesize": 3867600,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53227,9 +53228,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 40676336,
+      "symoff": 40676368,
       "nsyms": 11238,
-      "stroff": 40879688,
+      "stroff": 40879720,
       "strsize": 280904,
       "fileoff": 4360
     },
@@ -53247,7 +53248,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 40856144,
+      "indirectsymoff": 40856176,
       "nindirectsyms": 5885,
       "extreloff": 0,
       "nextrel": 0,
@@ -53734,19 +53735,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 40472688,
+      "dataoff": 40472720,
       "datasize": 203648,
       "fileoff": 8960
     },
     {
       "type": "data_in_code",
-      "dataoff": 40676336,
+      "dataoff": 40676368,
       "datasize": 0,
       "fileoff": 8976
     },
     {
       "type": "code_signature",
-      "dataoff": 41160592,
+      "dataoff": 41160624,
       "datasize": 341024,
       "fileoff": 8992
     }

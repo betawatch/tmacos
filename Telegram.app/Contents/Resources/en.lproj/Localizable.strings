@@ -12743,3 +12743,6 @@
 "ChannelMessages.Paid.Header" = "PRICE FOR EACH MESSAGE";
 "ChannelMessages.Paid.Info.Zero" = "You will receive %1$@ of the selected fee for each incoming message.";
 "ChannelMessages.Paid.Info" = "You will receive %1$@ of the selected fee (~%2$@$) for each incoming message.";
+
+
+"Monoforum.SentBy" = "Sent by [%@]()";
