@@ -22307,7 +22307,7 @@
             "Chat.Input.Forward.Hidden",
             "Chat.Input.PremiumRequiredState",
             "Chat.Input.ReplyToAnswer",
-            "Chat.Input.ReplyToAnswer.Monoforum",
+            "Chat.Input.ReplyToAnswer.Monoforum_New",
             "Chat.Input.Restart",
             "Chat.Input.Return",
             "Chat.Input.SecretChat.WaitingToUserOnline",
@@ -53253,7 +53253,7 @@
       "vmaddr": 4357849088,
       "vmsize": 3981312,
       "fileoff": 4168,
-      "filesize": 3978672,
+      "filesize": 3978688,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53274,9 +53274,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 47663232,
+      "symoff": 47663240,
       "nsyms": 12050,
-      "stroff": 47883272,
+      "stroff": 47883280,
       "strsize": 313032,
       "fileoff": 4288
     },
@@ -53294,7 +53294,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 47856032,
+      "indirectsymoff": 47856040,
       "nindirectsyms": 6809,
       "extreloff": 0,
       "nextrel": 0,
@@ -53784,19 +53784,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 47456872,
+      "dataoff": 47456880,
       "datasize": 206360,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 47663232,
+      "dataoff": 47663240,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 48196304,
+      "dataoff": 48196320,
       "datasize": 396000,
       "fileoff": 8760
     }

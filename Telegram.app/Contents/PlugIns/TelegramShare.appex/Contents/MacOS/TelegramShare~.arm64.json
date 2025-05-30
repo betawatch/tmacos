@@ -22381,7 +22381,7 @@
             "Chat.Input.Forward.Hidden",
             "Chat.Input.PremiumRequiredState",
             "Chat.Input.ReplyToAnswer",
-            "Chat.Input.ReplyToAnswer.Monoforum",
+            "Chat.Input.ReplyToAnswer.Monoforum_New",
             "Chat.Input.Restart",
             "Chat.Input.Return",
             "Chat.Input.SecretChat.WaitingToUserOnline",

@@ -388,7 +388,7 @@
 "Chat.Input.ReplyToAnswer" = "Reply to message in topics";
 
 
-"Chat.Input.ReplyToAnswer.Monoforum" = "Reply to message to answer";
+"Chat.Input.ReplyToAnswer.Monoforum_New" = "Select \"Reply\" in context menu to answer";
 
 
 "Message.Context.Reply1" = "Reply";

@@ -23158,7 +23158,7 @@
             "Chat.Input.Forward.Hidden",
             "Chat.Input.PremiumRequiredState",
             "Chat.Input.ReplyToAnswer",
-            "Chat.Input.ReplyToAnswer.Monoforum",
+            "Chat.Input.ReplyToAnswer.Monoforum_New",
             "Chat.Input.Restart",
             "Chat.Input.Return",
             "Chat.Input.SecretChat.WaitingToUserOnline",
@@ -92376,9 +92376,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 83069184,
+      "symoff": 83069192,
       "nsyms": 4142,
-      "stroff": 83170496,
+      "stroff": 83170504,
       "strsize": 167560,
       "fileoff": 4600
     },
@@ -92396,7 +92396,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 83135456,
+      "indirectsymoff": 83135464,
       "nindirectsyms": 8759,
       "extreloff": 0,
       "nextrel": 0,
@@ -92422,7 +92422,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14863568,
+      "entryoff": 14863572,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -92452,11 +92452,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5064
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5064
+      "fileoff": 5160
     },
     {
       "type": "load_dylib",
@@ -92464,15 +92472,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5120
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5168
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -93198,13 +93198,13 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 82680592,
+      "dataoff": 82680600,
       "datasize": 388592,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 83069184,
+      "dataoff": 83069192,
       "datasize": 0,
       "fileoff": 12616
     },
