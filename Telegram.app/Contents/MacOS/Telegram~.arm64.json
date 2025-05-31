@@ -12011,7 +12011,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2022979,
+          "size": 2022995,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -54900,6 +54900,7 @@
             "directMediaData",
             "directReaderId",
             "direct_blocksize",
+            "direct_messages",
             "direction",
             "director",
             "directory",
@@ -92436,7 +92437,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14866552,
+      "entryoff": 14866600,
       "stacksize": 0,
       "fileoff": 4808
     },
