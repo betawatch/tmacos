@@ -45,9 +45,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 41893888,
+      "vmsize": 41910272,
       "fileoff": 104,
-      "filesize": 41893888,
+      "filesize": 41910272,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69,7 +69,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 37469328,
+          "size": 37481616,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -133,7 +133,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 279714,
+          "size": 279748,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3714,7 +3714,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 238345,
+          "size": 238441,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11660,6 +11660,7 @@
             "map",
             "map",
             "mapLocation",
+            "mapReadStatesFromThreads",
             "mappedRanges",
             "mapping",
             "marked",
@@ -16399,12 +16400,14 @@
             "threadIds",
             "threadInfo",
             "threadInfos",
+            "threadMaxOutgoingReadId",
             "threadMessageId",
             "threadPeer",
             "threadPeer",
             "threadPeer",
             "threadPool",
             "threadReadStateUpdatesPipe",
+            "threadSummaries",
             "threadTagsTable",
             "threads",
             "threadsTable",
@@ -17812,7 +17815,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 270068,
+          "size": 270104,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17877,7 +17880,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1048020,
+          "size": 1048100,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -45085,6 +45088,7 @@
             "manufactureDate",
             "manufacturer",
             "map",
+            "mapReadStatesFromThreads",
             "mappedRanges",
             "mapping",
             "mapping_setup->angle[j]",
@@ -50672,10 +50676,12 @@
             "threadFromChannel(peerId: ",
             "threadId",
             "threadIds",
+            "threadMaxOutgoingReadId",
             "threadMessageId",
             "threadPeer",
             "threadPool",
             "threadReadStateUpdatesPipe",
+            "threadSummaries",
             "threadTagsTable",
             "thread_get_buffer() failed\n",
             "thread_ops",
@@ -52843,7 +52849,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 312416,
+          "size": 312424,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -52875,7 +52881,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4336861184,
+      "vmaddr": 4336877568,
       "vmsize": 20987904,
       "fileoff": 2016,
       "filesize": 2719744,
@@ -53018,7 +53024,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 572168,
+          "size": 572264,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -53117,7 +53123,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 410293,
+          "size": 410325,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -53251,10 +53257,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4357849088,
+      "vmaddr": 4357865472,
       "vmsize": 3981312,
       "fileoff": 4168,
-      "filesize": 3978720,
+      "filesize": 3978928,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53275,9 +53281,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 47663272,
+      "symoff": 47679736,
       "nsyms": 12050,
-      "stroff": 47883312,
+      "stroff": 47899776,
       "strsize": 313032,
       "fileoff": 4288
     },
@@ -53295,7 +53301,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 47856072,
+      "indirectsymoff": 47872536,
       "nindirectsyms": 6809,
       "extreloff": 0,
       "nextrel": 0,
@@ -53324,7 +53330,7 @@
     },
     {
       "type": "main",
-      "entryoff": 37496216,
+      "entryoff": 37512600,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -53785,20 +53791,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 47456912,
-      "datasize": 206360,
+      "dataoff": 47473344,
+      "datasize": 206392,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 47663272,
+      "dataoff": 47679736,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 48196352,
-      "datasize": 396000,
+      "dataoff": 48212816,
+      "datasize": 396128,
       "fileoff": 8760
     }
   ],
