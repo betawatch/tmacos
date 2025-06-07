@@ -92392,9 +92392,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 83102200,
+      "symoff": 83102192,
       "nsyms": 4142,
-      "stroff": 83203512,
+      "stroff": 83203504,
       "strsize": 167560,
       "fileoff": 4600
     },
@@ -92412,7 +92412,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 83168472,
+      "indirectsymoff": 83168464,
       "nindirectsyms": 8759,
       "extreloff": 0,
       "nextrel": 0,
@@ -92438,7 +92438,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14867300,
+      "entryoff": 14867268,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -92468,11 +92468,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5064
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5064
+      "fileoff": 5160
     },
     {
       "type": "load_dylib",
@@ -92480,15 +92488,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5120
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5168
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -93215,12 +93215,12 @@
     {
       "type": "function_starts",
       "dataoff": 82713528,
-      "datasize": 388672,
+      "datasize": 388664,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 83102200,
+      "dataoff": 83102192,
       "datasize": 0,
       "fileoff": 12616
     },
