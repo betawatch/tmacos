@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 83869696,
+      "vmsize": 83886080,
       "fileoff": 104,
-      "filesize": 83869696,
+      "filesize": 83886080,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 76145737,
+          "size": 76149833,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -91986,7 +91986,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4378836992,
+      "vmaddr": 4378853376,
       "vmsize": 26574848,
       "fileoff": 2096,
       "filesize": 8028160,
@@ -92060,7 +92060,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2240416,
+          "size": 2240480,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -92399,10 +92399,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4405411840,
+      "vmaddr": 4405428224,
       "vmsize": 5062656,
       "fileoff": 4488,
-      "filesize": 5047568,
+      "filesize": 5047696,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92423,9 +92423,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 95853680,
+      "symoff": 95870072,
       "nsyms": 4710,
-      "stroff": 95970168,
+      "stroff": 95986560,
       "strsize": 204320,
       "fileoff": 4608
     },
@@ -92443,7 +92443,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 95929040,
+      "indirectsymoff": 95945432,
       "nindirectsyms": 10281,
       "extreloff": 0,
       "nextrel": 0,
@@ -92472,7 +92472,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17844688,
+      "entryoff": 17856976,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -92510,11 +92510,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5112
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5112
+      "fileoff": 5208
     },
     {
       "type": "load_dylib",
@@ -92522,15 +92530,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5168
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5216
+      "fileoff": 5264
     },
     {
       "type": "load_dylib",
@@ -93248,20 +93248,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 95408776,
-      "datasize": 408656,
+      "dataoff": 95425160,
+      "datasize": 408664,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 95817432,
+      "dataoff": 95833824,
       "datasize": 36248,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 96174496,
-      "datasize": 770928,
+      "dataoff": 96190880,
+      "datasize": 771056,
       "fileoff": 12432
     }
   ],

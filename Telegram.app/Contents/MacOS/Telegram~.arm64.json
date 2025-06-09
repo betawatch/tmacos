@@ -91942,7 +91942,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 789148,
+          "size": 789144,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92016,7 +92016,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2357776,
+          "size": 2357824,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92369,7 +92369,7 @@
       "vmaddr": 4392796160,
       "vmsize": 4784128,
       "fileoff": 4480,
-      "filesize": 4776080,
+      "filesize": 4776096,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92390,9 +92390,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 83102104,
+      "symoff": 83102112,
       "nsyms": 4142,
-      "stroff": 83203416,
+      "stroff": 83203424,
       "strsize": 167560,
       "fileoff": 4600
     },
@@ -92410,7 +92410,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 83168376,
+      "indirectsymoff": 83168384,
       "nindirectsyms": 8759,
       "extreloff": 0,
       "nextrel": 0,
@@ -92466,11 +92466,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5064
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5064
+      "fileoff": 5160
     },
     {
       "type": "load_dylib",
@@ -92478,15 +92486,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5120
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5168
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -93213,18 +93213,18 @@
     {
       "type": "function_starts",
       "dataoff": 82713480,
-      "datasize": 388624,
+      "datasize": 388632,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 83102104,
+      "dataoff": 83102112,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 83370976,
+      "dataoff": 83370992,
       "datasize": 670896,
       "fileoff": 12632
     }
