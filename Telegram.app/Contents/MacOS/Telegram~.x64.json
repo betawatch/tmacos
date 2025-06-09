@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 83886080,
+      "vmsize": 83869696,
       "fileoff": 104,
-      "filesize": 83886080,
+      "filesize": 83869696,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 76153929,
+          "size": 76145737,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11988,7 +11988,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2026955,
+          "size": 2026875,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -45212,7 +45212,6 @@
             "_TtC8Telegram16WidgetController",
             "_TtC8Telegram17AccountClearCache",
             "_TtC8Telegram17AnimatedBadgeView",
-            "_TtC8Telegram17AppIntentObserver",
             "_TtC8Telegram17AudioWaveformView",
             "_TtC8Telegram17Auth_SignupHeader",
             "_TtC8Telegram17AvatarContentView",
@@ -49846,7 +49845,6 @@
             "appDataDisposable",
             "appEncryption",
             "appId",
-            "appIntentData_Internal",
             "appSettings",
             "appTooltip",
             "appUpdateDisposable",
@@ -74510,7 +74508,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 544776,
+          "size": 544668,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74536,7 +74534,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 32164,
+          "size": 32160,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -91960,7 +91958,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 670580,
+          "size": 670524,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -91988,7 +91986,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4378853376,
+      "vmaddr": 4378836992,
       "vmsize": 26574848,
       "fileoff": 2096,
       "filesize": 8028160,
@@ -92062,7 +92060,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2240672,
+          "size": 2240416,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -92088,7 +92086,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 36512,
+          "size": 36504,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92159,7 +92157,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1638584,
+          "size": 1638408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92243,7 +92241,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2499936,
+          "size": 2499576,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92256,7 +92254,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1197749,
+          "size": 1197653,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92401,10 +92399,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4405428224,
+      "vmaddr": 4405411840,
       "vmsize": 5062656,
       "fileoff": 4488,
-      "filesize": 5047776,
+      "filesize": 5047568,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92425,9 +92423,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 95870152,
+      "symoff": 95853680,
       "nsyms": 4710,
-      "stroff": 95986640,
+      "stroff": 95970168,
       "strsize": 204320,
       "fileoff": 4608
     },
@@ -92445,7 +92443,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 95945512,
+      "indirectsymoff": 95929040,
       "nindirectsyms": 10281,
       "extreloff": 0,
       "nextrel": 0,
@@ -92474,7 +92472,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17859296,
+      "entryoff": 17844688,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -92512,19 +92510,11 @@
     },
     {
       "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5112
-    },
-    {
-      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5208
+      "fileoff": 5112
     },
     {
       "type": "load_dylib",
@@ -92532,7 +92522,15 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5264
+      "fileoff": 5168
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -93250,20 +93248,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 95425208,
-      "datasize": 408696,
+      "dataoff": 95408776,
+      "datasize": 408656,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 95833904,
+      "dataoff": 95817432,
       "datasize": 36248,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 96190960,
-      "datasize": 771056,
+      "dataoff": 96174496,
+      "datasize": 770928,
       "fileoff": 12432
     }
   ],
