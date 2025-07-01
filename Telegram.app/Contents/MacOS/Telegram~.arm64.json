@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 63659628,
+          "size": 63663724,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11886,7 +11886,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2032595,
+          "size": 2032947,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15091,6 +15091,7 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GalleryRecognition.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GeneralSettingsViewController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GifKeyboardController.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GiftingController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GiveawayModalController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GroupCallController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GroupCallInvitation.swift",
@@ -23493,6 +23494,7 @@
             "Chat.Service.SuggestPost.Header.Price.Free",
             "Chat.Service.SuggestPost.Header.Time.Anytime",
             "Chat.Service.SuggestPost.Header.Title",
+            "Chat.Service.SuggestPost.Header.Title.You",
             "Chat.Service.SuggestPost.Refunded.Deleted",
             "Chat.Service.SuggestPost.Refunded.Other",
             "Chat.Service.SuggestPost.Refunded.User",
@@ -25913,6 +25915,8 @@
             "Edit.PostSuggestion.Input.Placeholder",
             "Edit.PostSuggestion.Price.Description",
             "Edit.PostSuggestion.Price.Label",
+            "Edit.PostSuggestion.Price.Ton.Description",
+            "Edit.PostSuggestion.Price.Ton.Label",
             "Edit.PostSuggestion.Time.Anytime",
             "Edit.PostSuggestion.Time.Description",
             "Edit.PostSuggestion.Time.Label",
@@ -28078,6 +28082,8 @@
             "GeneralSettings.SendByCmdEnter",
             "GeneralSettings.SendByEnter",
             "GeneralSettings.SendLargePhotos",
+            "GeneralSettings.SendLargePhotos.Tooltip.Disabled",
+            "GeneralSettings.SendLargePhotos.Tooltip.Enabled",
             "GeneralSettings.Shortcuts",
             "GeneralSettings.ShortcutsHeader",
             "GeneralSettings.ShowArticlesInSearch",
@@ -74694,7 +74700,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 300688,
+          "size": 300724,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74720,7 +74726,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 269678,
+          "size": 269694,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -76051,6 +76057,7 @@
             "_id",
             "_ignoreCachedContext",
             "_ignoreMissingNullTerminators",
+            "_image",
             "_image",
             "_importantTasksRunning",
             "_index",
@@ -92119,7 +92126,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 792708,
+          "size": 792220,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92132,7 +92139,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 409156,
+          "size": 408972,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92193,7 +92200,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2367040,
+          "size": 2367088,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92327,7 +92334,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1442968,
+          "size": 1443064,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92424,7 +92431,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1197242,
+          "size": 1197266,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92546,7 +92553,7 @@
       "vmaddr": 4393189376,
       "vmsize": 4800512,
       "fileoff": 4480,
-      "filesize": 4796736,
+      "filesize": 4797008,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92567,9 +92574,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 83513120,
+      "symoff": 83513392,
       "nsyms": 4135,
-      "stroff": 83614304,
+      "stroff": 83614576,
       "strsize": 167336,
       "fileoff": 4600
     },
@@ -92587,7 +92594,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 83579280,
+      "indirectsymoff": 83579552,
       "nindirectsyms": 8756,
       "extreloff": 0,
       "nextrel": 0,
@@ -92613,7 +92620,7 @@
     },
     {
       "type": "main",
-      "entryoff": 15008124,
+      "entryoff": 15004472,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -92643,11 +92650,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5064
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5064
+      "fileoff": 5160
     },
     {
       "type": "load_dylib",
@@ -92655,15 +92670,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5120
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5168
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -93389,19 +93396,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 83123056,
+      "dataoff": 83123328,
       "datasize": 390064,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 83513120,
+      "dataoff": 83513392,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 83781648,
+      "dataoff": 83781920,
       "datasize": 674096,
       "fileoff": 12632
     }

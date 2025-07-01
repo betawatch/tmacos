@@ -17796,7 +17796,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1051926,
+          "size": 1052182,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22727,6 +22727,7 @@
             "Chat.Service.SuggestPost.Header.Price.Free",
             "Chat.Service.SuggestPost.Header.Time.Anytime",
             "Chat.Service.SuggestPost.Header.Title",
+            "Chat.Service.SuggestPost.Header.Title.You",
             "Chat.Service.SuggestPost.Refunded.Deleted",
             "Chat.Service.SuggestPost.Refunded.Other",
             "Chat.Service.SuggestPost.Refunded.User",
@@ -24514,6 +24515,8 @@
             "Edit.PostSuggestion.Input.Placeholder",
             "Edit.PostSuggestion.Price.Description",
             "Edit.PostSuggestion.Price.Label",
+            "Edit.PostSuggestion.Price.Ton.Description",
+            "Edit.PostSuggestion.Price.Ton.Label",
             "Edit.PostSuggestion.Time.Anytime",
             "Edit.PostSuggestion.Time.Description",
             "Edit.PostSuggestion.Time.Label",
@@ -25514,6 +25517,8 @@
             "GeneralSettings.SendByCmdEnter",
             "GeneralSettings.SendByEnter",
             "GeneralSettings.SendLargePhotos",
+            "GeneralSettings.SendLargePhotos.Tooltip.Disabled",
+            "GeneralSettings.SendLargePhotos.Tooltip.Enabled",
             "GeneralSettings.Shortcuts",
             "GeneralSettings.ShortcutsHeader",
             "GeneralSettings.ShowArticlesInSearch",
@@ -53243,7 +53248,7 @@
       "vmaddr": 4350967808,
       "vmsize": 3883008,
       "fileoff": 4240,
-      "filesize": 3881136,
+      "filesize": 3881424,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53264,9 +53269,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 40788656,
+      "symoff": 40788936,
       "nsyms": 11211,
-      "stroff": 40991496,
+      "stroff": 40991776,
       "strsize": 280072,
       "fileoff": 4360
     },
@@ -53284,7 +53289,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 40968032,
+      "indirectsymoff": 40968312,
       "nindirectsyms": 5865,
       "extreloff": 0,
       "nextrel": 0,
@@ -53771,19 +53776,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 40584696,
-      "datasize": 203960,
+      "dataoff": 40584968,
+      "datasize": 203968,
       "fileoff": 8960
     },
     {
       "type": "data_in_code",
-      "dataoff": 40788656,
+      "dataoff": 40788936,
       "datasize": 0,
       "fileoff": 8976
     },
     {
       "type": "code_signature",
-      "dataoff": 41271568,
+      "dataoff": 41271856,
       "datasize": 341920,
       "fileoff": 8992
     }

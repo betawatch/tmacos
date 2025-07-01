@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 76555321,
+          "size": 76563513,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11863,7 +11863,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2036443,
+          "size": 2036795,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15068,6 +15068,7 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GalleryRecognition.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GeneralSettingsViewController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GifKeyboardController.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GiftingController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GiveawayModalController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GroupCallController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/GroupCallInvitation.swift",
@@ -23377,6 +23378,7 @@
             "Chat.Service.SuggestPost.Header.Price.Free",
             "Chat.Service.SuggestPost.Header.Time.Anytime",
             "Chat.Service.SuggestPost.Header.Title",
+            "Chat.Service.SuggestPost.Header.Title.You",
             "Chat.Service.SuggestPost.Refunded.Deleted",
             "Chat.Service.SuggestPost.Refunded.Other",
             "Chat.Service.SuggestPost.Refunded.User",
@@ -25827,6 +25829,8 @@
             "Edit.PostSuggestion.Input.Placeholder",
             "Edit.PostSuggestion.Price.Description",
             "Edit.PostSuggestion.Price.Label",
+            "Edit.PostSuggestion.Price.Ton.Description",
+            "Edit.PostSuggestion.Price.Ton.Label",
             "Edit.PostSuggestion.Time.Anytime",
             "Edit.PostSuggestion.Time.Description",
             "Edit.PostSuggestion.Time.Label",
@@ -27991,6 +27995,8 @@
             "GeneralSettings.SendByCmdEnter",
             "GeneralSettings.SendByEnter",
             "GeneralSettings.SendLargePhotos",
+            "GeneralSettings.SendLargePhotos.Tooltip.Disabled",
+            "GeneralSettings.SendLargePhotos.Tooltip.Enabled",
             "GeneralSettings.Shortcuts",
             "GeneralSettings.ShortcutsHeader",
             "GeneralSettings.ShowArticlesInSearch",
@@ -74708,7 +74714,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 300688,
+          "size": 300724,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74734,7 +74740,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 269678,
+          "size": 269694,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -76065,6 +76071,7 @@
             "_id",
             "_ignoreCachedContext",
             "_ignoreMissingNullTerminators",
+            "_image",
             "_image",
             "_importantTasksRunning",
             "_index",
@@ -92135,7 +92142,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 674500,
+          "size": 674492,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92237,7 +92244,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2248992,
+          "size": 2249056,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -92334,7 +92341,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1642704,
+          "size": 1642800,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92431,7 +92438,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1201605,
+          "size": 1201637,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92579,7 +92586,7 @@
       "vmaddr": 4405903360,
       "vmsize": 5079040,
       "fileoff": 4488,
-      "filesize": 5068912,
+      "filesize": 5069184,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92600,9 +92607,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 96362912,
+      "symoff": 96363192,
       "nsyms": 4703,
-      "stroff": 96479288,
+      "stroff": 96479568,
       "strsize": 204096,
       "fileoff": 4608
     },
@@ -92620,7 +92627,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 96438160,
+      "indirectsymoff": 96438440,
       "nindirectsyms": 10281,
       "extreloff": 0,
       "nextrel": 0,
@@ -92649,7 +92656,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18036928,
+      "entryoff": 18030304,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -92687,11 +92694,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5112
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5112
+      "fileoff": 5208
     },
     {
       "type": "load_dylib",
@@ -92699,15 +92714,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5168
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5216
+      "fileoff": 5264
     },
     {
       "type": "load_dylib",
@@ -93425,19 +93432,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 95916512,
-      "datasize": 410120,
+      "dataoff": 95916784,
+      "datasize": 410128,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 96326632,
+      "dataoff": 96326912,
       "datasize": 36280,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 96683392,
+      "dataoff": 96683664,
       "datasize": 774896,
       "fileoff": 12432
     }

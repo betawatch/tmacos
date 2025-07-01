@@ -4253,6 +4253,9 @@
 "GeneralSettings.CopyRTF" = "Copy Text Formatting";
 "GeneralSettings.SendLargePhotos" = "Send Large Photos";
 
+"GeneralSettings.SendLargePhotos.Tooltip.Enabled" = "Photos will be sent in high quality";
+"GeneralSettings.SendLargePhotos.Tooltip.Disabled" = "Photos will be sent in standart quality";
+
 
 "ChatList.RevealAction.Hide" = "Hide";
 "ChatList.RevealAction.Pin" = "Pin";
@@ -12875,6 +12878,11 @@
 "Edit.PostSuggestion.Price.Label" = "ENTER PRICE IN STARS";
 "Edit.PostSuggestion.Price.Description" = "Choose how many Stars you want to offer %1$@ to publish this message.";
 
+"Edit.PostSuggestion.Price.Ton.Label" = "ENTER PRICE IN TON";
+"Edit.PostSuggestion.Price.Ton.Description" = "Choose how many TON you want to offer %1$@ to publish this message.";
+
+
+
 "Edit.PostSuggestion.Time.Label" = "Time";
 "Edit.PostSuggestion.Time.Anytime" = "Anytime";
 "Edit.PostSuggestion.Time.Description" = "Select the date and time you want the message to be published.";
@@ -12913,7 +12921,7 @@
 "Star.Transaction.Ton.Description" = "Use TON to submit post suggestions to channels on Telegram.";
 
 
-"Chat.SuggestPost.Publish.Info" = "You will receive %1$@ (%2$@%%) for publishing this post.";
+"Chat.SuggestPost.Publish.Info" = "You will receive %1$@ (%2$@) for publishing this post.";
 "Chat.SuggestPost.Publish.AcceptTitle" = "Accept Terms";
 "Chat.SuggestPost.Publish.DateConfirm" = "Post at %1$@";
 "Chat.SuggestPost.Publish.ActionNow" = "Post Now";
@@ -12947,7 +12955,9 @@
 "Chat.Service.SuggestPost.Status.Rejected.Outgoing.LowBalance" = "**%1$@** was unable to post the message, because the user did not have enough Stars.";
 "Chat.Service.SuggestPost.Status.Rejected.Incoming.LowBalance" = "**%1$@** was unable to post your message, because you did not have enough Stars.";
 
-"Chat.Service.SuggestPost.Header.Title" = "You suggest to post this message.";
+"Chat.Service.SuggestPost.Header.Title.You" = "You suggest to post this message.";
+"Chat.Service.SuggestPost.Header.Title" = "%@ suggest to post this message.";
+
 "Chat.Service.SuggestPost.Header.Label.Price" = "Price";
 "Chat.Service.SuggestPost.Header.Label.Time" = "Time";
 "Chat.Service.SuggestPost.Header.Time.Anytime" = "Anytime";
