@@ -12921,12 +12921,16 @@
 "Star.Transaction.Ton.Description" = "Use TON to submit post suggestions to channels on Telegram.";
 
 
+"Chat.SuggestPost.Publish.ConfirmInfoFree" = "Do you really want to publish this post from %1$@?";
+"Chat.SuggestPost.Publish.InfoFree" = "Select date and time to publish this post.";
+
+
 "Chat.SuggestPost.Publish.Info" = "You will receive %1$@ (%2$@) for publishing this post.";
 "Chat.SuggestPost.Publish.AcceptTitle" = "Accept Terms";
 "Chat.SuggestPost.Publish.DateConfirm" = "Post at %1$@";
 "Chat.SuggestPost.Publish.ActionNow" = "Post Now";
 "Chat.SuggestPost.Publish.ConfirmHeader" = "Accept Terms";
-"Chat.SuggestPost.Publish.ConfirmInfo" = "Do you really want to publish this post from %1$@? You will receive %2$@ (%3$@%%) for publishing this post. It must remain visible for at least 24 hours after publication.";
+"Chat.SuggestPost.Publish.ConfirmInfo" = "Do you really want to publish this post from %1$@? You will receive %2$@ (%3$@) for publishing this post. It must remain visible for at least 24 hours after publication.";
 "Chat.SuggestPost.Publish.ConfirmButton" = "Publish";
 
 

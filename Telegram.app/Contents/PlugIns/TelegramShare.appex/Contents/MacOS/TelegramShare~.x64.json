@@ -17767,7 +17767,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1053956,
+          "size": 1054052,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22712,8 +22712,10 @@
             "Chat.SuggestPost.Publish.ConfirmButton",
             "Chat.SuggestPost.Publish.ConfirmHeader",
             "Chat.SuggestPost.Publish.ConfirmInfo",
+            "Chat.SuggestPost.Publish.ConfirmInfoFree",
             "Chat.SuggestPost.Publish.DateConfirm",
             "Chat.SuggestPost.Publish.Info",
+            "Chat.SuggestPost.Publish.InfoFree",
             "Chat.Title.Chats_countable",
             "Chat.Title.Chats_few",
             "Chat.Title.Chats_many",
@@ -53296,7 +53298,7 @@
       "vmaddr": 4357963776,
       "vmsize": 3997696,
       "fileoff": 4168,
-      "filesize": 3993440,
+      "filesize": 3993536,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53317,9 +53319,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 47792552,
+      "symoff": 47792656,
       "nsyms": 12031,
-      "stroff": 48012280,
+      "stroff": 48012384,
       "strsize": 312448,
       "fileoff": 4288
     },
@@ -53337,7 +53339,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 47985048,
+      "indirectsymoff": 47985152,
       "nindirectsyms": 6807,
       "extreloff": 0,
       "nextrel": 0,
@@ -53827,19 +53829,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 47585768,
-      "datasize": 206784,
+      "dataoff": 47585864,
+      "datasize": 206792,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 47792552,
+      "dataoff": 47792656,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 48324736,
+      "dataoff": 48324832,
       "datasize": 397024,
       "fileoff": 8760
     }
