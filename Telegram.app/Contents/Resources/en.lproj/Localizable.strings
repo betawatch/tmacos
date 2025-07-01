@@ -431,6 +431,8 @@
 "AccountSettings.Premium" = "Telegram Premium";
 "AccountSettings.GiftPremium" = "Premium Gifting";
 "AccountSettings.Stars" = "Your Stars";
+"AccountSettings.Ton" = "My TON";
+
 "AccountSettings.SendGift" = "Send a Gift";
 
 
@@ -462,6 +464,7 @@
 "InputAttach.Popover.Photo" = "Photo";
 "InputAttach.Popover.Video" = "Video";
 "InputAttach.Popover.Gift" = "Gift Premium";
+"InputAttach.Popover.Checklist" = "Checklist";
 
 "InputAttach.Popover.Music" = "Audio File";
 
@@ -1947,6 +1950,7 @@
 "Channel.EditAdmin.Permission.DeleteMessages" = "Delete Messages";
 "Channel.EditAdmin.Permission.BanUsers" = "Ban Users";
 "Channel.EditAdmin.Permission.PinMessages" = "Pin Messages";
+"Channel.EditAdmin.Permission.ManageDirect" = "Manage Direct Messages";
 "Channel.EditAdmin.Permission.CreateTopics" = "Create Topics";
 "Channel.EditAdmin.Permission.AddNewAdmins" = "Add New Admins";
 "Channel.EditAdmin.Permission.PostMessages" = "Post Messages";
@@ -2110,6 +2114,8 @@
 "EventLog.Service.Promote.ChangeInfo" = "Change Info";
 "EventLog.Service.Promote.DeleteMessages" = "Delete Messages";
 "EventLog.Service.Promote.PostMessages" = "Post Messages";
+"EventLog.Service.Promote.ManageDirect" = "Manage Direct Messages";
+
 "EventLog.Service.Promote.AddUsers" = "Add Users";
 "EventLog.Service.Promote.InviteViaLink" = "Invite Users Via Link";
 "EventLog.Service.Promote.PinMessages" = "Pin Messages";
@@ -11072,6 +11078,8 @@
 
 
 "Fragment.Stars.MinWithdraw" = "You cannot withdraw less than %d Stars.";
+"Fragment.Stars.MaxWithdraw" = "You cannot withdraw more than %d Stars at once.";
+
 "Fragment.Stars.RevenueTitle" = "REVENUE";
 
 "Fragment.Stars.Overvew" = "PROCEEDS OVERVIEW";
@@ -12278,11 +12286,15 @@
 
 
 "Chat.Header.RemoveFee.Text" = "%1$@ must pay %2$@ for each message to you.";
+"Chat.Header.RemoveFee.Monoforum.Text" = "%1$@ must pay %2$@ for each message to your channel.";
+
 "Chat.Header.RemoveFee" = "Remove Fee";
 
 
 "Chat.Header.RemoveFee.Confirm.Header" = "Remove Fee";
 "Chat.Header.RemoveFee.Confirm.Info" = "Are you sure you want to allow **%@** to message you for free?";
+"Chat.Header.RemoveFee.Monoforum.Confirm.Info" = "Are you sure you want to allow **%1$@** to message your channel for free?";
+
 "Chat.Header.RemoveFee.Confirm.Option" = "Refund already paid **%@**?";
 "Chat.Header.RemoveFee.Confirm.OK" = "Yes";
 
@@ -12746,3 +12758,200 @@
 
 
 "Monoforum.SentBy" = "Sent by [%@]()";
+
+
+
+"Chat.Service.Todo.Marked.Done" = "{author} marked {values} as done.";
+"Chat.Service.Todo.Marked.Undone" = "{author} marked {values} as not done.";
+
+"Chat.Service.Todo.Marked.Done.You" = "You marked {values} as done.";
+"Chat.Service.Todo.Marked.Undone.You" = "You marked {values} as not done.";
+
+
+"Chat.Service.Todo.Complete.Premium" = "Subscribe to Telegram Premium to unlock Checklists. [Read More]()";
+
+"Chat.ContextMenu.AddTask" = "Append Task";
+
+
+"Chat.Service.Todo.Marked.Done" = "{author} marked {values} as done.";
+"Chat.Service.Todo.Marked.Undone" = "{author} marked {values} as not done.";
+
+"Chat.Service.Todo.Marked.Done.You" = "You marked {values} as done.";
+"Chat.Service.Todo.Marked.Undone.You" = "You marked {values} as not done.";
+
+
+"Chat.Service.Todo.Added" = "{author} added a new task {values} to {task}.";
+"Chat.Service.Todo.Added.You" = "You added a new task {values} to {task}.";
+
+"Chat.Service.Todo.Added.Multi" = "{author} added a new tasks {values} to {task}.";
+"Chat.Service.Todo.Added.Multi.You" = "You added a new tasks {values} to {task}.";
+
+
+"PremiumBoarding.Todo.Info" = "Plan, assign, and complete tasks - seamlessly and efficiently.";
+"PremiumBoarding.Todo" = "Checklists";
+
+"Chat.Message.Todo.Total" = "%1$@ of %2$@ completed";
+
+
+"Chat.Service.SuggestPost.Success.Received" = "**%1$@** received **%2$@** for publishing this post";
+
+"Chat.Service.SuggestPost.Refunded.User" = "Suggested post was refunded because you didn't have enough funds";
+"Chat.Service.SuggestPost.Refunded.Other" = "Suggested post was refunded because the user didn't have enough funds";
+"Chat.Service.SuggestPost.Refunded.Deleted" = "Suggested post was refunded because the message was deleted";
+
+
+"Chat.Service.SuggestPost.Status.Approved" = "🤝 Post approved.";
+"Chat.Service.SuggestPost.Status.Rejected" = "❌ Post rejected.";
+
+
+"Chat.Message.Suggest.Markup.Decline" = "Decline";
+"Chat.Message.Suggest.Markup.Approve" = "Approve";
+"Chat.Message.Suggest.Markup.SuggestChanges" = "Suggest Changes";
+"Chat.Message.Suggest.Markup.Edit" = "Edit";
+
+
+"NewTodo.Title.Create" = "New Checklist";
+"NewTodo.Title.Edit" = "Edit Checklist";
+"NewTodo.Title.AddTask" = "Add Task";
+
+"NewTodo.Action.Send" = "Send";
+"NewTodo.Action.Edit" = "Edit";
+"NewTodo.Action.Add" = "Add";
+
+"NewTodo.Input.Title.Placeholder" = "Title...";
+"NewTodo.Input.Task.Placeholder" = "Task";
+
+"NewTodo.Section.Checklist" = "Checklist";
+"NewTodo.Option.Add" = "Add Task";
+
+"NewTodo.Toggle.OthersCanComplete" = "Others Can Complete";
+"NewTodo.Toggle.OthersCanAppend" = "Others Can Append";
+
+
+"SuggestPostPanel.Title.Edit" = "Edit a Post Below";
+"SuggestPostPanel.Title.New" = "Suggest a Post Below";
+"SuggestPostPanel.Title.Suggest" = "Suggest Changes";
+
+"SuggestPostPanel.Text.PriceAndDate" = "%1$@ 📅 %2$@";
+"SuggestPostPanel.Text.FreeAndDate" = "Free 📅 %1$@";
+"SuggestPostPanel.Text.OfferPrice" = "Click to offer a price for publishing";
+
+
+"SuggestPostPanel.Text.Anytime" = "Anytime";
+
+
+
+"StarList.Ton" = "TON";
+"StarList.TonInfo" = "Offer TON to submit post suggestions to channels on Telegram";
+
+
+"Chat.Message.Todo.Title.Group" = "Group Checklist";
+"Chat.Message.Todo.Title.Single" = "Checklist";
+
+
+"Fragment.Ton.AddFunds.Title" = "Add funds";
+"Fragment.Ton.AddFunds.Action" = "Add funds via Fragment";
+
+"Fragment.Ton.AddFunds.Header.Amount" = "%1$@ TON Needed";
+"Fragment.Ton.AddFunds.Header.Info" = "You can add funds to your balance via the third-party platform Fragment.";
+
+"Fragment.Ton.AddFunds.Link" = "https://fragment.com/ads/topup";
+
+
+"DeclineSuggestPost.Title" = "Reject Suggested Post";
+"DeclineSuggestPost.Placeholder.Comment" = "Comment (Optional)";
+"DeclineSuggestPost.Description" = "You can leave an optional comment";
+"DeclineSuggestPost.Action.Reject" = "Reject";
+
+"Chat.Message.Todo.EditForwardedError" = "You can't edit forwarded checklist.";
+"Chat.Message.Todo.EditRestrictedError" = "%1$@ has restricted others from editing this checklist.";
+"Chat.Message.Todo.CompletePremium" = "Completing checklists is available to premium users.";
+
+
+"Edit.PostSuggestion.Title.New" = "Suggest Terms";
+"Edit.PostSuggestion.Title.Edit" = "Edit Terms";
+"Edit.PostSuggestion.Title.Suggest" = "Suggest Changes";
+
+"Edit.PostSuggestion.Price.Label" = "ENTER PRICE IN STARS";
+"Edit.PostSuggestion.Price.Description" = "Choose how many Stars you want to offer %1$@ to publish this message.";
+
+"Edit.PostSuggestion.Time.Label" = "Time";
+"Edit.PostSuggestion.Time.Anytime" = "Anytime";
+"Edit.PostSuggestion.Time.Description" = "Select the date and time you want the message to be published.";
+
+"Edit.PostSuggestion.Currency.Stars" = "Stars";
+"Edit.PostSuggestion.Currency.Ton" = "TON";
+
+"Edit.PostSuggestion.Action.Update" = "Update Terms";
+"Edit.PostSuggestion.Action.Free" = "Offer for Free";
+"Edit.PostSuggestion.Action.Offer" = "Offer %1$@";
+
+"Edit.PostSuggestion.Input.Placeholder" = "Enter amount";
+"Edit.PostSuggestion.Date.Title" = "Select Date";
+"Edit.PostSuggestion.Date.Reset" = "Reset to Anytime";
+"Edit.PostSuggestion.Date.Done" = "OK";
+
+
+"Chat.Context.Todo.TaskFallback" = "Task...";
+"Chat.Context.Todo.Check" = "Check";
+"Chat.Context.Todo.Uncheck" = "Uncheck";
+"Chat.Context.Todo.Edit" = "Edit Item";
+"Chat.Context.Todo.Delete" = "Delete Item";
+"Chat.Context.Todo.Delete.Confirm" = "Are you sure you want to delete this item?";
+
+
+"Chat.DeleteMessage.SuggestedPost.Header.Ton" = "TON Will Be Lost";
+"Chat.DeleteMessage.SuggestedPost.Info.Ton" = "You won't receive TON for this post if you delete it now. The post must remain visible for at least 24 hours after publication.";
+
+"Chat.DeleteMessage.SuggestedPost.Header.Stars" = "Stars Will Be Lost";
+"Chat.DeleteMessage.SuggestedPost.Info.Stars" = "You won't receive Stars for this post if you delete it now. The post must remain visible for at least 24 hours after publication.";
+"Chat.DeleteMessage.SuggestedPost.Action.DeleteAnyway" = "Delete Anyway";
+
+
+"Chat.Context.ReturnMessageFee" = "Return Messages Fee";
+
+"Star.Transaction.Ton.Description" = "Use TON to submit post suggestions to channels on Telegram.";
+
+
+"Chat.SuggestPost.Publish.Info" = "You will receive %1$@ (%2$@%%) for publishing this post.";
+"Chat.SuggestPost.Publish.AcceptTitle" = "Accept Terms";
+"Chat.SuggestPost.Publish.DateConfirm" = "Post at %1$@";
+"Chat.SuggestPost.Publish.ActionNow" = "Post Now";
+"Chat.SuggestPost.Publish.ConfirmHeader" = "Accept Terms";
+"Chat.SuggestPost.Publish.ConfirmInfo" = "Do you really want to publish this post from %1$@? You will receive %2$@ (%3$@%%) for publishing this post. It must remain visible for at least 24 hours after publication.";
+"Chat.SuggestPost.Publish.ConfirmButton" = "Publish";
+
+
+"Chat.Service.SuggestPost.Status.Title" = "🤝 Agreement reached!";
+
+"Chat.Service.SuggestPost.Status.Publish.Incoming" = "📅 Your post will be automatically published on %1$@ %2$@.";
+"Chat.Service.SuggestPost.Status.Publish.Outgoing" = "📅 The post will be automatically published on %1$@ %2$@.";
+
+"Chat.Service.SuggestPost.Status.Charge.Incoming" = "💰 You have been charged %1$@.";
+"Chat.Service.SuggestPost.Status.Charge.Outgoing" = "💰 The user has been charged %1$@.";
+
+"Chat.Service.SuggestPost.Status.Release.Incoming" = "⌛️ %1$@ will receive your Stars once the post has been live for 24 hours.";
+"Chat.Service.SuggestPost.Status.Release.Outgoing" = "⌛️ %1$@ will receive Stars once the post has been live for 24 hours.";
+
+"Chat.Service.SuggestPost.Status.RefundCondition" = "🔁If %1$@ removes the post before it has been live for 24 hours, your Stars will be refunded.";
+
+"Chat.Service.SuggestPost.Status.Rejected.Title" = "❌ Rejected";
+"Chat.Service.SuggestPost.Status.Rejected.LowBalanceTitle" = "⚠️ Transaction failed";
+
+"Chat.Service.SuggestPost.Status.Rejected.Outgoing.WithComment" = "You rejected the post with the following comment:\n\n%1$@";
+"Chat.Service.SuggestPost.Status.Rejected.Outgoing.NoComment" = "You rejected the post.";
+
+"Chat.Service.SuggestPost.Status.Rejected.Incoming.WithComment" = "**%1$@** rejected your post with the following comment:\n\n%2$@";
+"Chat.Service.SuggestPost.Status.Rejected.Incoming.NoComment" = "**%1$@** rejected your post.";
+
+"Chat.Service.SuggestPost.Status.Rejected.Outgoing.LowBalance" = "**%1$@** was unable to post the message, because the user did not have enough Stars.";
+"Chat.Service.SuggestPost.Status.Rejected.Incoming.LowBalance" = "**%1$@** was unable to post your message, because you did not have enough Stars.";
+
+"Chat.Service.SuggestPost.Header.Title" = "You suggest to post this message.";
+"Chat.Service.SuggestPost.Header.Label.Price" = "Price";
+"Chat.Service.SuggestPost.Header.Label.Time" = "Time";
+"Chat.Service.SuggestPost.Header.Time.Anytime" = "Anytime";
+"Chat.Service.SuggestPost.Header.Price.Free" = "Free";
+
+
+"Chat.Service.TonGift.Info" = "Use TON to submit post suggestions to channels on Telegram";
