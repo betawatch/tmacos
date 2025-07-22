@@ -92313,7 +92313,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 796684,
+          "size": 796672,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92387,7 +92387,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2381712,
+          "size": 2381664,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
