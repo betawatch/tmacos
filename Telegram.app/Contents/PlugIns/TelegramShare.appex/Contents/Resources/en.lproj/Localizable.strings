@@ -7444,7 +7444,6 @@
 "Premium.Restore.ErrorUnknown" = "An error occurred. Please try again.";
 
 
-"Premium.Gift.Title" = "Gift Telegram Premium";
 "Premium.Gift.Text" = "Let **%@** enjoy exclusive features of Telegram with **Telegram Premium**.";
 
 
@@ -7893,22 +7892,25 @@
 
 
 
-
+"Premium.Period.TwoYears" = "2-Years";
 "Premium.Period.Monthly" = "Monthly";
 "Premium.Period.Annual" = "Annual";
 "Premium.Period.SixMonth" = "Six Month";
 "Premium.Period.Price" = "%@/month";
 "Premium.Period.Price.Year" = "%@/year";
+"Premium.Period.Price.TwoYear" = "%@/2-years";
 
 
 "Premium.Boarding.Subscribe.Month" = "Subscribe for %@ / month";
 "Premium.Boarding.Subscribe.Year" = "Subscribe for %@ / year";
 "Premium.Boarding.Subscribe.SixMonth" = "Subscribe for %@ / six month";
+"Premium.Boarding.Subscribe.TwoYears" = "Subscribe for %@ / 2-years";
 
 
 "Premium.Boarding.Renew.Month" = "Renew for %@ / month";
 "Premium.Boarding.Renew.Year" = "Renew for %@ / year";
 "Premium.Boarding.Renew.SixMonth" = "Renew for %@ / six month";
+"Premium.Boarding.Renew.TwoYears" = "Renew for %@ / 2-years";
 
 
 
@@ -12969,3 +12971,79 @@
 
 
 "Chat.Service.TonGift.Info" = "Use TON to submit post suggestions to channels on Telegram";
+
+
+"Gift.Options.Gift.BuyLimitReached" = "You've already reached limit to send this gift.";
+
+
+"DataAndStorage.VerifyAgain.Error" = "You will able to verify yourself again %@";
+
+
+"Premium.StarGift.Title" = "Premium Gift";
+"Premium.StarGift.Info" = "Subscribe to **Telegram Premium** to send up to **%d** of these gifts and unlock access to multiple additional features.";
+
+
+"PeerMedia.Gifts.Collection.All" = "All Gifts";
+"PeerMedia.Gifts.Collection.Add" = "Add Collection";
+"PeerMedia.Gifts.Collection.Context.AddToCollection" = "Add to Collection";
+"PeerMedia.Gifts.Collection.Context.NewCollection" = "New Collection";
+
+
+"PeerMedia.Gifts.Collection.Empty.Header" = "Organize Your Gifts";
+"PeerMedia.Gifts.Collection.Empty.Text" = "Add some gifts to this collection.";
+"PeerMedia.Gifts.Collection.Empty.Action" = "Add to Collection";
+
+
+"PeerMedia.Gifts.Collection.Update.Title" = "Update Name";
+"PeerMedia.Gifts.Collection.Update.Info" = "Update a name for your collection.";
+"PeerMedia.Gifts.Collection.Update.Ok" = "Update";
+"PeerMedia.Gifts.Collection.Update.Placeholder" = "Title...";
+
+
+"PeerMedia.Gifts.Collection.New.Title" = "Create a New Collection";
+"PeerMedia.Gifts.Collection.New.Info" = "Choose a name for your collection and start adding your gifts there.";
+"PeerMedia.Gifts.Collection.New.Ok" = "Create";
+"PeerMedia.Gifts.Collection.New.Placeholder" = "Title...";
+
+
+"PeerMedia.Gifts.Collection.Context.AddGifts" = "Add Gifts";
+"PeerMedia.Gifts.Collection.Context.Rename" = "Rename";
+"PeerMedia.Gifts.Collection.Context.Delete" = "Delete";
+"PeerMedia.Gifts.Collection.Context.Delete.Confirm" = "Are you sure you want to delete **%@**?";
+"PeerMedia.Gifts.Collection.Context.AddCollection" = "Add Collection";
+
+"PeerMedia.Gifts.Collection.Panel.AddGifts" = "Add Gifts";
+
+
+"PeerMedia.Gifts.Collection.Alert.Removed" = "Gift removed from **%@**";
+"PeerMedia.Gifts.Collection.Alert.Added" = "Gift added to **%@**";
+
+
+"AgeVerification.Title" = "Age Verification";
+"AgeVerification.Text" = "To access this content, you must confirm you are at least **18** years old.\n\nThis is a one-time process using your phone's camera. Your selfie will not be stored by Telegram.";
+"AgeVerification.Text.GB" = "To access this content, you must confirm you are at least **18** years old as required by UK law.\n\nThis is a one-time process using your phone's camera. Your selfie will not be stored by Telegram.";
+"AgeVerification.Verify" = "Verify My Age";
+
+
+"PeerInfo.Rating.Text" = "Profile level reflects the user's payment reliability.";
+"PeerInfo.Rating.Button" = "Learn More";
+
+"PeerInfo.Rating.Level" = "Level";
+
+
+"Select.Gifts.LimitReached" = "Limit Reached";
+"Select.Gifts.Title" = "Add Gifts";
+
+"Select.Gifts.Accept" = "Add Gifts";
+
+
+"VerifyAge.Alert.Passed.Header" = "Age check passed!";
+"VerifyAge.Alert.Passed.Info" = "You can now view sensitive content.";
+"VerifyAge.Alert.Failed.Header" = "Age check failed";
+"VerifyAge.Alert.Failed.Info" = "Sorry, you can't view sensitive content.";
+
+
+"Gift.Send.Error.LimitReached" = "You've already sent %d of these gifts, and it's the limit.";
+"StarsGift.Preview.Limited.Text" = "This gift is limited and available only for **Telegram Premium** Users. You can send it **%d** more times.";
+
+"Star.Transaction.Released.By" = "released by @%@";
