@@ -11866,7 +11866,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2042507,
+          "size": 2042523,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -74250,6 +74250,7 @@
             "willAppear",
             "willChangeRegion",
             "willDisappear",
+            "willMove",
             "win32_bind_func",
             "win32_globallookup",
             "win32_joiner",
@@ -74791,7 +74792,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 550324,
+          "size": 550356,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92329,7 +92330,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 674600,
+          "size": 674628,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92431,7 +92432,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2263072,
+          "size": 2263328,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -92528,7 +92529,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1648176,
+          "size": 1648216,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92612,7 +92613,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2538112,
+          "size": 2538048,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92625,7 +92626,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1205925,
+          "size": 1205973,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92773,7 +92774,7 @@
       "vmaddr": 4406607872,
       "vmsize": 5095424,
       "fileoff": 4488,
-      "filesize": 5092720,
+      "filesize": 5092768,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92794,9 +92795,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 97069008,
+      "symoff": 97069056,
       "nsyms": 4708,
-      "stroff": 97185568,
+      "stroff": 97185616,
       "strsize": 204248,
       "fileoff": 4608
     },
@@ -92814,7 +92815,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 97144336,
+      "indirectsymoff": 97144384,
       "nindirectsyms": 10307,
       "extreloff": 0,
       "nextrel": 0,
@@ -92843,7 +92844,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18272528,
+      "entryoff": 18276896,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -93619,19 +93620,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 96620016,
-      "datasize": 412432,
+      "dataoff": 96620024,
+      "datasize": 412464,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 97032448,
-      "datasize": 36560,
+      "dataoff": 97032488,
+      "datasize": 36568,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 97389824,
+      "dataoff": 97389872,
       "datasize": 780400,
       "fileoff": 12432
     }
