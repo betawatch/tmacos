@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 64128308,
+          "size": 64124212,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 230852,
+          "size": 230860,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92314,7 +92314,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 796752,
+          "size": 796776,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92522,7 +92522,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1448480,
+          "size": 1448512,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92606,7 +92606,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2314456,
+          "size": 2314464,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92619,7 +92619,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1201570,
+          "size": 1201578,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92808,7 +92808,7 @@
     },
     {
       "type": "main",
-      "entryoff": 15180176,
+      "entryoff": 15184272,
       "stacksize": 0,
       "fileoff": 4808
     },
