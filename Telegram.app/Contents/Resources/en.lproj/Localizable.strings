@@ -13047,3 +13047,100 @@
 "StarsGift.Preview.Limited.Text" = "This gift is limited and available only for **Telegram Premium** Users. You can send it **%d** more times.";
 
 "Star.Transaction.Released.By" = "released by @%@";
+
+
+"Peer.RatingPreview.Level" = "Level %d";
+"Peer.RatingPreview.NextLevel" = "Level %d";
+
+
+"Peer.RatingPreview.Info.Header.You" = "This rating reflects your activity on Telegram. What affects it:";
+"Peer.RatingPreview.Info.Header" = "This rating reflects **%@'s** activity on Telegram. What affects it:";
+
+"Peer.RatingPreview.Badge.Added" = "ADDED";
+"Peer.RatingPreview.Badge.Deducted" = "DEDUCTED";
+
+"Peer.RatingPreview.Telegram.Header" = "Gifts from Telegram";
+"Peer.RatingPreview.Telegram.Text" = "%@ of the Stars spent on gifts purchased from Telegram.";
+
+"Peer.RatingPreview.Users.Header" = "Gifts and Posts from Users";
+"Peer.RatingPreview.Users.Text" = "%@ of the Stars spent on resold gifts, paid messages and channel posts.";
+
+"Peer.RatingPreview.Refunds.Header" = "Refunds and Conversions";
+"Peer.RatingPreview.Refunds.Text" = "10x of refunded Stars and %@ of bought gifts converted to Stars.";
+
+
+"Peer.RatingPreview.Title" = "Rating";
+"Peer.RatingPreview.Accept" = "Understood";
+
+
+"SelectStory.LimitReached" = "Limit Reached";
+"SelectStory.Title" = "Add Stories";
+"SelectStory.Accept" = "Add Stories";
+
+
+"StoryMedia.Album.All" = "All Stories";
+"StoryMedia.Album.Add" = "Add Album";
+
+
+"StoryMedia.Album.Empty.Header" = "Organize Your Stories";
+"StoryMedia.Album.Empty.Text" = "Add some stories to this album.";
+"StoryMedia.Album.Empty.Action" = "Add to Album";
+
+"StoryMedia.Album.New.Title" = "Create a New Folder";
+"StoryMedia.Album.New.Info" = "Choose a name for your folder and start adding your stories there.";
+"StoryMedia.Album.New.Ok" = "Create";
+"StoryMedia.Album.New.Placeholder" = "Title...";
+
+"StoryMedia.Album.Update.Title" = "Update Name";
+"StoryMedia.Album.Update.Info" = "Update a name for your folder.";
+"StoryMedia.Album.Update.Ok" = "Update";
+"StoryMedia.Album.Update.Placeholder" = "Title...";
+"StoryMedia.Album.Update.Success" = "Name Successfully Updated";
+
+
+"StoryMedia.Album.ContextMenu.AddStories" = "Add Stories";
+"StoryMedia.Album.ContextMenu.Rename" = "Rename";
+"StoryMedia.Album.ContextMenu.Delete" = "Delete";
+"StoryMedia.Album.ContextMenu.Delete.Confirm" = "Are you sure you want to delete **%@**?";
+
+
+"StoryMedia.Album.Button.AddStories" = "Add Stories";
+
+"StoryMedia.Album.Alert.Removed" = "Story removed from **%@**";
+"StoryMedia.Album.Alert.Added" = "Story added to **%@**";
+
+
+"StoryMedia.Album.ContextMenu.AddFolder" = "Add Folder";
+"StoryMedia.Album.ContextMenu.AddToAlbum" = "Add To Album";
+"StoryMedia.Album.ContextMenu.NewAlbum" = "New Album";
+
+
+"StarGift.Sell.Alert.Title.ConfirmPayment" = "Confirm Payment";
+"StarGift.Sell.Alert.OnlyTon" = "The seller only accepts TON as payment.";
+"StarGift.Sell.Alert.PayInTon" = "Pay in TON";
+"StarGift.Sell.Alert.PayInStars" = "Pay in Stars";
+
+
+"Star.Sell.Ton.OnlyAccept" = "Only Accept TON";
+"Star.Sell.Ton.Description" = "If the buyer pays you in TON, there's no risk of refunds, unlike with Stars payments.";
+
+
+"Star.Sell.Ton.Tooltip" = "Pay with TON to skip the 21-day wait\nbefore transferring the gift again.";
+
+
+"GlobalSearch.Empty.Title.Premium" = "Global Search";
+"GlobalSearch.Empty.Info.Premium" = "Type a keyword to search all posts from public channels.";
+"GlobalSearch.Empty.Desc.PremiumRequired" = "Global search is a Premium feature.";
+
+"GlobalSearch.Empty.Title.LimitReached" = "Limit Reached";
+"GlobalSearch.Empty.Info.LimitReached" = "You can make up to %d search queries per day.";
+"GlobalSearch.Empty.Desc.Remaining" = "%d free searches remaining today";
+
+
+"GlobalSearch.Empty.Title.PremiumRequired" = "Premium Required";
+"GlobalSearch.Empty.Title.SearchWithPrice" = "Search for %@ %@";
+"GlobalSearch.Empty.Title.FreeUnlocksIn" = "free search unlocks in %@";
+"GlobalSearch.Empty.Title.SearchPrefix" = "Search";
+
+
+"GlobalSearch.Pay.Alert.StarsSpent" = "%@ spent on extra search.";
