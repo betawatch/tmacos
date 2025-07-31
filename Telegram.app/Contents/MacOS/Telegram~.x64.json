@@ -74912,7 +74912,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 551928,
+          "size": 551936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92752,7 +92752,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2551216,
+          "size": 2551224,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92983,7 +92983,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18247424,
+      "entryoff": 18247776,
       "stacksize": 0,
       "fileoff": 4800
     },

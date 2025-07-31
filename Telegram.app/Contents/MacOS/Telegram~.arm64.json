@@ -74898,7 +74898,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 551900,
+          "size": 551908,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92453,7 +92453,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 797780,
+          "size": 797788,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92745,7 +92745,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2326480,
+          "size": 2326488,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92947,7 +92947,7 @@
     },
     {
       "type": "main",
-      "entryoff": 15207960,
+      "entryoff": 15208268,
       "stacksize": 0,
       "fileoff": 4808
     },
