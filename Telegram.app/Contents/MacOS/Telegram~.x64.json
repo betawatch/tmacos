@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 77412825,
+          "size": 77416921,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11853,7 +11853,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 375103,
+          "size": 375123,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -11866,7 +11866,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2047147,
+          "size": 2047179,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -23891,6 +23891,7 @@
             "ChatList.OpenMiniApp",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
+            "ChatList.Posts.Tag",
             "ChatList.RevealAction.Collapse",
             "ChatList.RevealAction.Expand",
             "ChatList.RevealAction.Hide",
@@ -92468,7 +92469,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 677820,
+          "size": 677828,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92764,7 +92765,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1208469,
+          "size": 1208485,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92912,7 +92913,7 @@
       "vmaddr": 4406853632,
       "vmsize": 5111808,
       "fileoff": 4488,
-      "filesize": 5104912,
+      "filesize": 5104944,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92933,9 +92934,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 97324936,
+      "symoff": 97324968,
       "nsyms": 4708,
-      "stroff": 97441512,
+      "stroff": 97441544,
       "strsize": 204248,
       "fileoff": 4608
     },
@@ -92953,7 +92954,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 97400264,
+      "indirectsymoff": 97400296,
       "nindirectsyms": 10312,
       "extreloff": 0,
       "nextrel": 0,
@@ -92982,7 +92983,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18249616,
+      "entryoff": 18247616,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -93758,19 +93759,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 96875120,
-      "datasize": 413200,
+      "dataoff": 96875144,
+      "datasize": 413208,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 97288320,
+      "dataoff": 97288352,
       "datasize": 36616,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 97645760,
+      "dataoff": 97645792,
       "datasize": 782416,
       "fileoff": 12432
     }

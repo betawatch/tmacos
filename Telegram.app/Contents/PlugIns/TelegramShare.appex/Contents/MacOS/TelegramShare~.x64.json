@@ -17833,7 +17833,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1060132,
+          "size": 1060164,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -23224,6 +23224,7 @@
             "ChatList.OpenMiniApp",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
+            "ChatList.Posts.Tag",
             "ChatList.RevealAction.Collapse",
             "ChatList.RevealAction.Expand",
             "ChatList.RevealAction.Hide",
@@ -53520,7 +53521,7 @@
       "vmaddr": 4358520832,
       "vmsize": 4030464,
       "fileoff": 4168,
-      "filesize": 4022144,
+      "filesize": 4022176,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53541,9 +53542,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 48357472,
+      "symoff": 48357496,
       "nsyms": 12032,
-      "stroff": 48577264,
+      "stroff": 48577288,
       "strsize": 312464,
       "fileoff": 4288
     },
@@ -53561,7 +53562,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 48549984,
+      "indirectsymoff": 48550008,
       "nindirectsyms": 6819,
       "extreloff": 0,
       "nextrel": 0,
@@ -54051,19 +54052,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 48149120,
+      "dataoff": 48149144,
       "datasize": 208352,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 48357472,
+      "dataoff": 48357496,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 48889728,
+      "dataoff": 48889760,
       "datasize": 401408,
       "fileoff": 8760
     }

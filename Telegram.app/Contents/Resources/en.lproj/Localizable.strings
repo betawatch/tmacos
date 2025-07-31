@@ -13144,3 +13144,6 @@
 
 
 "GlobalSearch.Pay.Alert.StarsSpent" = "%@ spent on extra search.";
+
+
+"ChatList.Posts.Tag" = "Posts";
