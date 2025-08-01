@@ -11853,7 +11853,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 375151,
+          "size": 375175,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -46297,6 +46297,7 @@
             "_TtC8Telegram9DiceCache",
             "_TtC8Telegram9HelloView",
             "_TtC8Telegram9MediaCell",
+            "_TtC8TelegramP33_003A5E9B47022F7849C94FA9420D59A719GroupPeersArguments",
             "_TtC8TelegramP33_009532BD9F6F4766B341EBFBF5FDA85421PremiumGiftHeaderView",
             "_TtC8TelegramP33_036A4B258EA4DF9529F306BF295C6B6619BoostFeatureRowView",
             "_TtC8TelegramP33_036A4B258EA4DF9529F306BF295C6B6624BoostPerkLevelHeaderView",
@@ -46795,7 +46796,6 @@
             "_TtC8TelegramP33_8183DA8170F78C76E838D6DCBA7C4F8822DesktopCaptureListView",
             "_TtC8TelegramP33_8183DA8170F78C76E838D6DCBA7C4F8827DesktopCaptureListArguments",
             "_TtC8TelegramP33_81AF66F0FF0568EDDE256A7E96C5DB379Arguments",
-            "_TtC8TelegramP33_82450F63267D536B70842C10D889A53819GroupPeersArguments",
             "_TtC8TelegramP33_82605698165A4A09BCFF4C74380DF8F210ChatAdData",
             "_TtC8TelegramP33_829452BA4BA56BC79D72015BD1A67F596CCTask",
             "_TtC8TelegramP33_829452BA4BA56BC79D72015BD1A67F599CCContext",
@@ -91180,7 +91180,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 275436,
+          "size": 275472,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92506,7 +92506,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 677952,
+          "size": 677972,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92608,7 +92608,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2263392,
+          "size": 2263520,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -92789,7 +92789,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2553224,
+          "size": 2553296,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92950,7 +92950,7 @@
       "vmaddr": 4406886400,
       "vmsize": 5111808,
       "fileoff": 4488,
-      "filesize": 5106672,
+      "filesize": 5106704,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92971,9 +92971,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 97375464,
+      "symoff": 97375488,
       "nsyms": 4708,
-      "stroff": 97492040,
+      "stroff": 97492064,
       "strsize": 204248,
       "fileoff": 4608
     },
@@ -92991,7 +92991,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 97450792,
+      "indirectsymoff": 97450816,
       "nindirectsyms": 10312,
       "extreloff": 0,
       "nextrel": 0,
@@ -93020,7 +93020,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18259552,
+      "entryoff": 18260000,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -93796,19 +93796,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 96925552,
-      "datasize": 413296,
+      "dataoff": 96925560,
+      "datasize": 413312,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 97338848,
+      "dataoff": 97338872,
       "datasize": 36616,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 97696288,
+      "dataoff": 97696320,
       "datasize": 782800,
       "fileoff": 12432
     }
