@@ -53420,7 +53420,9 @@
           "nreloc": 0,
           "type": "regular",
           "attributes": {
-            "usr": {},
+            "usr": {
+              "no_dead_strip": true
+            },
             "sys": {}
           }
         },
