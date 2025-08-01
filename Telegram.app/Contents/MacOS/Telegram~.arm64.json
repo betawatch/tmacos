@@ -11889,7 +11889,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2044867,
+          "size": 2044835,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -45679,6 +45679,7 @@
             "_TtC8Telegram19InstantPageTileView",
             "_TtC8Telegram19InstantVideoPIPView",
             "_TtC8Telegram19InteractiveTextView",
+            "_TtC8Telegram19LiveLocationRowView",
             "_TtC8Telegram19LoadingTableRowView",
             "_TtC8Telegram19LocalBundleResource",
             "_TtC8Telegram19LoginErrorStateView",
@@ -46950,7 +46951,6 @@
             "_TtC8TelegramP33_9936FE44B94B7259BD560C97B0ED54DC26StorageUsageMediaCellsView",
             "_TtC8TelegramP33_99A42226A9A97BF3AC0CE5B68539F77919PhoneCallWindowView",
             "_TtC8TelegramP33_9A4B9062B155E2126415AC56B10A4E049Arguments",
-            "_TtC8TelegramP33_9AB5ADD85EFA09C3E45D8A64B2AD407519LiveLocationRowView",
             "_TtC8TelegramP33_9B0997E7A6006797CB7FA92C1D3D3C8A19ResourceBundleClass",
             "_TtC8TelegramP33_9CE2A3021574951B7EBBB102896810D026AppAppearanceViewArguments",
             "_TtC8TelegramP33_9CE4A7993405F8F3D2B62E1F2D64031918VideoTimestampView",
@@ -74935,7 +74935,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 551944,
+          "size": 551936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92917,7 +92917,7 @@
       "vmaddr": 4394041344,
       "vmsize": 4849664,
       "fileoff": 4480,
-      "filesize": 4833440,
+      "filesize": 4833424,
       "maxprot": {
         "read": true,
         "write": false,
@@ -92938,9 +92938,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 84378296,
+      "symoff": 84378288,
       "nsyms": 4140,
-      "stroff": 84479680,
+      "stroff": 84479672,
       "strsize": 167496,
       "fileoff": 4600
     },
@@ -92958,7 +92958,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 84444536,
+      "indirectsymoff": 84444528,
       "nindirectsyms": 8786,
       "extreloff": 0,
       "nextrel": 0,
@@ -92984,7 +92984,7 @@
     },
     {
       "type": "main",
-      "entryoff": 15222368,
+      "entryoff": 15222316,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -93761,18 +93761,18 @@
     {
       "type": "function_starts",
       "dataoff": 83984760,
-      "datasize": 393536,
+      "datasize": 393528,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 84378296,
+      "dataoff": 84378288,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 84647184,
+      "dataoff": 84647168,
       "datasize": 680848,
       "fileoff": 12632
     }

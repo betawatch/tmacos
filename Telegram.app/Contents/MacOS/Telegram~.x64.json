@@ -11866,7 +11866,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2048747,
+          "size": 2048715,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -45594,6 +45594,7 @@
             "_TtC8Telegram19InstantPageTileView",
             "_TtC8Telegram19InstantVideoPIPView",
             "_TtC8Telegram19InteractiveTextView",
+            "_TtC8Telegram19LiveLocationRowView",
             "_TtC8Telegram19LoadingTableRowView",
             "_TtC8Telegram19LocalBundleResource",
             "_TtC8Telegram19LoginErrorStateView",
@@ -46865,7 +46866,6 @@
             "_TtC8TelegramP33_9936FE44B94B7259BD560C97B0ED54DC26StorageUsageMediaCellsView",
             "_TtC8TelegramP33_99A42226A9A97BF3AC0CE5B68539F77919PhoneCallWindowView",
             "_TtC8TelegramP33_9A4B9062B155E2126415AC56B10A4E049Arguments",
-            "_TtC8TelegramP33_9AB5ADD85EFA09C3E45D8A64B2AD407519LiveLocationRowView",
             "_TtC8TelegramP33_9B0997E7A6006797CB7FA92C1D3D3C8A19ResourceBundleClass",
             "_TtC8TelegramP33_9CE2A3021574951B7EBBB102896810D026AppAppearanceViewArguments",
             "_TtC8TelegramP33_9CE4A7993405F8F3D2B62E1F2D64031918VideoTimestampView",
@@ -74949,7 +74949,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 551972,
+          "size": 551964,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93020,7 +93020,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18259504,
+      "entryoff": 18259552,
       "stacksize": 0,
       "fileoff": 4800
     },
