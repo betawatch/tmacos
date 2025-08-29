@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 113,
-  "sizeofcmds": 12616,
+  "ncmds": 114,
+  "sizeofcmds": 12736,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 73252864,
+      "vmsize": 74170368,
       "fileoff": 104,
-      "filesize": 73252864,
+      "filesize": 74170368,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 64967988,
+          "size": 65865012,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_stubs",
           "segname": "__TEXT",
-          "size": 127648,
+          "size": 127712,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 231892,
+          "size": 232068,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -144,7 +144,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1927632,
+          "size": 1932224,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -157,7 +157,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 298361,
+          "size": 298443,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -607,6 +607,7 @@
             "T@\"NSMutableArray\",&,N,V_storedActiveReportPaths",
             "T@\"NSMutableArray\",&,N,V_transactionIds",
             "T@\"NSMutableArray\",&,V_eventLabels",
+            "T@\"NSMutableArray\",R,N,V_slots",
             "T@\"NSMutableData\",&,N,V_buffer",
             "T@\"NSMutableDictionary\",&,N,V_attachments",
             "T@\"NSMutableDictionary\",&,N,V_cachedInstances",
@@ -2283,6 +2284,7 @@
             "_getInstallationPromiseCache",
             "_getLogPrefix",
             "_getValueBlock",
+            "_giftGroupDepth",
             "_globalScope",
             "_globalTimeDifference",
             "_googleAppID",
@@ -3089,6 +3091,7 @@
             "_sleepWatchdogTimerLastTime",
             "_slice",
             "_slices",
+            "_slots",
             "_smallThumbnailURL",
             "_smsAutofillDisabled",
             "_socket",
@@ -10612,6 +10615,7 @@
             "sleepWatchdogTimerLastTime",
             "sliceForArchitecture:",
             "slices",
+            "slots",
             "smallRightChevronIcon",
             "smallThumbnailURL",
             "smartMagnifyWithEvent:",
@@ -11596,6 +11600,7 @@
             "valueFromObject:allowArray:",
             "valueRef",
             "valueType",
+            "valueWithBytes:objCType:",
             "valueWithCATransform3D:",
             "valueWithCMTime:",
             "valueWithNonretainedObject:",
@@ -11876,7 +11881,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 378087,
+          "size": 379233,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -11889,7 +11894,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2049939,
+          "size": 2051646,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12282,7 +12287,6 @@
             " called on RtpSender with ",
             " called with invalid session options",
             " called with invalid session options.",
-            " can now turn this gift to a unique collectible.",
             " can't be called before SetRemoteDescription.",
             " canceled",
             " candidate: ",
@@ -12545,7 +12549,6 @@
             " reason=",
             " reason='",
             " received",
-            " received from you",
             " received length ",
             " receiver for track_id=",
             " recovered length ",
@@ -12575,7 +12578,6 @@
             " seconds.",
             " selection delayed by: ",
             " send=",
-            " sent an upgrade worth ",
             " seq ",
             " seq : ",
             " seq:",
@@ -12626,7 +12628,6 @@
             " transport ",
             " trial config: ",
             " tried to schedule an empty block",
-            " turn this gift into a unique collectible.",
             " turn: ",
             " unreferenced ids",
             " updated buffers ",
@@ -12810,6 +12811,8 @@
             "#EXTM3U\n#EXT-X-VERSION:6\n#EXT-X-STREAM-INF:BANDWIDTH=3300000,RESOLUTION=1280x720,CODECS=\"avc1.64001f,mp4a.40.2\"\nhls_level_0.m3u8\n#EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=640x360,CODECS=\"avc1.64001f,mp4a.40.2\"\nhls_level_1.m3u8\n",
             "#EXTM3U\n#EXT-X-VERSION:6\n#EXT-X-TARGETDURATION:1\n",
             "#cpu_adaptations: ",
+            "#f0f",
+            "#ff00ff",
             "#import \"%@.h\"\n",
             "#import \"%@Mapper.h\"\n\n",
             "#import \"NBNumberFormat.h\"\n\n",
@@ -14339,15 +14342,8 @@
             "*(const AVClass **)avctx->priv_data == codec->priv_class",
             "*(s_data.cont.back().second) == k",
             "**",
-            "** for the gift ",
-            "** for the gift **",
-            "** for the gift you received from ",
             "** is requesting permission to import data from a previous Telegram account used on this device.",
-            "** on Telegram and Fragment over the past month.",
-            "** received from **",
-            "** sent an upgrade worth **",
             "** to fix this issue.",
-            "** was last sold on ",
             "*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n",
             "*** in database %s ***\n",
             "***** %s: can't send data: connection is not opened",
@@ -14517,8 +14513,6 @@
             ", fixed_gain_factor: ",
             ", flags=",
             ", flexfec: {payload_type: ",
-            ", for sale on Fragment >",
-            ", for sale on Telegram >",
             ", format: ",
             ", found %i matches%s",
             ", fps_allocation = [",
@@ -14998,7 +14992,6 @@
             "... ",
             "...)",
             "..., prev_hash=",
-            "...Saved Messages",
             "../",
             ".AppleColorEmojiUI",
             ".Decoded.Vp8.Qp",
@@ -16001,6 +15994,7 @@
             "0(?:[26]\\d{4,9}|(?:1(?:[0159]\\d|[27][1-5]|31|4[1-4]|6[1356]|8[2-57])|3(?:[0159]\\d|2[1-4]|3[12]|[48][1-6]|6[2-59]|7[1-7])|4(?:[0159]\\d|[23][1-9]|4[245]|6[1-5]|7[1-4]|81)|5(?:[0159]\\d|2[1-5]|3[2-6]|4[1-79]|6[4-6]|7[1-578]|8[3-8])|7(?:[0159]\\d|2[12]|3[1-7]|4[2346]|6[13569]|7[13-6]|8[1-59])|8(?:[0159]\\d|2[34578]|3[1-356]|[6-8][1-5])|9(?:[0159]\\d|[238][1-5]|4[12]|6[1-8]|7[1-6]))\\d{2,7})",
             "0([3579]|4(?:44|56))?",
             "0-",
+            "0----pattern-wallpaper-mask-",
             "0.",
             "0.0.1",
             "0.1.2.3",
@@ -18641,6 +18635,7 @@
             "<%s systemBitrate=\"%u\">\n",
             "</%s>\n",
             "</body>\n",
+            "</g>",
             "</head>\n",
             "</smil>\n",
             "</switch>\n",
@@ -18722,6 +18717,7 @@
             "<expr>",
             "<flags>",
             "<float>",
+            "<g id=\"GiftPatterns\"",
             "<head>\n",
             "<image_size>",
             "<int64>",
@@ -19520,7 +19516,6 @@
             "AU",
             "AUD",
             "AUDIO",
-            "AUDIO IN THIS CHAT",
             "AUD_NUT",
             "AUGraphClose error ",
             "AUGraphStop error ",
@@ -20295,16 +20290,27 @@
             "Audio Element parameter count %u is invalid for Scene representations\n",
             "Audio IFF",
             "Audio Theatre",
-            "Audio added to your profile",
             "Audio delay: ",
             "Audio device initialization failed.",
             "Audio network adaptor disabled on SSRC ",
             "Audio network adaptor enabled on SSRC ",
             "Audio object type %s%d",
             "Audio params will be changed from: ",
-            "Audio removed from your profile",
             "Audio service type",
             "Audio specific config size is invalid\n",
+            "Audio.Playlist.Alert.AddedToProfile",
+            "Audio.Playlist.Alert.RemovedFromProfile",
+            "Audio.Playlist.Alert.SavedSuccess",
+            "Audio.Playlist.Button.AddToProfile",
+            "Audio.Playlist.Context.RemoveFromProfile",
+            "Audio.Playlist.Context.SaveTo",
+            "Audio.Playlist.Context.SaveToProfile",
+            "Audio.Playlist.Context.SaveToSavedMessages",
+            "Audio.Playlist.Empty",
+            "Audio.Playlist.ProfileNotice",
+            "Audio.Playlist.Separator.Chat",
+            "Audio.Playlist.Separator.User",
+            "Audio.Playlist.Separator.Your",
             "Audio.UnknownArtist",
             "Audio.UntitledSong",
             "AudioCodec[",
@@ -23421,6 +23427,8 @@
             "Chat.Service.Gift.View",
             "Chat.Service.GiftLink",
             "Chat.Service.GiftLink.Sent",
+            "Chat.Service.GiftUnpack.Incoming",
+            "Chat.Service.GiftUnpack.Outgoing",
             "Chat.Service.GiveawayStarted",
             "Chat.Service.GiveawayStarted.Stars_countable",
             "Chat.Service.GiveawayStarted.Stars_few",
@@ -23517,6 +23525,7 @@
             "Chat.Service.SecureId.AccessGranted",
             "Chat.Service.SendAnother",
             "Chat.Service.SendGift",
+            "Chat.Service.SetTheme.Button.View",
             "Chat.Service.StarGift.ChannelSelt",
             "Chat.Service.StarGift.From",
             "Chat.Service.StarGift.Sent",
@@ -23585,6 +23594,14 @@
             "Chat.Service.You",
             "Chat.Service.YouSuggestedPhoto",
             "Chat.ShareInlineResultActionHeader",
+            "Chat.StarsGift.Button.Unpack",
+            "Chat.StarsGift.SentBy",
+            "Chat.StarsGift.SentInChannel",
+            "Chat.StarsGift.SentYou",
+            "Chat.StarsGift.Upgrade.Other",
+            "Chat.StarsGift.Upgrade.Self",
+            "Chat.StarsGift.UpgradeSent",
+            "Chat.StarsGift.UpgradeSentBy",
             "Chat.State.HideOtherMessages",
             "Chat.State.ShowOtherMessages",
             "Chat.SuggestPost.Publish.AcceptTitle",
@@ -23596,6 +23613,8 @@
             "Chat.SuggestPost.Publish.DateConfirm",
             "Chat.SuggestPost.Publish.Info",
             "Chat.SuggestPost.Publish.InfoFree",
+            "Chat.Theme.OtherSet",
+            "Chat.Theme.SelfSet",
             "Chat.Title.Chats_countable",
             "Chat.Title.Chats_few",
             "Chat.Title.Chats_many",
@@ -24207,6 +24226,8 @@
             "ChatService.YouChangedWallpaperBoth",
             "ChatTheme.Colorful",
             "ChatTheme.Theme.Info",
+            "ChatTheme.UniqueGift.Replace.Confirm",
+            "ChatTheme.UniqueGift.Replace.Title",
             "ChatTitle.Business.AwayMessages",
             "ChatTitle.Business.GreetingMessages",
             "ChatTitle.ReportMessages",
@@ -24346,7 +24367,6 @@
             "Clear PacketBuffer and request key frame.",
             "ClearAudioSend: No audio channel exists.",
             "ClearAudioSend: ssrc is incorrect: ",
-            "Click \"Unpack\" to turn this gift to a unique collectible.",
             "ClientCAFile",
             "ClientCAPath",
             "ClientProperty",
@@ -28178,6 +28198,7 @@
             "Gift.Context.TakeOff",
             "Gift.Context.Transfer",
             "Gift.Context.Wear",
+            "Gift.ContextMenu.SetAsTheme",
             "Gift.Marketplace.Attr.Backdrop_ZeroValueHolder",
             "Gift.Marketplace.Attr.Backdrop_countable",
             "Gift.Marketplace.Attr.Backdrop_few",
@@ -28332,6 +28353,7 @@
             "GiftLink.Row.Reason.Giveaway.Incomplete",
             "GiftLink.UseLink",
             "GiftLink.UseSuccess",
+            "GiftPatterns",
             "Gifting.PremWithStars.Confirm.Info",
             "Gifting.PremWithStars.Confirm.Title",
             "Gifting.Premium.Info",
@@ -29351,6 +29373,7 @@
             "Icon_Gallery_FastSave",
             "Icon_GeneralNext",
             "Icon_GifTrending",
+            "Icon_GiftTheme_Undo",
             "Icon_Gift_Birthday",
             "Icon_GigagroupInfo",
             "Icon_Giveaway_Premium",
@@ -32246,8 +32269,11 @@
             "Notification.StarsGift.TransferYou",
             "Notification.StarsGift.Upgrade",
             "Notification.StarsGift.Upgrade.Channel",
+            "Notification.StarsGift.UpgradeFromOther",
+            "Notification.StarsGift.UpgradeGeneric",
             "Notification.StarsGift.UpgradePrepaid",
             "Notification.StarsGift.UpgradePrepaidYou",
+            "Notification.StarsGift.UpgradeToSelf",
             "Notification.StarsGift.UpgradeYou",
             "Notification.StoryReply",
             "Notification.Title.Reply",
@@ -33685,6 +33711,7 @@
             "PeerMedia.Title.Search.Videos_other",
             "PeerMedia.Title.Search.Videos_two",
             "PeerMedia.Title.Search.Videos_zero",
+            "PeerRating.Preview.Negative",
             "PeerSelect.InviteViaLink",
             "PendingHashRange",
             "PendingMessageManager",
@@ -34372,6 +34399,7 @@
             "Profile > 1 not supported in this build configuration",
             "Profile A",
             "Profile C",
+            "ProfileTab.ContextMenu.SetAsMain",
             "Program",
             "Progressive",
             "Progressive Rock",
@@ -35174,7 +35202,6 @@
             "RemoteBitrateEstimatorSingleStream: Instantiating.",
             "RemotelyAnywhere Screen Capture",
             "Remove From CRL",
-            "Remove from Profile",
             "Remove remote ssrc: ",
             "RemoveIceCandidates: Error when removing remote candidates: ",
             "RemoveIceCandidates: Failed to remove candidates. Requested ",
@@ -36336,6 +36363,7 @@
             "SelectColor.UseGift.Title",
             "SelectCountries.OK",
             "SelectCountries.Title",
+            "SelectGifts.Filter.Upgradable",
             "SelectPeers.Chats",
             "SelectPeers.Contacts",
             "SelectPeers.Frequent",
@@ -37333,6 +37361,8 @@
             "Star.Transaction.BroadcastMessages_other",
             "Star.Transaction.BroadcastMessages_two",
             "Star.Transaction.BroadcastMessages_zero",
+            "Star.Transaction.Button.GiftUpgrade",
+            "Star.Transaction.Button.Upgrade",
             "Star.Transaction.Commission",
             "Star.Transaction.ConvertAlert.Header",
             "Star.Transaction.ConvertAlert.Info",
@@ -37401,6 +37431,18 @@
             "StarGift.Sell.Alert.PayInStars",
             "StarGift.Sell.Alert.PayInTon",
             "StarGift.Sell.Alert.Title.ConfirmPayment",
+            "StarGift.Unique.Make",
+            "StarGift.Unique.UpgradeNext",
+            "StarGift.Value.Description.Average",
+            "StarGift.Value.Description.LastSale",
+            "StarGift.Value.LetUserMakeUnique",
+            "StarGift.Value.Listing.Fragment",
+            "StarGift.Value.Listing.Telegram",
+            "StarGift.Value.PayForUpgrade",
+            "StarGift.Value.Row.Badge",
+            "StarGift.Value.Row.Label",
+            "StarGift.Value.Source.Fragment",
+            "StarGift.Value.Source.Telegram",
             "StarList.Ton.Withdraw.Info",
             "StarList.TonInfo",
             "Stars.Balance.BuyAds",
@@ -39477,6 +39519,7 @@
             "Telegram.ServiceEventLogItem",
             "Telegram.ServiceEventLogMessageContainerView",
             "Telegram.ServiceEventLogMessagePanelView",
+            "Telegram.SetChatThemeView",
             "Telegram.ShareButton",
             "Telegram.ShareInfoView",
             "Telegram.ShareInlineResultNavigationAction",
@@ -39830,6 +39873,7 @@
             "Telegram/ContextShowPeersHolder.swift",
             "Telegram/ContextStickerRowItem.swift",
             "Telegram/ContextSwitchPeerRowItem.swift",
+            "Telegram/CoreExtension.swift",
             "Telegram/CustomAccentColorModalController.swift",
             "Telegram/DataRainView.swift",
             "Telegram/DatePickerRowItem.swift",
@@ -40241,6 +40285,7 @@
             "TelegramCore.WrappedRequestShortMetadata",
             "TelegramCore/AccountManager.swift",
             "TelegramCore/Authorization.swift",
+            "TelegramCore/ChatThemes.swift",
             "TelegramCore/FlatBuffersUtils.swift",
             "TelegramCore/StarGifts.swift",
             "TelegramCore/StickerPackInteractiveOperations.swift",
@@ -40496,10 +40541,7 @@
             "Third header is not the setup header.\n",
             "Thirty-two zero bits in %s uvlc code: considered invalid due to conflicting standard and reference decoder behaviour.\n",
             "This AVCodecContext was allocated for %s, but %s passed to avcodec_open2()\n",
-            "This audio is visible on your profile. [Remove >]()",
             "This decoder does not support parameter changes, but PARAM_CHANGE side data was sent to it.\n",
-            "This is the average sale price of **",
-            "This is the price at which **",
             "This method does not apply to non-term reads",
             "This method does not apply to term reads",
             "This story can't be shared",
@@ -41572,7 +41614,6 @@
             "Upgrade 22->23 started",
             "Upgrade 23->24 started",
             "Upgrade 24->25 started",
-            "Upgrade Next Gift",
             "Upgrade.ChannelsTooMuch",
             "Upload has been suspended. Will update scheduling later. Seconds",
             "Upload operation created: %@, target: %@",
@@ -43257,8 +43298,6 @@
             "You must type in ",
             "You must use a valid publishable key to create a token. For more info, see https://stripe.com/docs/stripe.js",
             "You requested a copy of the original timecode track so timecode metadata are now ignored\n",
-            "You sent an upgrade worth ",
-            "You sent an upgrade worth **",
             "You'll need to update Telegram to the latest version before you can use the app.",
             "You're attempting to swizzle a method that doesn't exist. (%@, %@)",
             "Your platform doesn't support hardware accelerated AV1 decoding.\n",
@@ -44380,6 +44419,7 @@
             "_TtC12TelegramCore27TelegramResolvedMessageLink",
             "_TtC12TelegramCore27TranslationMessageAttribute",
             "_TtC12TelegramCore27TypingDraftMessageAttribute",
+            "_TtC12TelegramCore27UniqueGiftChatThemesContext",
             "_TtC12TelegramCore27WrappedRequestShortMetadata",
             "_TtC12TelegramCore28CachedPremiumGiftCodeOptions",
             "_TtC12TelegramCore28CloudChatRemoveChatOperation",
@@ -44591,6 +44631,7 @@
             "_TtC12TelegramCoreP33_D57FF18AF7062BEC2E961DCCD9DBB26123ChannelStatsContextImpl",
             "_TtC12TelegramCoreP33_D7026415A8EBD6DAE998B8F933B2703122NetworkTypeManagerImpl",
             "_TtC12TelegramCoreP33_D78C114048FD2BDF1BCB19C0B1CFED2623CachedProfileSavedMusic",
+            "_TtC12TelegramCoreP33_D8FC254F0CCC1DC2ED32DC8FF92EA4FF26CachedUniqueGiftChatThemes",
             "_TtC12TelegramCoreP33_D97AAADDC96DB943D0097EDA6256B50819HistoryPreloadEntry",
             "_TtC12TelegramCoreP33_D97AAADDC96DB943D0097EDA6256B50825HistoryPreloadViewContext",
             "_TtC12TelegramCoreP33_D97AAADDC96DB943D0097EDA6256B50831AdditionalPreloadPeerIdsContext",
@@ -47632,6 +47673,7 @@
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E311SuggestView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E313WallpaperView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E315SuggestPostView",
+            "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E316SetChatThemeView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E321SuggestPostHeaderView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E38GiftView",
             "_TtCC8Telegram19ChatGiveawayRowItem16AdditionalPrizes",
@@ -47806,6 +47848,7 @@
             "_TtCCC7Postbox10StorageBox5Stats16ContentTypeStats",
             "_TtCCC7Postbox19MediaBoxFileManager4Item8Accessor",
             "_TtCCC8Telegram15ChatInvoiceViewP33_958153F24FD191A58AE3F3299C4DFEC517ExtendedMediaView6Button",
+            "_TtCCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E316SetChatThemeView8GiftView",
             "_TtCCC8Telegram27InputDataTableBasedItemViewP33_3EBF4EF8D76BFD3C50C0F6DAF152DBC97RowView9BadgeView",
             "_TtCCC8Telegram29AvatarStoryIndicatorComponent13IndicatorViewP33_F5107E87135DEB7425A51F324D4B5EE36Drawer",
             "_TtCCC8Telegram32AccountGroupCallContextCacheImpl4ImplP33_201134FB499D0821353AC0FFEED67EB96Record",
@@ -49555,6 +49598,7 @@
             "account.getTheme",
             "account.getThemes",
             "account.getTmpPassword",
+            "account.getUniqueGiftChatThemes",
             "account.getWallPaper",
             "account.getWallPapers",
             "account.getWebAuthorizations",
@@ -52600,7 +52644,6 @@
             "channels.checkSearchPostsFlood",
             "channels.checkUsername",
             "channels.convertToGigagroup",
-            "channels.createBotForum",
             "channels.createChannel",
             "channels.createForumTopic",
             "channels.deactivateAllUsernames",
@@ -52859,8 +52902,10 @@
             "chatSwiping_unread",
             "chatTheme",
             "chatThemeTempValue",
+            "chatThemeUniqueGift",
             "chatThemeValue",
             "chatThemes",
+            "chatThemesNotModified",
             "chatToggleSelected",
             "chatToggleUnselected",
             "chatUnreadMentionCountDisposable",
@@ -54351,7 +54396,6 @@
             "currentDisposable",
             "currentDownItem",
             "currentDownStake",
-            "currentEmoji",
             "currentEntries",
             "currentEntriesDisposable",
             "currentExpandedDetails",
@@ -57141,6 +57185,10 @@
             "fill",
             "fill-opacity",
             "fill-rule",
+            "fill:",
+            "fill=\"#f0f\"",
+            "fill=\"#ff00ff\"",
+            "fill=\"none\"",
             "fillColor",
             "fillContent",
             "fillCount",
@@ -57944,6 +57992,7 @@
             "getAspect",
             "getBackground",
             "getBackgroundColor",
+            "getBackgroundSlot",
             "getColor",
             "getColors",
             "getConferenceLimit",
@@ -59837,6 +59886,8 @@
             "inputChannelMute",
             "inputChannelUnmute",
             "inputChatPhotoEmpty",
+            "inputChatThemeEmpty",
+            "inputChatThemeUniqueGift",
             "inputChatUploadedPhoto",
             "inputChatlistDialogFilter",
             "inputCheckPasswordEmpty",
@@ -60713,6 +60764,7 @@
             "isTestingEnvironment",
             "isTextSelectable",
             "isThumbnail",
+            "isTiled",
             "isTopHistory",
             "isTopic",
             "isTranslateLoading",
@@ -61528,8 +61580,6 @@
             "link_capacity_kbps",
             "linkedBotChannelId",
             "linkedBotId",
-            "linkedBotforumChannelId",
-            "linkedBotforumUserId",
             "linkedDiscussionPeerId",
             "linkedMonoforumId",
             "links",
@@ -63714,6 +63764,7 @@
             "nearend_tuning_max_dec_factor_lf",
             "nearend_tuning_max_inc_factor",
             "nearset",
+            "neatSpot",
             "need new setup values",
             "need one signer",
             "need organization and numbers",
@@ -65257,7 +65308,6 @@
             "pattern",
             "pattern encryption is not present in 'cbcs' scheme\n",
             "pattern encryption is not present in 'cens' scheme\n",
-            "pattern-wallpaper-mask--------",
             "patternCheckbox",
             "patternColor",
             "patternContentLayers",
@@ -65772,6 +65822,7 @@
             "pitem_new",
             "pitm: primary_item_id %d\n",
             "pixdesc",
+            "pixel",
             "pixel format",
             "pixelBuffer",
             "pixelBufferPool",
@@ -68789,7 +68840,6 @@
             "sendMessageRecordRoundAction",
             "sendMessageRecordVideoAction",
             "sendMessageShortcut",
-            "sendMessageTextDraftAction",
             "sendMessageTypingAction",
             "sendMessageUploadAudioAction",
             "sendMessageUploadDocumentAction",
@@ -69017,6 +69067,7 @@
             "set-rootKeyThumb",
             "set2Fa",
             "setAlbum",
+            "setAsTheme",
             "setAttr-Cert",
             "setAttr-GenCryptgrm",
             "setAttr-IssCap",
@@ -69050,6 +69101,7 @@
             "setCext-tunneling",
             "setChartTitleClosure",
             "setChatMessageAutoremoveTimeout",
+            "setChatThemeView",
             "setConditionalUserPropertyOnWorkerQueue",
             "setCustomKeysAndValues:",
             "setCustomValue:forKey:",
@@ -69082,6 +69134,7 @@
             "setPersonalizedAdsUserPropertyOnWorkerQueue",
             "setPressed",
             "setStatus",
+            "setThemeData",
             "setTimeout",
             "setUserAttributeOnWorkerQueue:",
             "setUserDataOnWorkerQueue",
@@ -69668,6 +69721,9 @@
             "sliderView",
             "slides",
             "slot full",
+            "slotOverlays",
+            "slots",
+            "slotsMetadata",
             "slowAmplitude",
             "slowMode",
             "slowModeDisposable",
@@ -71376,9 +71432,10 @@
             "the meth_data stack is corrupt",
             "theme",
             "themeDisposable",
-            "themeEmoticon",
+            "themePeerId",
             "themeSelector",
             "themeSelectorView",
+            "themeSettings",
             "themeType",
             "themes",
             "themesNotModified",
@@ -71464,6 +71521,7 @@
             "tile-rows",
             "tileControl",
             "tileHeight",
+            "tileImageSize",
             "tileLayers",
             "tileView",
             "tileWidth",
@@ -74929,6 +74987,7 @@
             "{?=QQ}24@0:8Q16",
             "{?=QQ}32@0:8Q16Q24",
             "{?={?=qiIq}{?=qiIq}}16@0:8",
+            "{?={CGRect={CGPoint=dd}{CGSize=dd}}}",
             "{CGPoint=dd}16@0:8",
             "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8",
             "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8q16",
@@ -75067,7 +75126,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 554004,
+          "size": 555208,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75080,7 +75139,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 35820,
+          "size": 36132,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75093,7 +75152,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 32760,
+          "size": 32868,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75132,7 +75191,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 304484,
+          "size": 305676,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75145,7 +75204,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 12320,
+          "size": 12380,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75158,7 +75217,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 272478,
+          "size": 272894,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -75533,6 +75592,7 @@
             "Quote",
             "R",
             "Random",
+            "RawValue",
             "RawValue",
             "RawValue",
             "RawValue",
@@ -77171,6 +77231,7 @@
             "account",
             "account",
             "account",
+            "account",
             "accountDaysTTL",
             "accountId",
             "accountItem",
@@ -78391,6 +78452,7 @@
             "cacheDisposable",
             "cacheDisposable",
             "cacheDisposable",
+            "cacheDisposable",
             "cacheEntry",
             "cacheQueue",
             "cacheReferenceKey",
@@ -78792,7 +78854,14 @@
             "chatReactionsNone",
             "chatReactionsSome",
             "chatState",
+            "chatTheme",
+            "chatTheme",
+            "chatTheme",
+            "chatTheme",
+            "chatThemeUniqueGift",
             "chatThemes",
+            "chatThemes",
+            "chatThemesNotModified",
             "chatlistInvite",
             "chatlistInviteAlready",
             "chatlistUpdates",
@@ -79727,6 +79796,7 @@
             "dataState",
             "dataState",
             "dataState",
+            "dataState",
             "dataSubscribers",
             "database",
             "databasePath",
@@ -80245,6 +80315,7 @@
             "disposable",
             "disposable",
             "disposable",
+            "disposable",
             "disposableSet",
             "disposables",
             "disposables",
@@ -80538,6 +80609,7 @@
             "emojimarkupContentEmoji",
             "emojimarkupContentSticker",
             "emojis",
+            "emoticon",
             "emoticon",
             "emoticon",
             "emoticon",
@@ -81636,6 +81708,7 @@
             "getAccessChallengeData",
             "getAspect",
             "getBackgroundColor",
+            "getBackgroundSlot",
             "getColor",
             "getCurrent",
             "getCurrentAuth",
@@ -81660,6 +81733,7 @@
             "gifBotUsername",
             "gifs",
             "gifs",
+            "gift",
             "gift",
             "gift",
             "gift",
@@ -81807,6 +81881,7 @@
             "gusii",
             "gusiiKenya",
             "guyanaDollar",
+            "h",
             "h",
             "half",
             "halfLimit",
@@ -82093,6 +82168,7 @@
             "hungUp",
             "hungarian",
             "hungarianHungary",
+            "i",
             "i420",
             "iOSAnimated",
             "iOSSettingsStatic",
@@ -82324,6 +82400,7 @@
             "imageId",
             "imageIsVideoCover",
             "imageLayer",
+            "imageSize",
             "imageSize",
             "imageUpdated",
             "imageView",
@@ -82613,6 +82690,9 @@
             "inputChannelFromMessage",
             "inputChatPhoto",
             "inputChatPhotoEmpty",
+            "inputChatTheme",
+            "inputChatThemeEmpty",
+            "inputChatThemeUniqueGift",
             "inputChatUploadedPhoto",
             "inputChatlistDialogFilter",
             "inputCheckPasswordEmpty",
@@ -83352,6 +83432,7 @@
             "isTestingEnvironment",
             "isTextTied",
             "isThumbnail",
+            "isTiled",
             "isTop",
             "isTransitioningFromBroadcastToRtc",
             "isUniquelyReferencedTemporaryFile",
@@ -83843,6 +83924,7 @@
             "light",
             "lilangeni",
             "limit",
+            "limit",
             "limitExceeded",
             "limitExceeded",
             "limitExceeded",
@@ -83967,6 +84049,7 @@
             "loadedPlaceholders",
             "loadedRange",
             "loadedStateMark",
+            "loading",
             "loading",
             "loading",
             "loading",
@@ -85127,6 +85210,7 @@
             "navigationLeftBorder",
             "navigationRightBorder",
             "nearestDc",
+            "neatSpot",
             "needShown",
             "needSizeToFit",
             "needUpdateVisibleAfterScroll",
@@ -85227,6 +85311,7 @@
             "nextLevelStars",
             "nextMessageStableId",
             "nextMessageStableIdUpdated",
+            "nextOffset",
             "nextOffset",
             "nextOffset",
             "nextOffset",
@@ -85468,6 +85553,7 @@
             "observation_i",
             "observation_t",
             "occlusionStateValue",
+            "offset",
             "offset",
             "offset",
             "offset",
@@ -86410,6 +86496,7 @@
             "pipelineState",
             "pipelineState",
             "pipelineState",
+            "pixel",
             "pixelBuffer",
             "pixelBufferPool",
             "pixelBufferPoolState",
@@ -87017,6 +87104,7 @@
             "queue",
             "queue",
             "queue",
+            "queue",
             "queueMode",
             "queuedInternalTransactions",
             "queuedInternalTransactions",
@@ -87224,6 +87312,7 @@
             "readingPosition",
             "readwrite",
             "readwrite",
+            "ready",
             "ready",
             "ready",
             "ready",
@@ -87860,6 +87949,7 @@
             "scale",
             "scale",
             "scale",
+            "scale",
             "scaleCenter",
             "scaleFrom",
             "scaleLevel",
@@ -88112,7 +88202,6 @@
             "sendMessageRecordAudioAction",
             "sendMessageRecordRoundAction",
             "sendMessageRecordVideoAction",
-            "sendMessageTextDraftAction",
             "sendMessageTypingAction",
             "sendMessageUploadAudioAction",
             "sendMessageUploadDocumentAction",
@@ -88448,6 +88537,9 @@
             "slides",
             "slideshow",
             "slot",
+            "slotOverlays",
+            "slots",
+            "slotsMetadata",
             "slovak",
             "slovakSlovakia",
             "slovenian",
@@ -88857,6 +88949,7 @@
             "statePromise",
             "stateQueue",
             "stateText",
+            "stateValue",
             "stateValue",
             "stateValue",
             "stateValue",
@@ -89622,10 +89715,10 @@
             "theme",
             "theme",
             "theme",
-            "themeEmoticon",
-            "themeEmoticon",
-            "themeEmoticon",
+            "themePeerId",
             "themeSettings",
+            "themeSettings",
+            "themes",
             "themes",
             "themes",
             "themesNotModified",
@@ -89703,6 +89796,7 @@
             "tigrinyaEthiopia",
             "tile",
             "tileControl",
+            "tileImageSize",
             "tileLayers",
             "tiled",
             "timeBase",
@@ -90183,6 +90277,7 @@
             "twoStepAuthTooFresh",
             "tx",
             "ty",
+            "type",
             "type",
             "type",
             "type",
@@ -90980,6 +91075,7 @@
             "version",
             "version",
             "version",
+            "version",
             "versionOutdated",
             "versionOutdated",
             "versions",
@@ -91170,6 +91266,7 @@
             "votesList",
             "vunjo",
             "vunjoTanzania",
+            "w",
             "waitForExpiration",
             "waitForUpdatedState",
             "waiting",
@@ -91327,6 +91424,7 @@
             "x",
             "x",
             "x",
+            "x",
             "x16_9",
             "x2_3",
             "x3_4",
@@ -91339,6 +91437,7 @@
             "xmlLoad",
             "xtr",
             "xxlarge",
+            "y",
             "y",
             "y",
             "y",
@@ -91389,7 +91488,7 @@
         {
           "sectname": "__swift5_assocty",
           "segname": "__TEXT",
-          "size": 20952,
+          "size": 21144,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -91402,7 +91501,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 277412,
+          "size": 277684,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -91415,7 +91514,7 @@
         {
           "sectname": "__swift5_mpenum",
           "segname": "__TEXT",
-          "size": 17056,
+          "size": 17372,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92726,7 +92825,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 800964,
+          "size": 802920,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92739,7 +92838,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 412524,
+          "size": 416472,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92754,7 +92853,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4368220160,
+      "vmaddr": 4369137664,
       "vmsize": 2736128,
       "fileoff": 2256,
       "filesize": 2736128,
@@ -92774,7 +92873,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 33320,
+          "size": 33384,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92800,7 +92899,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2397232,
+          "size": 2402720,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -92813,7 +92912,7 @@
         {
           "sectname": "__cfstring",
           "segname": "__DATA_CONST",
-          "size": 256992,
+          "size": 257728,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92826,7 +92925,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 37008,
+          "size": 37040,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92899,10 +92998,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4370956288,
-      "vmsize": 23707648,
+      "vmaddr": 4371873792,
+      "vmsize": 23740416,
       "fileoff": 3048,
-      "filesize": 5111808,
+      "filesize": 5128192,
       "maxprot": {
         "read": true,
         "write": true,
@@ -92934,7 +93033,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1456928,
+          "size": 1458528,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -92947,7 +93046,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 63552,
+          "size": 63568,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93005,7 +93104,7 @@
         {
           "sectname": "__objc_ivar",
           "segname": "__DATA",
-          "size": 9960,
+          "size": 9968,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93018,7 +93117,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2337008,
+          "size": 2340880,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93031,7 +93130,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1208178,
+          "size": 1210018,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93122,7 +93221,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1338544,
+          "size": 1347504,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93150,10 +93249,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4394663936,
-      "vmsize": 4866048,
+      "vmaddr": 4395614208,
+      "vmsize": 4882432,
       "fileoff": 4480,
-      "filesize": 4856096,
+      "filesize": 4874416,
       "maxprot": {
         "read": true,
         "write": false,
@@ -93174,10 +93273,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 85018184,
-      "nsyms": 4146,
-      "stroff": 85119768,
-      "strsize": 167640,
+      "symoff": 85962968,
+      "nsyms": 4147,
+      "stroff": 86064600,
+      "strsize": 167656,
       "fileoff": 4600
     },
     {
@@ -93187,15 +93286,15 @@
       "iextdefsym": 1,
       "nextdefsym": 135,
       "iundefsym": 136,
-      "nundefsym": 4010,
+      "nundefsym": 4011,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 85084520,
-      "nindirectsyms": 8811,
+      "indirectsymoff": 86029320,
+      "nindirectsyms": 8819,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -93220,7 +93319,7 @@
     },
     {
       "type": "main",
-      "entryoff": 15416128,
+      "entryoff": 15764316,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -93250,11 +93349,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5064
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5064
+      "fileoff": 5160
     },
     {
       "type": "load_dylib",
@@ -93262,15 +93369,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5120
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5168
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -93458,11 +93557,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+      "timestamp": 2,
+      "current_version": 46465024,
+      "compatibility_version": 65536,
+      "fileoff": 7392
+    },
+    {
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore",
       "timestamp": 2,
       "current_version": 40370459,
       "compatibility_version": 65536,
-      "fileoff": 7392
+      "fileoff": 7512
     },
     {
       "type": "load_dylib",
@@ -93470,7 +93577,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 7496
+      "fileoff": 7616
     },
     {
       "type": "load_dylib",
@@ -93478,7 +93585,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7584
+      "fileoff": 7704
     },
     {
       "type": "load_dylib",
@@ -93486,7 +93593,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 19660800,
-      "fileoff": 7672
+      "fileoff": 7792
     },
     {
       "type": "load_dylib",
@@ -93494,7 +93601,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 7768
+      "fileoff": 7888
     },
     {
       "type": "load_dylib",
@@ -93502,7 +93609,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7872
+      "fileoff": 7992
     },
     {
       "type": "load_dylib",
@@ -93510,7 +93617,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 7968
+      "fileoff": 8088
     },
     {
       "type": "load_dylib",
@@ -93518,7 +93625,7 @@
       "timestamp": 2,
       "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 8024
+      "fileoff": 8144
     },
     {
       "type": "load_dylib",
@@ -93526,7 +93633,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8080
+      "fileoff": 8200
     },
     {
       "type": "load_dylib",
@@ -93534,7 +93641,7 @@
       "timestamp": 2,
       "current_version": 4194304,
       "compatibility_version": 65536,
-      "fileoff": 8168
+      "fileoff": 8288
     },
     {
       "type": "load_dylib",
@@ -93542,7 +93649,7 @@
       "timestamp": 2,
       "current_version": 65536000,
       "compatibility_version": 65536,
-      "fileoff": 8280
+      "fileoff": 8400
     },
     {
       "type": "load_dylib",
@@ -93550,7 +93657,7 @@
       "timestamp": 2,
       "current_version": 96600064,
       "compatibility_version": 65536,
-      "fileoff": 8384
+      "fileoff": 8504
     },
     {
       "type": "load_dylib",
@@ -93558,7 +93665,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8480
+      "fileoff": 8600
     },
     {
       "type": "load_dylib",
@@ -93566,7 +93673,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 8576
+      "fileoff": 8696
     },
     {
       "type": "load_dylib",
@@ -93574,7 +93681,7 @@
       "timestamp": 2,
       "current_version": 116260868,
       "compatibility_version": 4194304,
-      "fileoff": 8680
+      "fileoff": 8800
     },
     {
       "type": "load_dylib",
@@ -93582,7 +93689,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65537,
-      "fileoff": 8784
+      "fileoff": 8904
     },
     {
       "type": "load_dylib",
@@ -93590,7 +93697,7 @@
       "timestamp": 2,
       "current_version": 189137667,
       "compatibility_version": 65536,
-      "fileoff": 8880
+      "fileoff": 9000
     },
     {
       "type": "load_dylib",
@@ -93598,7 +93705,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8984
+      "fileoff": 9104
     },
     {
       "type": "load_dylib",
@@ -93606,7 +93713,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9080
+      "fileoff": 9200
     },
     {
       "type": "load_dylib",
@@ -93614,7 +93721,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9176
+      "fileoff": 9296
     },
     {
       "type": "load_weak_dylib",
@@ -93622,7 +93729,7 @@
       "timestamp": 2,
       "current_version": 15401472,
       "compatibility_version": 65536,
-      "fileoff": 9264
+      "fileoff": 9384
     },
     {
       "type": "load_dylib",
@@ -93630,7 +93737,7 @@
       "timestamp": 2,
       "current_version": 8323091,
       "compatibility_version": 65536,
-      "fileoff": 9376
+      "fileoff": 9496
     },
     {
       "type": "load_weak_dylib",
@@ -93638,7 +93745,7 @@
       "timestamp": 2,
       "current_version": 7471104,
       "compatibility_version": 65536,
-      "fileoff": 9496
+      "fileoff": 9616
     },
     {
       "type": "load_weak_dylib",
@@ -93646,7 +93753,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9600
+      "fileoff": 9720
     },
     {
       "type": "load_weak_dylib",
@@ -93654,7 +93761,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9688
+      "fileoff": 9808
     },
     {
       "type": "load_dylib",
@@ -93662,7 +93769,7 @@
       "timestamp": 2,
       "current_version": 458797,
       "compatibility_version": 65536,
-      "fileoff": 9800
+      "fileoff": 9920
     },
     {
       "type": "load_dylib",
@@ -93670,7 +93777,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9888
+      "fileoff": 10008
     },
     {
       "type": "load_weak_dylib",
@@ -93678,7 +93785,7 @@
       "timestamp": 2,
       "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 9944
+      "fileoff": 10064
     },
     {
       "type": "load_weak_dylib",
@@ -93686,7 +93793,7 @@
       "timestamp": 2,
       "current_version": 2949120,
       "compatibility_version": 65536,
-      "fileoff": 10016
+      "fileoff": 10136
     },
     {
       "type": "load_weak_dylib",
@@ -93694,7 +93801,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10080
+      "fileoff": 10200
     },
     {
       "type": "load_dylib",
@@ -93702,7 +93809,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 10152
+      "fileoff": 10272
     },
     {
       "type": "load_dylib",
@@ -93710,7 +93817,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 10216
+      "fileoff": 10336
     },
     {
       "type": "load_dylib",
@@ -93718,7 +93825,7 @@
       "timestamp": 2,
       "current_version": 7889920,
       "compatibility_version": 65536,
-      "fileoff": 10280
+      "fileoff": 10400
     },
     {
       "type": "load_dylib",
@@ -93726,7 +93833,7 @@
       "timestamp": 2,
       "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 10352
+      "fileoff": 10472
     },
     {
       "type": "load_weak_dylib",
@@ -93734,7 +93841,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 10424
+      "fileoff": 10544
     },
     {
       "type": "load_weak_dylib",
@@ -93742,7 +93849,7 @@
       "timestamp": 2,
       "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 10488
+      "fileoff": 10608
     },
     {
       "type": "load_weak_dylib",
@@ -93750,7 +93857,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10560
+      "fileoff": 10680
     },
     {
       "type": "load_weak_dylib",
@@ -93758,7 +93865,7 @@
       "timestamp": 2,
       "current_version": 123011140,
       "compatibility_version": 65536,
-      "fileoff": 10624
+      "fileoff": 10744
     },
     {
       "type": "load_dylib",
@@ -93766,7 +93873,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 10688
+      "fileoff": 10808
     },
     {
       "type": "load_weak_dylib",
@@ -93774,7 +93881,7 @@
       "timestamp": 2,
       "current_version": 361103619,
       "compatibility_version": 65536,
-      "fileoff": 10752
+      "fileoff": 10872
     },
     {
       "type": "load_dylib",
@@ -93782,7 +93889,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10824
+      "fileoff": 10944
     },
     {
       "type": "load_dylib",
@@ -93790,7 +93897,7 @@
       "timestamp": 2,
       "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 10888
+      "fileoff": 11008
     },
     {
       "type": "load_weak_dylib",
@@ -93798,7 +93905,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 10952
+      "fileoff": 11072
     },
     {
       "type": "load_weak_dylib",
@@ -93806,7 +93913,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11016
+      "fileoff": 11136
     },
     {
       "type": "load_weak_dylib",
@@ -93814,7 +93921,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11080
+      "fileoff": 11200
     },
     {
       "type": "load_weak_dylib",
@@ -93822,7 +93929,7 @@
       "timestamp": 2,
       "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 11144
+      "fileoff": 11264
     },
     {
       "type": "load_weak_dylib",
@@ -93830,7 +93937,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11208
+      "fileoff": 11328
     },
     {
       "type": "load_weak_dylib",
@@ -93838,7 +93945,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11272
+      "fileoff": 11392
     },
     {
       "type": "load_weak_dylib",
@@ -93846,7 +93953,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11336
+      "fileoff": 11456
     },
     {
       "type": "load_weak_dylib",
@@ -93854,7 +93961,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11408
+      "fileoff": 11528
     },
     {
       "type": "load_dylib",
@@ -93862,7 +93969,7 @@
       "timestamp": 2,
       "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 11472
+      "fileoff": 11592
     },
     {
       "type": "load_weak_dylib",
@@ -93870,7 +93977,7 @@
       "timestamp": 2,
       "current_version": 101057536,
       "compatibility_version": 65536,
-      "fileoff": 11536
+      "fileoff": 11656
     },
     {
       "type": "load_dylib",
@@ -93878,7 +93985,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11600
+      "fileoff": 11720
     },
     {
       "type": "load_weak_dylib",
@@ -93886,7 +93993,7 @@
       "timestamp": 2,
       "current_version": 64618496,
       "compatibility_version": 65536,
-      "fileoff": 11664
+      "fileoff": 11784
     },
     {
       "type": "load_dylib",
@@ -93894,7 +94001,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11736
+      "fileoff": 11856
     },
     {
       "type": "load_weak_dylib",
@@ -93902,7 +94009,7 @@
       "timestamp": 2,
       "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 11800
+      "fileoff": 11920
     },
     {
       "type": "load_weak_dylib",
@@ -93910,7 +94017,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 11880
+      "fileoff": 12000
     },
     {
       "type": "load_weak_dylib",
@@ -93918,7 +94025,7 @@
       "timestamp": 2,
       "current_version": 196611,
       "compatibility_version": 65536,
-      "fileoff": 11952
+      "fileoff": 12072
     },
     {
       "type": "load_weak_dylib",
@@ -93926,7 +94033,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 12016
+      "fileoff": 12136
     },
     {
       "type": "load_weak_dylib",
@@ -93934,7 +94041,7 @@
       "timestamp": 2,
       "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 12080
+      "fileoff": 12200
     },
     {
       "type": "load_weak_dylib",
@@ -93942,7 +94049,7 @@
       "timestamp": 2,
       "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 12144
+      "fileoff": 12264
     },
     {
       "type": "load_weak_dylib",
@@ -93950,7 +94057,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 12200
+      "fileoff": 12320
     },
     {
       "type": "load_weak_dylib",
@@ -93958,7 +94065,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 12264
+      "fileoff": 12384
     },
     {
       "type": "load_dylib",
@@ -93966,7 +94073,7 @@
       "timestamp": 2,
       "current_version": 162725888,
       "compatibility_version": 2949120,
-      "fileoff": 12328
+      "fileoff": 12448
     },
     {
       "type": "load_dylib",
@@ -93974,7 +94081,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 12392
+      "fileoff": 12512
     },
     {
       "type": "load_weak_dylib",
@@ -93982,35 +94089,35 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 12456
+      "fileoff": 12576
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 12520
+      "fileoff": 12640
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 12552
+      "fileoff": 12672
     },
     {
       "type": "function_starts",
-      "dataoff": 84622960,
-      "datasize": 395224,
-      "fileoff": 12600
+      "dataoff": 85566600,
+      "datasize": 396368,
+      "fileoff": 12720
     },
     {
       "type": "data_in_code",
-      "dataoff": 85018184,
+      "dataoff": 85962968,
       "datasize": 0,
-      "fileoff": 12616
+      "fileoff": 12736
     },
     {
       "type": "code_signature",
-      "dataoff": 85287408,
-      "datasize": 685872,
-      "fileoff": 12632
+      "dataoff": 86232256,
+      "datasize": 693232,
+      "fileoff": 12752
     }
   ],
   "hsize": 32
