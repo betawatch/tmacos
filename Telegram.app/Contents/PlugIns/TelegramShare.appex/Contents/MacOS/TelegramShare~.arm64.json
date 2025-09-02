@@ -18013,7 +18013,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1064391,
+          "size": 1064423,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22956,6 +22956,7 @@
             "Chat.Service.SendGift",
             "Chat.Service.SetTheme.Button.View",
             "Chat.Service.StarGift.ChannelSelt",
+            "Chat.Service.StarGift.For",
             "Chat.Service.StarGift.From",
             "Chat.Service.StarGift.Sent",
             "Chat.Service.StarGift.SentYou",
@@ -53793,7 +53794,7 @@
       "vmaddr": 4351983616,
       "vmsize": 3948544,
       "fileoff": 4240,
-      "filesize": 3943264,
+      "filesize": 3943312,
       "maxprot": {
         "read": true,
         "write": false,
@@ -53814,9 +53815,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 41824792,
+      "symoff": 41824832,
       "nsyms": 11226,
-      "stroff": 42028136,
+      "stroff": 42028176,
       "strsize": 280504,
       "fileoff": 4360
     },
@@ -53834,7 +53835,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 42004408,
+      "indirectsymoff": 42004448,
       "nindirectsyms": 5932,
       "extreloff": 0,
       "nextrel": 0,
@@ -54321,19 +54322,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 41617216,
-      "datasize": 207576,
+      "dataoff": 41617248,
+      "datasize": 207584,
       "fileoff": 8960
     },
     {
       "type": "data_in_code",
-      "dataoff": 41824792,
+      "dataoff": 41824832,
       "datasize": 0,
       "fileoff": 8976
     },
     {
       "type": "code_signature",
-      "dataoff": 42308640,
+      "dataoff": 42308688,
       "datasize": 350016,
       "fileoff": 8992
     }

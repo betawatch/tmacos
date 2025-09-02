@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 113,
-  "sizeofcmds": 12536,
+  "ncmds": 112,
+  "sizeofcmds": 12416,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 87261184,
+      "vmsize": 87244800,
       "fileoff": 104,
-      "filesize": 87261184,
+      "filesize": 87244800,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 79432153,
+          "size": 79428057,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11871,7 +11871,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2055531,
+          "size": 2055563,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -23411,6 +23411,7 @@
             "Chat.Service.SendGift",
             "Chat.Service.SetTheme.Button.View",
             "Chat.Service.StarGift.ChannelSelt",
+            "Chat.Service.StarGift.For",
             "Chat.Service.StarGift.From",
             "Chat.Service.StarGift.Sent",
             "Chat.Service.StarGift.SentYou",
@@ -92842,7 +92843,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 681332,
+          "size": 681336,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92870,7 +92871,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4382228480,
+      "vmaddr": 4382212096,
       "vmsize": 26738688,
       "fileoff": 2096,
       "filesize": 8175616,
@@ -92944,7 +92945,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2276448,
+          "size": 2276512,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -93283,10 +93284,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4408967168,
+      "vmaddr": 4408950784,
       "vmsize": 5160960,
       "fileoff": 4488,
-      "filesize": 5152000,
+      "filesize": 5151904,
       "maxprot": {
         "read": true,
         "write": false,
@@ -93307,9 +93308,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 99468408,
+      "symoff": 99452056,
       "nsyms": 4715,
-      "stroff": 99585232,
+      "stroff": 99568880,
       "strsize": 204408,
       "fileoff": 4608
     },
@@ -93327,7 +93328,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 99543848,
+      "indirectsymoff": 99527496,
       "nindirectsyms": 10345,
       "extreloff": 0,
       "nextrel": 0,
@@ -93356,7 +93357,7 @@
     },
     {
       "type": "main",
-      "entryoff": 19035328,
+      "entryoff": 19019088,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -93394,11 +93395,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5112
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5112
+      "fileoff": 5208
     },
     {
       "type": "load_dylib",
@@ -93406,15 +93415,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5168
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5216
+      "fileoff": 5264
     },
     {
       "type": "load_dylib",
@@ -93602,19 +93603,11 @@
     },
     {
       "type": "load_dylib",
-      "name": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
-      "timestamp": 2,
-      "current_version": 46465024,
-      "compatibility_version": 65536,
-      "fileoff": 7440
-    },
-    {
-      "type": "load_dylib",
       "name": "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore",
       "timestamp": 2,
       "current_version": 40370459,
       "compatibility_version": 65536,
-      "fileoff": 7560
+      "fileoff": 7440
     },
     {
       "type": "load_dylib",
@@ -93622,7 +93615,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 7664
+      "fileoff": 7544
     },
     {
       "type": "load_dylib",
@@ -93630,7 +93623,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7752
+      "fileoff": 7632
     },
     {
       "type": "load_dylib",
@@ -93638,7 +93631,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 19660800,
-      "fileoff": 7840
+      "fileoff": 7720
     },
     {
       "type": "load_dylib",
@@ -93646,7 +93639,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 7936
+      "fileoff": 7816
     },
     {
       "type": "load_dylib",
@@ -93654,7 +93647,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8040
+      "fileoff": 7920
     },
     {
       "type": "load_dylib",
@@ -93662,7 +93655,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 8136
+      "fileoff": 8016
     },
     {
       "type": "load_dylib",
@@ -93670,7 +93663,7 @@
       "timestamp": 2,
       "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 8192
+      "fileoff": 8072
     },
     {
       "type": "load_dylib",
@@ -93678,7 +93671,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8248
+      "fileoff": 8128
     },
     {
       "type": "load_dylib",
@@ -93686,7 +93679,7 @@
       "timestamp": 2,
       "current_version": 4194304,
       "compatibility_version": 65536,
-      "fileoff": 8336
+      "fileoff": 8216
     },
     {
       "type": "load_dylib",
@@ -93694,7 +93687,7 @@
       "timestamp": 2,
       "current_version": 65536000,
       "compatibility_version": 65536,
-      "fileoff": 8448
+      "fileoff": 8328
     },
     {
       "type": "load_dylib",
@@ -93702,7 +93695,7 @@
       "timestamp": 2,
       "current_version": 96600064,
       "compatibility_version": 65536,
-      "fileoff": 8552
+      "fileoff": 8432
     },
     {
       "type": "load_dylib",
@@ -93710,7 +93703,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8648
+      "fileoff": 8528
     },
     {
       "type": "load_dylib",
@@ -93718,7 +93711,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 8744
+      "fileoff": 8624
     },
     {
       "type": "load_dylib",
@@ -93726,7 +93719,7 @@
       "timestamp": 2,
       "current_version": 116260868,
       "compatibility_version": 4194304,
-      "fileoff": 8848
+      "fileoff": 8728
     },
     {
       "type": "load_dylib",
@@ -93734,7 +93727,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65537,
-      "fileoff": 8952
+      "fileoff": 8832
     },
     {
       "type": "load_dylib",
@@ -93742,7 +93735,7 @@
       "timestamp": 2,
       "current_version": 189137667,
       "compatibility_version": 65536,
-      "fileoff": 9048
+      "fileoff": 8928
     },
     {
       "type": "load_dylib",
@@ -93750,7 +93743,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9152
+      "fileoff": 9032
     },
     {
       "type": "load_dylib",
@@ -93758,7 +93751,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9248
+      "fileoff": 9128
     },
     {
       "type": "load_dylib",
@@ -93766,7 +93759,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9344
+      "fileoff": 9224
     },
     {
       "type": "load_weak_dylib",
@@ -93774,7 +93767,7 @@
       "timestamp": 2,
       "current_version": 15401472,
       "compatibility_version": 65536,
-      "fileoff": 9432
+      "fileoff": 9312
     },
     {
       "type": "load_dylib",
@@ -93782,7 +93775,7 @@
       "timestamp": 2,
       "current_version": 8323091,
       "compatibility_version": 65536,
-      "fileoff": 9544
+      "fileoff": 9424
     },
     {
       "type": "load_weak_dylib",
@@ -93790,7 +93783,7 @@
       "timestamp": 2,
       "current_version": 7471104,
       "compatibility_version": 65536,
-      "fileoff": 9664
+      "fileoff": 9544
     },
     {
       "type": "load_weak_dylib",
@@ -93798,7 +93791,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9768
+      "fileoff": 9648
     },
     {
       "type": "load_weak_dylib",
@@ -93806,7 +93799,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9856
+      "fileoff": 9736
     },
     {
       "type": "load_weak_dylib",
@@ -93814,7 +93807,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9944
+      "fileoff": 9824
     },
     {
       "type": "load_dylib",
@@ -93822,7 +93815,7 @@
       "timestamp": 2,
       "current_version": 458797,
       "compatibility_version": 65536,
-      "fileoff": 10056
+      "fileoff": 9936
     },
     {
       "type": "load_dylib",
@@ -93830,7 +93823,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10144
+      "fileoff": 10024
     },
     {
       "type": "load_weak_dylib",
@@ -93838,7 +93831,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10200
+      "fileoff": 10080
     },
     {
       "type": "load_weak_dylib",
@@ -93846,7 +93839,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10272
+      "fileoff": 10152
     },
     {
       "type": "load_weak_dylib",
@@ -93854,7 +93847,7 @@
       "timestamp": 2,
       "current_version": 123011140,
       "compatibility_version": 65536,
-      "fileoff": 10336
+      "fileoff": 10216
     },
     {
       "type": "load_weak_dylib",
@@ -93862,7 +93855,7 @@
       "timestamp": 2,
       "current_version": 361103619,
       "compatibility_version": 65536,
-      "fileoff": 10400
+      "fileoff": 10280
     },
     {
       "type": "load_weak_dylib",
@@ -93870,7 +93863,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 10472
+      "fileoff": 10352
     },
     {
       "type": "load_weak_dylib",
@@ -93878,7 +93871,7 @@
       "timestamp": 2,
       "current_version": 101057536,
       "compatibility_version": 65536,
-      "fileoff": 10536
+      "fileoff": 10416
     },
     {
       "type": "load_weak_dylib",
@@ -93886,7 +93879,7 @@
       "timestamp": 2,
       "current_version": 64618496,
       "compatibility_version": 65536,
-      "fileoff": 10600
+      "fileoff": 10480
     },
     {
       "type": "load_weak_dylib",
@@ -93894,7 +93887,7 @@
       "timestamp": 2,
       "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 10672
+      "fileoff": 10552
     },
     {
       "type": "load_weak_dylib",
@@ -93902,7 +93895,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 10752
+      "fileoff": 10632
     },
     {
       "type": "load_weak_dylib",
@@ -93910,7 +93903,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10824
+      "fileoff": 10704
     },
     {
       "type": "load_weak_dylib",
@@ -93918,7 +93911,7 @@
       "timestamp": 2,
       "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 10888
+      "fileoff": 10768
     },
     {
       "type": "load_weak_dylib",
@@ -93926,7 +93919,7 @@
       "timestamp": 2,
       "current_version": 2949120,
       "compatibility_version": 65536,
-      "fileoff": 10952
+      "fileoff": 10832
     },
     {
       "type": "load_dylib",
@@ -93934,7 +93927,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 11008
+      "fileoff": 10888
     },
     {
       "type": "load_dylib",
@@ -93942,7 +93935,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 11064
+      "fileoff": 10944
     },
     {
       "type": "load_dylib",
@@ -93950,7 +93943,7 @@
       "timestamp": 2,
       "current_version": 7889920,
       "compatibility_version": 65536,
-      "fileoff": 11120
+      "fileoff": 11000
     },
     {
       "type": "load_dylib",
@@ -93958,7 +93951,7 @@
       "timestamp": 2,
       "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 11184
+      "fileoff": 11064
     },
     {
       "type": "load_weak_dylib",
@@ -93966,7 +93959,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 11248
+      "fileoff": 11128
     },
     {
       "type": "load_weak_dylib",
@@ -93974,7 +93967,7 @@
       "timestamp": 2,
       "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 11304
+      "fileoff": 11184
     },
     {
       "type": "load_dylib",
@@ -93982,7 +93975,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 11368
+      "fileoff": 11248
     },
     {
       "type": "load_dylib",
@@ -93990,7 +93983,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 11424
+      "fileoff": 11304
     },
     {
       "type": "load_dylib",
@@ -93998,7 +93991,7 @@
       "timestamp": 2,
       "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 11480
+      "fileoff": 11360
     },
     {
       "type": "load_weak_dylib",
@@ -94006,7 +93999,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 11536
+      "fileoff": 11416
     },
     {
       "type": "load_weak_dylib",
@@ -94014,7 +94007,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11592
+      "fileoff": 11472
     },
     {
       "type": "load_weak_dylib",
@@ -94022,7 +94015,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11648
+      "fileoff": 11528
     },
     {
       "type": "load_weak_dylib",
@@ -94030,7 +94023,7 @@
       "timestamp": 2,
       "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 11704
+      "fileoff": 11584
     },
     {
       "type": "load_weak_dylib",
@@ -94038,7 +94031,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11760
+      "fileoff": 11640
     },
     {
       "type": "load_weak_dylib",
@@ -94046,7 +94039,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11816
+      "fileoff": 11696
     },
     {
       "type": "load_weak_dylib",
@@ -94054,7 +94047,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11872
+      "fileoff": 11752
     },
     {
       "type": "load_dylib",
@@ -94062,7 +94055,7 @@
       "timestamp": 2,
       "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 11936
+      "fileoff": 11816
     },
     {
       "type": "load_dylib",
@@ -94070,7 +94063,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11992
+      "fileoff": 11872
     },
     {
       "type": "load_dylib",
@@ -94078,7 +94071,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 12048
+      "fileoff": 11928
     },
     {
       "type": "load_weak_dylib",
@@ -94086,7 +94079,7 @@
       "timestamp": 2,
       "current_version": 196611,
       "compatibility_version": 65536,
-      "fileoff": 12104
+      "fileoff": 11984
     },
     {
       "type": "load_weak_dylib",
@@ -94094,7 +94087,7 @@
       "timestamp": 2,
       "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 12160
+      "fileoff": 12040
     },
     {
       "type": "load_weak_dylib",
@@ -94102,7 +94095,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 12216
+      "fileoff": 12096
     },
     {
       "type": "load_weak_dylib",
@@ -94110,7 +94103,7 @@
       "timestamp": 2,
       "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 12280
+      "fileoff": 12160
     },
     {
       "type": "load_weak_dylib",
@@ -94118,7 +94111,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 12328
+      "fileoff": 12208
     },
     {
       "type": "load_dylib",
@@ -94126,35 +94119,35 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 12384
+      "fileoff": 12264
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 12440
+      "fileoff": 12320
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 12472
+      "fileoff": 12352
     },
     {
       "type": "function_starts",
-      "dataoff": 99015128,
-      "datasize": 416184,
-      "fileoff": 12520
+      "dataoff": 98998768,
+      "datasize": 416192,
+      "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 99431312,
+      "dataoff": 99414960,
       "datasize": 37096,
-      "fileoff": 12536
+      "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 99789648,
-      "datasize": 799152,
-      "fileoff": 12552
+      "dataoff": 99773296,
+      "datasize": 799024,
+      "fileoff": 12432
     }
   ],
   "hsize": 32
