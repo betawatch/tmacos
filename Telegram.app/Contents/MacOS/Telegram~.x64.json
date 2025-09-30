@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 80898521,
+          "size": 80902617,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11873,7 +11873,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2061675,
+          "size": 2061707,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -57326,6 +57326,7 @@
             "fillCount",
             "fillEnabled",
             "fillFrame",
+            "fillHeight",
             "fillToTop",
             "fillView",
             "film",
@@ -75301,7 +75302,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 558588,
+          "size": 558600,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93066,7 +93067,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 687724,
+          "size": 687732,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93168,7 +93169,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2286496,
+          "size": 2286560,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -93265,7 +93266,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1665800,
+          "size": 1665832,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93349,7 +93350,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2590384,
+          "size": 2590392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93362,7 +93363,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1220645,
+          "size": 1220661,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93510,7 +93511,7 @@
       "vmaddr": 4410507264,
       "vmsize": 5193728,
       "fileoff": 4488,
-      "filesize": 5180944,
+      "filesize": 5180960,
       "maxprot": {
         "read": true,
         "write": false,
@@ -93531,9 +93532,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 101025232,
+      "symoff": 101025248,
       "nsyms": 4715,
-      "stroff": 101142120,
+      "stroff": 101142136,
       "strsize": 204408,
       "fileoff": 4608
     },
@@ -93551,7 +93552,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 101100672,
+      "indirectsymoff": 101100688,
       "nindirectsyms": 10361,
       "extreloff": 0,
       "nextrel": 0,
@@ -93580,7 +93581,7 @@
     },
     {
       "type": "main",
-      "entryoff": 19816384,
+      "entryoff": 19816752,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -93618,11 +93619,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5112
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5112
+      "fileoff": 5208
     },
     {
       "type": "load_dylib",
@@ -93630,15 +93639,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5168
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5216
+      "fileoff": 5264
     },
     {
       "type": "load_dylib",
@@ -94357,18 +94358,18 @@
     {
       "type": "function_starts",
       "dataoff": 100569792,
-      "datasize": 418192,
+      "datasize": 418200,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 100987984,
-      "datasize": 37248,
+      "dataoff": 100987992,
+      "datasize": 37256,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 101346528,
+      "dataoff": 101346544,
       "datasize": 811312,
       "fileoff": 12432
     }

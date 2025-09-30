@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 67011892,
+          "size": 67015988,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11896,7 +11896,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2057774,
+          "size": 2057806,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -57301,6 +57301,7 @@
             "fillCount",
             "fillEnabled",
             "fillFrame",
+            "fillHeight",
             "fillToTop",
             "fillView",
             "film",
@@ -75286,7 +75287,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 558560,
+          "size": 558572,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93123,7 +93124,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2413232,
+          "size": 2413360,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93257,7 +93258,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1466016,
+          "size": 1466048,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93341,7 +93342,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2362896,
+          "size": 2362904,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93354,7 +93355,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1216178,
+          "size": 1216186,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93476,7 +93477,7 @@
       "vmaddr": 4396859392,
       "vmsize": 4915200,
       "fileoff": 4480,
-      "filesize": 4900960,
+      "filesize": 4900976,
       "maxprot": {
         "read": true,
         "write": false,
@@ -93497,9 +93498,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 87224776,
+      "symoff": 87224792,
       "nsyms": 4147,
-      "stroff": 87326472,
+      "stroff": 87326488,
       "strsize": 167656,
       "fileoff": 4600
     },
@@ -93517,7 +93518,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 87291128,
+      "indirectsymoff": 87291144,
       "nindirectsyms": 8835,
       "extreloff": 0,
       "nextrel": 0,
@@ -93543,7 +93544,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16348276,
+      "entryoff": 16347296,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -93573,11 +93574,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5064
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5064
+      "fileoff": 5160
     },
     {
       "type": "load_dylib",
@@ -93585,15 +93594,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5120
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5168
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -94320,18 +94321,18 @@
     {
       "type": "function_starts",
       "dataoff": 86826392,
-      "datasize": 398384,
+      "datasize": 398400,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 87224776,
+      "dataoff": 87224792,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 87494128,
+      "dataoff": 87494144,
       "datasize": 703088,
       "fileoff": 12632
     }
