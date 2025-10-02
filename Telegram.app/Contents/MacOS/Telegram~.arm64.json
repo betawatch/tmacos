@@ -11896,7 +11896,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2057854,
+          "size": 2057870,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71664,6 +71664,7 @@
             "ti",
             "ti_ER",
             "ti_ET",
+            "tick",
             "tickTimer",
             "ticket_appdata",
             "ticking",
@@ -75354,7 +75355,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 307016,
+          "size": 307028,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75380,7 +75381,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 274078,
+          "size": 274094,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -90012,6 +90013,7 @@
             "tibetan",
             "tibetanChina",
             "tibetanIndia",
+            "tick",
             "tickTimer",
             "tied",
             "tigrinya",
@@ -91728,7 +91730,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 278428,
+          "size": 278444,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93052,7 +93054,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 811392,
+          "size": 811388,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93260,7 +93262,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1466112,
+          "size": 1466144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93344,7 +93346,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2362912,
+          "size": 2362920,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93357,7 +93359,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1216226,
+          "size": 1216234,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93500,9 +93502,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 87224816,
+      "symoff": 87224824,
       "nsyms": 4147,
-      "stroff": 87326512,
+      "stroff": 87326520,
       "strsize": 167656,
       "fileoff": 4600
     },
@@ -93520,7 +93522,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 87291168,
+      "indirectsymoff": 87291176,
       "nindirectsyms": 8835,
       "extreloff": 0,
       "nextrel": 0,
@@ -94323,12 +94325,12 @@
     {
       "type": "function_starts",
       "dataoff": 86826408,
-      "datasize": 398408,
+      "datasize": 398416,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 87224816,
+      "dataoff": 87224824,
       "datasize": 0,
       "fileoff": 12616
     },

@@ -11873,7 +11873,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2061755,
+          "size": 2061771,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71701,6 +71701,7 @@
             "ti",
             "ti_ER",
             "ti_ET",
+            "tick",
             "tickTimer",
             "ticket_appdata",
             "ticking",
@@ -75369,7 +75370,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 307016,
+          "size": 307028,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75395,7 +75396,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 274078,
+          "size": 274094,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -90027,6 +90028,7 @@
             "tibetan",
             "tibetanChina",
             "tibetanIndia",
+            "tick",
             "tickTimer",
             "tied",
             "tigrinya",
@@ -91743,7 +91745,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 278396,
+          "size": 278412,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93268,7 +93270,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1665896,
+          "size": 1665928,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93352,7 +93354,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2590400,
+          "size": 2590408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93365,7 +93367,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1220693,
+          "size": 1220709,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,

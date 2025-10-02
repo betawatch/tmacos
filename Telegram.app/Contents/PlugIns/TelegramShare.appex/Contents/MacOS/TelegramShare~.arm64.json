@@ -3592,7 +3592,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 243657,
+          "size": 243673,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -16576,6 +16576,7 @@
             "thumbnailData",
             "thumbnailFileId",
             "thumbnailResource",
+            "tick",
             "tied",
             "tile",
             "tileControl",
@@ -18013,7 +18014,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 277204,
+          "size": 277216,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -18026,7 +18027,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 266660,
+          "size": 266676,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -18078,7 +18079,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1067335,
+          "size": 1067351,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -51367,6 +51368,7 @@
             "thumbnailData",
             "thumbnailFileId",
             "ti",
+            "tick",
             "ticks_per_frame",
             "ticks_per_frame %d too large for the timebase %d/%d.",
             "tied",
@@ -53541,7 +53543,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 378456,
+          "size": 378464,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -53738,7 +53740,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 527904,
+          "size": 527936,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -53824,7 +53826,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 278680,
+          "size": 278688,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -53837,7 +53839,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 417498,
+          "size": 417506,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
