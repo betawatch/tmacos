@@ -11896,7 +11896,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2057870,
+          "size": 2057694,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13421,7 +13421,6 @@
             "'pcmC' with invalid sample entry '%s'\n",
             "'priority_bitrate' and '_raw' are mutually exclusive but both were configured.",
             "'rebuild' may not be used with a contentless fts5 table",
-            "'s payments are unreliable.",
             "(",
             "(\"%s\"",
             "(#[a-zA-Z0-9_-]+)?",
@@ -14345,7 +14344,6 @@
             "*(s_data.cont.back().second) == k",
             "**",
             "** is requesting permission to import data from a previous Telegram account used on this device.",
-            "** to fix this issue.",
             "*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n",
             "*** in database %s ***\n",
             "***** %s: can't send data: connection is not opened",
@@ -19104,8 +19102,6 @@
             "A device with a derived frame context cannot be used as the source of a HW -> HW transfer.",
             "A mapping ID cannot be nil or empty",
             "A media section is missing a MID attribute.",
-            "A negative rating indicates that ",
-            "A negative rating indicates that your payments are unreliable. Spend **",
             "A non-NULL packet sent after an EOF.\n",
             "A non-intra slice in an IDR NAL unit.\n",
             "A rangebits value of 0 is not compliant with the Vorbis I specification.\n",
@@ -33321,6 +33317,8 @@
             "Peer.Media.SharedMediaEmptyList",
             "Peer.Media.SharedMusicEmptyList",
             "Peer.Media.SharedVoiceEmptyList",
+            "Peer.Rating.Negative.Other",
+            "Peer.Rating.Negative.Self",
             "Peer.RatingPreview.Accept",
             "Peer.RatingPreview.Badge.Added",
             "Peer.RatingPreview.Badge.Deducted",
@@ -36387,6 +36385,9 @@
             "SelectColor.Message2.Preview.Text",
             "SelectColor.Message2.Preview.Title",
             "SelectColor.MyGifts",
+            "SelectColor.NoGifts",
+            "SelectColor.NoGifts.Name",
+            "SelectColor.NoGifts.Profile",
             "SelectColor.Premium",
             "SelectColor.Preview",
             "SelectColor.Preview.Profile",
@@ -43362,7 +43363,6 @@
             "You are using a secret key to create a token, instead of the publishable one. For more info, see https://stripe.com/docs/stripe.js",
             "You can't send a nil event",
             "You can't write a nil event",
-            "You don't have any gifts as styles for your profile.\n\n[Browse gifts available for purchase >](browse)",
             "You get approximately ",
             "You must type in ",
             "You must use a valid publishable key to create a token. For more info, see https://stripe.com/docs/stripe.js",
@@ -73199,7 +73199,6 @@
             "updateMouseDisposable",
             "updateMoveStickerSetToTop",
             "updateName",
-            "updateNeeded",
             "updateNewAuthorization",
             "updateNewChannelMessage",
             "updateNewEncryptedMessage",
@@ -75290,7 +75289,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 558596,
+          "size": 558608,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93054,7 +93053,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 811388,
+          "size": 811468,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93128,7 +93127,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2413568,
+          "size": 2413648,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93481,7 +93480,7 @@
       "vmaddr": 4396859392,
       "vmsize": 4915200,
       "fileoff": 4480,
-      "filesize": 4901008,
+      "filesize": 4901200,
       "maxprot": {
         "read": true,
         "write": false,
@@ -93502,9 +93501,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 87224824,
+      "symoff": 87225008,
       "nsyms": 4147,
-      "stroff": 87326520,
+      "stroff": 87326704,
       "strsize": 167656,
       "fileoff": 4600
     },
@@ -93522,7 +93521,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 87291176,
+      "indirectsymoff": 87291360,
       "nindirectsyms": 8835,
       "extreloff": 0,
       "nextrel": 0,
@@ -93548,7 +93547,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16345664,
+      "entryoff": 16346608,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -94324,19 +94323,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 86826408,
-      "datasize": 398416,
+      "dataoff": 86826576,
+      "datasize": 398432,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 87224824,
+      "dataoff": 87225008,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 87494176,
+      "dataoff": 87494368,
       "datasize": 703088,
       "fileoff": 12632
     }
