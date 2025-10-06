@@ -91744,7 +91744,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 278412,
+          "size": 278428,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93070,7 +93070,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 687756,
+          "size": 687764,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93584,7 +93584,7 @@
     },
     {
       "type": "main",
-      "entryoff": 19817056,
+      "entryoff": 19817264,
       "stacksize": 0,
       "fileoff": 4800
     },

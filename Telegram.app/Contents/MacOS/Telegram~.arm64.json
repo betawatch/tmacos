@@ -91729,7 +91729,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 278444,
+          "size": 278460,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93053,7 +93053,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 811468,
+          "size": 811476,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93127,7 +93127,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2413648,
+          "size": 2413696,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93547,7 +93547,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16346608,
+      "entryoff": 16346740,
       "stacksize": 0,
       "fileoff": 4808
     },
