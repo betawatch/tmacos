@@ -53882,9 +53882,7 @@
           "nreloc": 0,
           "type": "regular",
           "attributes": {
-            "usr": {
-              "no_dead_strip": true
-            },
+            "usr": {},
             "sys": {}
           }
         },
