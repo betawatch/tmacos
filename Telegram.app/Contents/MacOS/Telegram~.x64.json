@@ -93514,7 +93514,7 @@
       "vmaddr": 4410540032,
       "vmsize": 5193728,
       "fileoff": 4488,
-      "filesize": 5181312,
+      "filesize": 5181328,
       "maxprot": {
         "read": true,
         "write": false,
@@ -93535,9 +93535,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 101041856,
+      "symoff": 101041864,
       "nsyms": 4715,
-      "stroff": 101158744,
+      "stroff": 101158752,
       "strsize": 204408,
       "fileoff": 4608
     },
@@ -93555,7 +93555,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 101117296,
+      "indirectsymoff": 101117304,
       "nindirectsyms": 10361,
       "extreloff": 0,
       "nextrel": 0,
@@ -93622,19 +93622,11 @@
     },
     {
       "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5112
-    },
-    {
-      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5208
+      "fileoff": 5112
     },
     {
       "type": "load_dylib",
@@ -93642,7 +93634,15 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5264
+      "fileoff": 5168
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -94361,18 +94361,18 @@
     {
       "type": "function_starts",
       "dataoff": 100586352,
-      "datasize": 418240,
+      "datasize": 418248,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 101004592,
+      "dataoff": 101004600,
       "datasize": 37264,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 101363152,
+      "dataoff": 101363168,
       "datasize": 811440,
       "fileoff": 12432
     }

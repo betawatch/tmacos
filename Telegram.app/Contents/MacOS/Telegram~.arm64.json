@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 67028276,
+          "size": 67032372,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -93053,7 +93053,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 811484,
+          "size": 811496,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93547,7 +93547,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16360208,
+      "entryoff": 16356112,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -93577,19 +93577,11 @@
     },
     {
       "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5064
-    },
-    {
-      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5160
+      "fileoff": 5064
     },
     {
       "type": "load_dylib",
@@ -93597,7 +93589,15 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5216
+      "fileoff": 5120
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5168
     },
     {
       "type": "load_dylib",
