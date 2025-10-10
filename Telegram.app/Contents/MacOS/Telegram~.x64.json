@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 88784896,
+      "vmsize": 88801280,
       "fileoff": 104,
-      "filesize": 88784896,
+      "filesize": 88801280,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 80931289,
+          "size": 80947673,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11860,7 +11860,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 381527,
+          "size": 381567,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -11873,7 +11873,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2061595,
+          "size": 2061867,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -36932,6 +36932,7 @@
             "ShortcutsController.Search",
             "ShortcutsController.Search.GlobalSearch",
             "ShortcutsController.Search.QuickSearch",
+            "ShortcutsController.Search.SwitchAccount",
             "ShortcutsController.Title",
             "ShortcutsController.VideoChat",
             "ShortcutsController.VideoChat.ToggleCamera",
@@ -40186,6 +40187,7 @@
             "Telegram/StoryViewersModalController.swift",
             "Telegram/SuggestionLocalizationViewController.swift",
             "Telegram/SuggetMessageModalController.swift",
+            "Telegram/SupportAccountContext.swift",
             "Telegram/SuspiciousAuthRowItem.swift",
             "Telegram/SuspiciousRevokeModal.swift",
             "Telegram/SwirlStarsView.swift",
@@ -47689,6 +47691,7 @@
             "_TtCC8Telegram20ReactionCarouselViewP33_90B039B232470DD7A0D4957D72F8B20110EffectView",
             "_TtCC8Telegram21GroupCallIncomingViewP33_0CC86ECDFB410EE8D9D8FE213500E0FF16ParticipantsView",
             "_TtCC8Telegram21GroupCallUIController6UIData",
+            "_TtCC8Telegram21SupportAccountContextP33_A89CAAFB446DDEE045AAD9DF4E961D6512ExternalChat",
             "_TtCC8Telegram21VerticalContainerViewP33_6AA0EA0C7BBBABC2998B04F7FA3A6BA414VideoContainer",
             "_TtCC8Telegram21WallpaperCheckboxView14ColorsListView",
             "_TtCC8Telegram22InputMessageEffectView18RadialGradientView",
@@ -52873,6 +52876,7 @@
             "chatDeleteMessagesInactive",
             "chatDisabledReplyMarkup",
             "chatDiscussionView",
+            "chatDisposable",
             "chatEntertainment",
             "chatEntertainmentSticker",
             "chatFailedCallBubble_incoming",
@@ -56904,6 +56908,7 @@
             "extensions",
             "external",
             "externalBlurredLayer",
+            "externalChats",
             "externalDisposable",
             "externalMessageHistoryHolesView",
             "externalMessageHistoryHolesViewSubscribers",
@@ -60709,6 +60714,7 @@
             "isExpired",
             "isExploding",
             "isExtended",
+            "isExternal",
             "isExternalSearch",
             "isExternalStream",
             "isFadingOut",
@@ -65344,6 +65350,7 @@
             "parent locking not enabled",
             "parent stream too short",
             "parent strength too weak",
+            "parentContext",
             "parentController",
             "parentInteractions",
             "parentRelativeLevel",
@@ -75304,7 +75311,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 558656,
+          "size": 558800,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75317,7 +75324,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 36276,
+          "size": 36284,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75330,7 +75337,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 33056,
+          "size": 33064,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93070,7 +93077,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 687792,
+          "size": 687940,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93083,7 +93090,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 220232,
+          "size": 220288,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93098,7 +93105,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4383752192,
+      "vmaddr": 4383768576,
       "vmsize": 26804224,
       "fileoff": 2096,
       "filesize": 8224768,
@@ -93133,7 +93140,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 45600,
+          "size": 45616,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93172,7 +93179,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2287136,
+          "size": 2287648,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -93198,7 +93205,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 37240,
+          "size": 37248,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93269,7 +93276,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1665960,
+          "size": 1666368,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93353,7 +93360,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2590424,
+          "size": 2590456,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93366,7 +93373,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1220725,
+          "size": 1220997,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93483,7 +93490,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1357320,
+          "size": 1357576,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -93511,10 +93518,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4410556416,
+      "vmaddr": 4410572800,
       "vmsize": 5193728,
       "fileoff": 4488,
-      "filesize": 5181584,
+      "filesize": 5181968,
       "maxprot": {
         "read": true,
         "write": false,
@@ -93535,9 +93542,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 101058376,
+      "symoff": 101075008,
       "nsyms": 4715,
-      "stroff": 101175264,
+      "stroff": 101191904,
       "strsize": 204408,
       "fileoff": 4608
     },
@@ -93555,8 +93562,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 101133816,
-      "nindirectsyms": 10361,
+      "indirectsymoff": 101150448,
+      "nindirectsyms": 10363,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -93584,7 +93591,7 @@
     },
     {
       "type": "main",
-      "entryoff": 19835296,
+      "entryoff": 19838112,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -94360,20 +94367,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 100602752,
-      "datasize": 418296,
+      "dataoff": 100619280,
+      "datasize": 418392,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 101021048,
-      "datasize": 37328,
+      "dataoff": 101037672,
+      "datasize": 37336,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 101379680,
-      "datasize": 811568,
+      "dataoff": 101396320,
+      "datasize": 811696,
       "fileoff": 12432
     }
   ],

@@ -3524,7 +3524,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 232316,
+          "size": 232324,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10789,6 +10789,7 @@
             "isExpired",
             "isExpired",
             "isExtended",
+            "isExternal",
             "isFadingOut",
             "isFailed",
             "isFailed",
@@ -17985,7 +17986,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 277216,
+          "size": 277228,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -18050,7 +18051,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1069268,
+          "size": 1069348,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -32009,6 +32010,7 @@
             "ShortcutsController.Search",
             "ShortcutsController.Search.GlobalSearch",
             "ShortcutsController.Search.QuickSearch",
+            "ShortcutsController.Search.SwitchAccount",
             "ShortcutsController.Title",
             "ShortcutsController.VideoChat",
             "ShortcutsController.VideoChat.ToggleCamera",
@@ -44976,6 +44978,7 @@
             "isEventLess",
             "isExpired",
             "isExtended",
+            "isExternal",
             "isFadingOut",
             "isFailed",
             "isFailedEventPromise",
@@ -53764,7 +53767,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 575360,
+          "size": 575392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -53850,7 +53853,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 315808,
+          "size": 315824,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -53998,7 +54001,7 @@
       "vmaddr": 4359667712,
       "vmsize": 4079616,
       "fileoff": 4168,
-      "filesize": 4073712,
+      "filesize": 4073792,
       "maxprot": {
         "read": true,
         "write": false,
@@ -54019,9 +54022,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 49529904,
+      "symoff": 49529984,
       "nsyms": 12038,
-      "stroff": 49749976,
+      "stroff": 49750056,
       "strsize": 312624,
       "fileoff": 4288
     },
@@ -54039,7 +54042,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 49722512,
+      "indirectsymoff": 49722592,
       "nindirectsyms": 6865,
       "extreloff": 0,
       "nextrel": 0,
@@ -54529,19 +54532,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 49318736,
+      "dataoff": 49318816,
       "datasize": 211168,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 49529904,
+      "dataoff": 49529984,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 50062608,
+      "dataoff": 50062688,
       "datasize": 410592,
       "fileoff": 8760
     }
