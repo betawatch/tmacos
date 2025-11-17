@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 76349440,
+      "vmsize": 76382208,
       "fileoff": 104,
-      "filesize": 76349440,
+      "filesize": 76382208,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 67974452,
+          "size": 67990836,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 234700,
+          "size": 234780,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -144,7 +144,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1940400,
+          "size": 1940656,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -11900,7 +11900,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2074398,
+          "size": 2075454,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34407,6 +34407,10 @@
             "PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto",
             "PrivacySettingsController.RemoveFee",
             "PrivacySettingsController.RemovePublicPhoto",
+            "PrivacySettingsController.SavedMusic.AlwaysShareWith.Title",
+            "PrivacySettingsController.SavedMusic.CustomHelp",
+            "PrivacySettingsController.SavedMusic.NeverShareWith.Title",
+            "PrivacySettingsController.SavedMusic.WhoCanSee",
             "PrivacySettingsController.SetPublicPhoto",
             "PrivacySettingsController.SetPublicPhoto.Info",
             "PrivacySettingsController.UpdatePublicPhoto",
@@ -37361,8 +37365,16 @@
             "Star.Auction.Bid.Custom",
             "Star.Auction.Bid.CustomDescription",
             "Star.Auction.Bid.EnterBid",
+            "Star.Auction.Bid.Max",
             "Star.Auction.Bid.PlaceCustomBid",
             "Star.Auction.Bid.PlacedTitle",
+            "Star.Auction.Bid.SubTitle.Bidders_countable",
+            "Star.Auction.Bid.SubTitle.Bidders_few",
+            "Star.Auction.Bid.SubTitle.Bidders_many",
+            "Star.Auction.Bid.SubTitle.Bidders_one",
+            "Star.Auction.Bid.SubTitle.Bidders_other",
+            "Star.Auction.Bid.SubTitle.Bidders_two",
+            "Star.Auction.Bid.SubTitle.Bidders_zero",
             "Star.Auction.Bid.Top3Winners",
             "Star.Auction.Bid.YouHaveBeenOutbid",
             "Star.Auction.Bid.YourBid",
@@ -37516,6 +37528,13 @@
             "Star.List.Transactions.ShowMore",
             "Star.List.Withdraw",
             "Star.List.YourBalance",
+            "Star.Marketplace.ResaleAvailable_countable",
+            "Star.Marketplace.ResaleAvailable_few",
+            "Star.Marketplace.ResaleAvailable_many",
+            "Star.Marketplace.ResaleAvailable_one",
+            "Star.Marketplace.ResaleAvailable_other",
+            "Star.Marketplace.ResaleAvailable_two",
+            "Star.Marketplace.ResaleAvailable_zero",
             "Star.Nft.Gift.Buy.Confirm",
             "Star.Nft.Gift.Buy.Confirm.Self",
             "Star.Nft.Gift.Buy.Success",
@@ -47409,6 +47428,8 @@
             "_TtC8TelegramP33_A0153F11BC8919A6669B4F31BF0DCAA89Arguments",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B10HeaderItem",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B10HeaderView",
+            "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B12TitleRowItem",
+            "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B12TitleRowView",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B18AuctionPeerRowItem",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B18AuctionPeerRowView",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B9Arguments",
@@ -75677,7 +75698,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 564340,
+          "size": 564544,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75690,7 +75711,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 36544,
+          "size": 36548,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75703,7 +75724,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 33436,
+          "size": 33444,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93564,7 +93585,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 813128,
+          "size": 813264,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93592,7 +93613,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4371316736,
+      "vmaddr": 4371349504,
       "vmsize": 2768896,
       "fileoff": 2256,
       "filesize": 2768896,
@@ -93638,7 +93659,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2435728,
+          "size": 2435936,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93664,7 +93685,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 37632,
+          "size": 37648,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93737,10 +93758,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4374085632,
-      "vmsize": 23822336,
+      "vmaddr": 4374118400,
+      "vmsize": 23855104,
       "fileoff": 3048,
-      "filesize": 5210112,
+      "filesize": 5226496,
       "maxprot": {
         "read": true,
         "write": true,
@@ -93772,7 +93793,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1480296,
+          "size": 1480840,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93856,7 +93877,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2396496,
+          "size": 2398568,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93869,7 +93890,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1224338,
+          "size": 1224514,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93960,7 +93981,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1357984,
+          "size": 1358112,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93988,10 +94009,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4397907968,
+      "vmaddr": 4397973504,
       "vmsize": 4947968,
       "fileoff": 4480,
-      "filesize": 4945792,
+      "filesize": 4947408,
       "maxprot": {
         "read": true,
         "write": false,
@@ -94012,9 +94033,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 88309552,
+      "symoff": 88376160,
       "nsyms": 4147,
-      "stroff": 88411384,
+      "stroff": 88477992,
       "strsize": 167664,
       "fileoff": 4600
     },
@@ -94032,7 +94053,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 88375904,
+      "indirectsymoff": 88442512,
       "nindirectsyms": 8869,
       "extreloff": 0,
       "nextrel": 0,
@@ -94058,7 +94079,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16905084,
+      "entryoff": 16927504,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -94834,20 +94855,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 87907088,
-      "datasize": 402464,
+      "dataoff": 87973616,
+      "datasize": 402544,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 88309552,
+      "dataoff": 88376160,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 88579056,
-      "datasize": 711568,
+      "dataoff": 88645664,
+      "datasize": 712112,
       "fileoff": 12632
     }
   ],

@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 90013696,
+      "vmsize": 90030080,
       "fileoff": 104,
-      "filesize": 90013696,
+      "filesize": 90030080,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 82123609,
+          "size": 82139993,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -11877,7 +11877,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2078283,
+          "size": 2079339,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34317,6 +34317,10 @@
             "PrivacySettingsController.ProfilePhoto.WhoCanSeeMyPhoto",
             "PrivacySettingsController.RemoveFee",
             "PrivacySettingsController.RemovePublicPhoto",
+            "PrivacySettingsController.SavedMusic.AlwaysShareWith.Title",
+            "PrivacySettingsController.SavedMusic.CustomHelp",
+            "PrivacySettingsController.SavedMusic.NeverShareWith.Title",
+            "PrivacySettingsController.SavedMusic.WhoCanSee",
             "PrivacySettingsController.SetPublicPhoto",
             "PrivacySettingsController.SetPublicPhoto.Info",
             "PrivacySettingsController.UpdatePublicPhoto",
@@ -37265,8 +37269,16 @@
             "Star.Auction.Bid.Custom",
             "Star.Auction.Bid.CustomDescription",
             "Star.Auction.Bid.EnterBid",
+            "Star.Auction.Bid.Max",
             "Star.Auction.Bid.PlaceCustomBid",
             "Star.Auction.Bid.PlacedTitle",
+            "Star.Auction.Bid.SubTitle.Bidders_countable",
+            "Star.Auction.Bid.SubTitle.Bidders_few",
+            "Star.Auction.Bid.SubTitle.Bidders_many",
+            "Star.Auction.Bid.SubTitle.Bidders_one",
+            "Star.Auction.Bid.SubTitle.Bidders_other",
+            "Star.Auction.Bid.SubTitle.Bidders_two",
+            "Star.Auction.Bid.SubTitle.Bidders_zero",
             "Star.Auction.Bid.Top3Winners",
             "Star.Auction.Bid.YouHaveBeenOutbid",
             "Star.Auction.Bid.YourBid",
@@ -37420,6 +37432,13 @@
             "Star.List.Transactions.ShowMore",
             "Star.List.Withdraw",
             "Star.List.YourBalance",
+            "Star.Marketplace.ResaleAvailable_countable",
+            "Star.Marketplace.ResaleAvailable_few",
+            "Star.Marketplace.ResaleAvailable_many",
+            "Star.Marketplace.ResaleAvailable_one",
+            "Star.Marketplace.ResaleAvailable_other",
+            "Star.Marketplace.ResaleAvailable_two",
+            "Star.Marketplace.ResaleAvailable_zero",
             "Star.Nft.Gift.Buy.Confirm",
             "Star.Nft.Gift.Buy.Confirm.Self",
             "Star.Nft.Gift.Buy.Success",
@@ -47324,6 +47343,8 @@
             "_TtC8TelegramP33_A0153F11BC8919A6669B4F31BF0DCAA89Arguments",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B10HeaderItem",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B10HeaderView",
+            "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B12TitleRowItem",
+            "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B12TitleRowView",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B18AuctionPeerRowItem",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B18AuctionPeerRowView",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B9Arguments",
@@ -75692,7 +75713,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 564368,
+          "size": 564572,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75705,7 +75726,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 36548,
+          "size": 36552,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75718,7 +75739,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 33440,
+          "size": 33448,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93581,7 +93602,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 688400,
+          "size": 688524,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93609,7 +93630,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4384980992,
+      "vmaddr": 4384997376,
       "vmsize": 26886144,
       "fileoff": 2096,
       "filesize": 8306688,
@@ -93683,7 +93704,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2307872,
+          "size": 2308064,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -93709,7 +93730,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 37632,
+          "size": 37648,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93780,7 +93801,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1680112,
+          "size": 1680656,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93864,7 +93885,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2626824,
+          "size": 2629032,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93877,7 +93898,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1228805,
+          "size": 1228981,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93994,7 +94015,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1363432,
+          "size": 1363560,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -94022,10 +94043,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4411867136,
+      "vmaddr": 4411883520,
       "vmsize": 5242880,
       "fileoff": 4488,
-      "filesize": 5227184,
+      "filesize": 5228416,
       "maxprot": {
         "read": true,
         "write": false,
@@ -94046,9 +94067,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 102404416,
+      "symoff": 102421904,
       "nsyms": 4711,
-      "stroff": 102521376,
+      "stroff": 102538864,
       "strsize": 204088,
       "fileoff": 4608
     },
@@ -94066,7 +94087,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 102479792,
+      "indirectsymoff": 102497280,
       "nindirectsyms": 10396,
       "extreloff": 0,
       "nextrel": 0,
@@ -94095,7 +94116,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20569952,
+      "entryoff": 20581056,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -94871,20 +94892,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 101944664,
-      "datasize": 422248,
+      "dataoff": 101962040,
+      "datasize": 422336,
       "fileoff": 12400
     },
     {
       "type": "data_in_code",
-      "dataoff": 102366912,
-      "datasize": 37504,
+      "dataoff": 102384376,
+      "datasize": 37528,
       "fileoff": 12416
     },
     {
       "type": "code_signature",
-      "dataoff": 102725472,
-      "datasize": 822096,
+      "dataoff": 102742960,
+      "datasize": 822224,
       "fileoff": 12432
     }
   ],
