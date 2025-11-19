@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 67990836,
+          "size": 67999028,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 234780,
+          "size": 234988,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -11900,7 +11900,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2075454,
+          "size": 2076030,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15157,7 +15157,6 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/SidebarCapViewController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/SingleTimeMediaViewer.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/StarGift_MarketplaceController.swift",
-            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/StarGift_Nft_Controller.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/Star_ListScreen.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/Star_PurchaseInApp.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/Star_Transaction.swift",
@@ -15182,6 +15181,7 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/affiliate/Affiliate_ProgramPreview.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/auction/Star_AuctionBidController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/auction/Star_AuctionPreviewController.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/nft/StarGift_Nft_Controller.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/core-xprojects/webrtc/build/src/api/audio/audio_frame.cc",
             "/Users/mikerenoir/build-Beta/telegrammacos/core-xprojects/webrtc/build/src/api/audio_codecs/audio_encoder.cc",
             "/Users/mikerenoir/build-Beta/telegrammacos/core-xprojects/webrtc/build/src/api/crypto/crypto_options.cc",
@@ -37354,6 +37354,7 @@
             "Star.Auction.Acquired.RoundNumber",
             "Star.Auction.Acquired.TopRank",
             "Star.Auction.ActiveList.DropsLeft",
+            "Star.Auction.ActiveList.Left",
             "Star.Auction.ActiveList.Minimum",
             "Star.Auction.ActiveList.Outbid",
             "Star.Auction.ActiveList.RaiseBid",
@@ -40465,6 +40466,7 @@
             "Telegram/StarGift_MarketplaceController.swift",
             "Telegram/StarGift_NftValue_Controller.swift",
             "Telegram/StarGift_Nft_Controller.swift",
+            "Telegram/StarGift_OffsetController.swift",
             "Telegram/StarGift_PriceDecrease.swift",
             "Telegram/StarUsePromoController.swift",
             "Telegram/Star_AuctionBidController.swift",
@@ -46821,6 +46823,11 @@
             "_TtC8TelegramP33_036A4B258EA4DF9529F306BF295C6B6624BoostPerkLevelHeaderView",
             "_TtC8TelegramP33_03957C2FF5A0BF0F94440800F6DE932011LockControl",
             "_TtC8TelegramP33_03957C2FF5A0BF0F94440800F6DE932024StoryRecorderOverlayView",
+            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A710HeaderItem",
+            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A714HeaderItemView",
+            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A721StarNftOfferInputItem",
+            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A721StarNftOfferInputView",
+            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A79Arguments",
             "_TtC8TelegramP33_0458D6193BE80C0882A61727F717918C9Arguments",
             "_TtC8TelegramP33_048A9AE199F9DACBB6168FCFF84BA5D615DocumentContext",
             "_TtC8TelegramP33_0637FD52D1A75501F7902E4380BF36CD21DisplayMeAsHeaderItem",
@@ -48090,6 +48097,7 @@
             "_TtCC8Telegram32PremiumBoardingExtraFeaturesView10HeaderView",
             "_TtCC8Telegram41AutomaticBusinessMessageSetupChatContentsP33_5BB9B7B6A7B5CDD0FF95F0BF75F237F621PendingMessageContext",
             "_TtCC8Telegram41AutomaticBusinessMessageSetupChatContentsP33_5BB9B7B6A7B5CDD0FF95F0BF75F237F64Impl",
+            "_TtCC8TelegramP33_03BF00C619E763704386C92E9665F0A721StarNftOfferInputView5Input",
             "_TtCC8TelegramP33_06EA5F012102CF2E4E10B26D291D788511WebpageView10MainButton",
             "_TtCC8TelegramP33_06EA5F012102CF2E4E10B26D291D788511WebpageView12ButtonsBlock",
             "_TtCC8TelegramP33_06EA5F012102CF2E4E10B26D291D788531BotEmojiStatusPermissionRowView8PeerView",
@@ -69629,6 +69637,7 @@
             "setDetailsViewModel",
             "setDetailsViewPositionClosure",
             "setDhParams",
+            "setDuration",
             "setEmoji",
             "setEventName",
             "setExternalState",
@@ -73510,6 +73519,7 @@
             "updateControls",
             "updateCountDownTimer",
             "updateCurrectController",
+            "updateCurrency",
             "updateCurrentType",
             "updateCustomPreview",
             "updateDatas",
@@ -75698,7 +75708,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 564544,
+          "size": 565056,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75724,7 +75734,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 33444,
+          "size": 33468,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93585,7 +93595,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 813264,
+          "size": 813504,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93659,7 +93669,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2435936,
+          "size": 2436272,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -93685,7 +93695,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 37648,
+          "size": 37696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93793,7 +93803,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1480840,
+          "size": 1482160,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93877,7 +93887,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2398568,
+          "size": 2403560,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93890,7 +93900,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1224514,
+          "size": 1225058,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -94012,7 +94022,7 @@
       "vmaddr": 4397973504,
       "vmsize": 4947968,
       "fileoff": 4480,
-      "filesize": 4947408,
+      "filesize": 4947840,
       "maxprot": {
         "read": true,
         "write": false,
@@ -94033,9 +94043,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 88376160,
+      "symoff": 88376592,
       "nsyms": 4147,
-      "stroff": 88477992,
+      "stroff": 88478424,
       "strsize": 167664,
       "fileoff": 4600
     },
@@ -94053,7 +94063,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 88442512,
+      "indirectsymoff": 88442944,
       "nindirectsyms": 8869,
       "extreloff": 0,
       "nextrel": 0,
@@ -94079,7 +94089,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16927504,
+      "entryoff": 16930624,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -94855,19 +94865,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 87973616,
-      "datasize": 402544,
+      "dataoff": 87973960,
+      "datasize": 402632,
       "fileoff": 12600
     },
     {
       "type": "data_in_code",
-      "dataoff": 88376160,
+      "dataoff": 88376592,
       "datasize": 0,
       "fileoff": 12616
     },
     {
       "type": "code_signature",
-      "dataoff": 88645664,
+      "dataoff": 88646096,
       "datasize": 712112,
       "fileoff": 12632
     }

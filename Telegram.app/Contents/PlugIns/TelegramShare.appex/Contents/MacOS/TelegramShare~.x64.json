@@ -18177,7 +18177,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1081812,
+          "size": 1081844,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -32319,6 +32319,7 @@
             "Star.Auction.Acquired.RoundNumber",
             "Star.Auction.Acquired.TopRank",
             "Star.Auction.ActiveList.DropsLeft",
+            "Star.Auction.ActiveList.Left",
             "Star.Auction.ActiveList.Minimum",
             "Star.Auction.ActiveList.Outbid",
             "Star.Auction.ActiveList.RaiseBid",
@@ -54295,7 +54296,9 @@
           "nreloc": 0,
           "type": "regular",
           "attributes": {
-            "usr": {},
+            "usr": {
+              "no_dead_strip": true
+            },
             "sys": {}
           }
         },
@@ -54411,7 +54414,7 @@
       "vmaddr": 4360077312,
       "vmsize": 4112384,
       "fileoff": 4168,
-      "filesize": 4109920,
+      "filesize": 4109952,
       "maxprot": {
         "read": true,
         "write": false,
@@ -54432,9 +54435,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 49955896,
+      "symoff": 49955928,
       "nsyms": 12038,
-      "stroff": 50176072,
+      "stroff": 50176104,
       "strsize": 312624,
       "fileoff": 4288
     },
@@ -54452,7 +54455,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 50148504,
+      "indirectsymoff": 50148536,
       "nindirectsyms": 6892,
       "extreloff": 0,
       "nextrel": 0,
@@ -54942,19 +54945,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 49742864,
+      "dataoff": 49742896,
       "datasize": 213032,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 49955896,
+      "dataoff": 49955928,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 50488704,
+      "dataoff": 50488736,
       "datasize": 413920,
       "fileoff": 8760
     }

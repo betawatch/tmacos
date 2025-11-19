@@ -41,7 +41,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>277101</string>
+	<string>277135</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -79,6 +79,8 @@
 	<string>Copyright © 2024 Telegram. All rights reserved.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>We need access to your location so that you can send your current locations and setup Auto-Night theme</string>
+	<key>NSLocationUsageDescription</key>
+	<string>We need access to your location so that you can send your current locations.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need access to your location so that you can send your current locations.</string>
 	<key>NSMainNibFile</key>

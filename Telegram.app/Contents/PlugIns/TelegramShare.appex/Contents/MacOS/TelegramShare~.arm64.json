@@ -18206,7 +18206,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1080064,
+          "size": 1080096,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -32391,6 +32391,7 @@
             "Star.Auction.Acquired.RoundNumber",
             "Star.Auction.Acquired.TopRank",
             "Star.Auction.ActiveList.DropsLeft",
+            "Star.Auction.ActiveList.Left",
             "Star.Auction.ActiveList.Minimum",
             "Star.Auction.ActiveList.Outbid",
             "Star.Auction.ActiveList.RaiseBid",
@@ -54366,7 +54367,7 @@
       "vmaddr": 4352737280,
       "vmsize": 3997696,
       "fileoff": 4240,
-      "filesize": 3996448,
+      "filesize": 3996480,
       "maxprot": {
         "read": true,
         "write": false,
@@ -54387,9 +54388,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 42625272,
+      "symoff": 42625304,
       "nsyms": 11226,
-      "stroff": 42828744,
+      "stroff": 42828776,
       "strsize": 280504,
       "fileoff": 4360
     },
@@ -54407,7 +54408,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 42804888,
+      "indirectsymoff": 42804920,
       "nindirectsyms": 5964,
       "extreloff": 0,
       "nextrel": 0,
@@ -54894,19 +54895,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 42415048,
+      "dataoff": 42415080,
       "datasize": 210224,
       "fileoff": 8960
     },
     {
       "type": "data_in_code",
-      "dataoff": 42625272,
+      "dataoff": 42625304,
       "datasize": 0,
       "fileoff": 8976
     },
     {
       "type": "code_signature",
-      "dataoff": 43109248,
+      "dataoff": 43109280,
       "datasize": 356256,
       "fileoff": 8992
     }
