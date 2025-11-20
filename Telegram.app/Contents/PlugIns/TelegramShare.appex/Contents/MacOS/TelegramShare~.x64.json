@@ -69,7 +69,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 39523776,
+          "size": 39527872,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -18191,7 +18191,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1082356,
+          "size": 1082436,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -32781,6 +32781,8 @@
             "Stars.Subscription.Period.Weekly",
             "Stars.Transaction.Commission",
             "Stars.Transaction.Gift",
+            "Stars.Transaction.GiftAuctionBid",
+            "Stars.Transaction.GiftSimple",
             "Stars.Transaction.MediaPurchase",
             "Stars.Transaction.PaidReaction",
             "Stars.Transaction.PremiumFor",
@@ -54442,7 +54444,7 @@
       "vmaddr": 4360110080,
       "vmsize": 4128768,
       "fileoff": 4168,
-      "filesize": 4115472,
+      "filesize": 4115520,
       "maxprot": {
         "read": true,
         "write": false,
@@ -54463,9 +54465,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 50010168,
+      "symoff": 50010216,
       "nsyms": 12038,
-      "stroff": 50230368,
+      "stroff": 50230416,
       "strsize": 312624,
       "fileoff": 4288
     },
@@ -54483,7 +54485,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 50202776,
+      "indirectsymoff": 50202824,
       "nindirectsyms": 6898,
       "extreloff": 0,
       "nextrel": 0,
@@ -54973,19 +54975,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 49796760,
+      "dataoff": 49796808,
       "datasize": 213408,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 50010168,
+      "dataoff": 50010216,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 50542992,
+      "dataoff": 50543040,
       "datasize": 414336,
       "fileoff": 8760
     }
