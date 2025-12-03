@@ -94338,7 +94338,7 @@
       "vmaddr": 4412964864,
       "vmsize": 5259264,
       "fileoff": 4488,
-      "filesize": 5256000,
+      "filesize": 5255808,
       "maxprot": {
         "read": true,
         "write": false,
@@ -94446,19 +94446,11 @@
     },
     {
       "type": "load_dylib",
-      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
-      "timestamp": 2,
-      "current_version": 24838144,
-      "compatibility_version": 65536,
-      "fileoff": 5112
-    },
-    {
-      "type": "load_dylib",
       "name": "/usr/lib/libsqlite3.dylib",
       "timestamp": 2,
       "current_version": 22872320,
       "compatibility_version": 589824,
-      "fileoff": 5208
+      "fileoff": 5112
     },
     {
       "type": "load_dylib",
@@ -94466,7 +94458,15 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5264
+      "fileoff": 5168
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit",
+      "timestamp": 2,
+      "current_version": 24838144,
+      "compatibility_version": 65536,
+      "fileoff": 5216
     },
     {
       "type": "load_dylib",
@@ -95205,7 +95205,7 @@
     {
       "type": "code_signature",
       "dataoff": 103826736,
-      "datasize": 830992,
+      "datasize": 830800,
       "fileoff": 12552
     }
   ],
