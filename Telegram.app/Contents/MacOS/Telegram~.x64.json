@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 112,
-  "sizeofcmds": 12416,
+  "ncmds": 113,
+  "sizeofcmds": 12536,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 90095616,
+      "vmsize": 91029504,
       "fileoff": 104,
-      "filesize": 90095616,
+      "filesize": 91029504,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 82189145,
+          "size": 83106649,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2152760,
+          "size": 2156344,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 298691,
+          "size": 299115,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -3849,6 +3849,9 @@
             "authTokenWithServerResponse:",
             "authenticationMethod",
             "authorizationBytes",
+            "authorizationController:didCompleteWithAuthorization:",
+            "authorizationController:didCompleteWithCustomMethod:",
+            "authorizationController:didCompleteWithError:",
             "authorizationId",
             "authorizationStatus",
             "authorizationStatusForMediaType:",
@@ -4505,6 +4508,7 @@
             "createBignumContext",
             "createChildScope",
             "createClassWithDictionary:name:isTestData:",
+            "createCredentialRegistrationRequestWithChallenge:name:userID:",
             "createDecoder:",
             "createDecompSession:",
             "createDeleteInstallationPromise",
@@ -4543,6 +4547,7 @@
             "creationTimestamp",
             "credential",
             "credentialForTrust:",
+            "credentialID",
             "cropAndScaleARGBTo:",
             "cropAndScaleNV12To:withTempBuffer:",
             "cropAndScaleTo:withTempBuffer:",
@@ -5951,6 +5956,7 @@
             "initWithAuthKey:authKeyId:validUntilTimestamp:saltSet:authKeyAttributes:",
             "initWithAuthKeyInfoSelector:isCdn:skipBind:completion:",
             "initWithAuthorizationBytes:authorizationId:",
+            "initWithAuthorizationRequests:",
             "initWithBadMessageId:badMessageSeqNo:errorCode:",
             "initWithBadMessageId:badMessageSeqNo:errorCode:nextServerSalt:",
             "initWithBase64EncodedData:options:",
@@ -6288,6 +6294,7 @@
             "initWithRegionCode:bundle:",
             "initWithRegionCodeForTest:",
             "initWithRegionCodeForTest:bundle:",
+            "initWithRelyingPartyIdentifier:",
             "initWithReport:",
             "initWithReport:resolver:",
             "initWithRequestMessageId:data:",
@@ -8005,6 +8012,7 @@
             "performFeedbackPattern:performanceTime:",
             "performKeyEquivalent:",
             "performLookup:port:",
+            "performRequests",
             "performRequests:error:",
             "performSelector:",
             "performSelector:onThread:withObject:waitUntilDone:",
@@ -8146,6 +8154,7 @@
             "presentDrawable:",
             "presentDrawable:afterMinimumDuration:",
             "presentDrawable:atTime:",
+            "presentationAnchorForAuthorizationController:",
             "presentationLayer",
             "presentationNode",
             "presentedTime",
@@ -8278,6 +8287,8 @@
             "rangeOfUnit:inUnit:forDate:",
             "rangeValue",
             "rate",
+            "rawAttestationObject",
+            "rawClientDataJSON",
             "rawEvent",
             "rawEventDataFromDictionary:error:",
             "rawEventsWithMetadataFingerprint:",
@@ -10011,6 +10022,7 @@
             "setPremiumRate:",
             "setPrepared:",
             "setPreparedReportPaths:",
+            "setPresentationContextProvider:",
             "setPresentsWithTransaction:",
             "setPressureConfiguration:",
             "setPreventsCapture:",
@@ -11864,7 +11876,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 387189,
+          "size": 389339,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -11877,7 +11889,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2080507,
+          "size": 2089755,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12322,6 +12334,7 @@
             " for RTX codec ",
             " for audio stream ",
             " for codec '",
+            " for late bids in top ",
             " for mid ",
             " for primary SSRC ",
             " for recv stream with ssrc ",
@@ -12359,6 +12372,7 @@
             " has no valid inclusion",
             " hash check failed",
             " hash range despite it being marked as ready",
+            " have been refunded.",
             " height=",
             " id=",
             " id=%lld",
@@ -14323,7 +14337,11 @@
             "*(const AVClass **)avctx->priv_data == codec->priv_class",
             "*(s_data.cont.back().second) == k",
             "**",
+            "** didn't respond to your offer for **",
+            "** have been refunded",
             "** is requesting permission to import data from a previous Telegram account used on this device.",
+            "** rejected your offer for ",
+            "** to buy your **",
             "*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n",
             "*** in database %s ***\n",
             "***** %s: can't send data: connection is not opened",
@@ -15156,9 +15174,11 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/affiliate/Affiliate_LinkPreview.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/affiliate/Affiliate_PeerController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/affiliate/Affiliate_ProgramPreview.swift",
-            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/auction/Star_AuctionBidController.swift",
-            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/auction/Star_AuctionPreviewController.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/nft/StarGift_LearnAboutGifts.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/nft/StarGift_Nft_Controller.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/nft/StarGift_OfferController.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/nft/Star_AuctionBidController.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/nft/Star_AuctionPreviewController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/core-xprojects/webrtc/build/src/api/audio/audio_frame.cc",
             "/Users/mikerenoir/build-Beta/telegrammacos/core-xprojects/webrtc/build/src/api/audio_codecs/audio_encoder.cc",
             "/Users/mikerenoir/build-Beta/telegrammacos/core-xprojects/webrtc/build/src/api/crypto/crypto_options.cc",
@@ -15717,6 +15737,7 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Payments/StarGifts.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Payments/StarGiftsAuctions.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Payments/StarGiftsCollections.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Payments/StarGiftsOffers.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Payments/Stars.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Peers/AdPeers.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Peers/AddPeerMember.swift",
@@ -18975,6 +18996,7 @@
             "@\"NSUndoManager\"24@0:8@\"NSWindow\"16",
             "@\"NSView\"40@0:8@\"NSTableView\"16@\"NSTableColumn\"24q32",
             "@\"NSViewController\"32@0:8@\"NSPageController\"16@\"NSString\"24",
+            "@\"NSWindow\"24@0:8@\"ASAuthorizationController\"16",
             "@\"TGRTCMTLI420Renderer\"8@?0",
             "@\"WKWebView\"48@0:8@\"WKWebView\"16@\"WKWebViewConfiguration\"24@\"WKNavigationAction\"32@\"WKWindowFeatures\"40",
             "@%s",
@@ -19410,6 +19432,8 @@
             "ARIB STD-B67",
             "ARS",
             "AS",
+            "ASAuthorizationControllerDelegate",
+            "ASAuthorizationControllerPresentationContextProviding",
             "ASC",
             "ASCII",
             "ASCII escape sequence terminated prematurely.",
@@ -20360,6 +20384,10 @@
             "AuthenticAMD",
             "Authority Information Access",
             "Authorization",
+            "Authorization flow canceled by user.",
+            "Authorization flow completed with a non-ASAuthorizationError: ",
+            "Authorization flow failed due to an unknown reason.",
+            "Authorization flow failed with error: ",
             "AuthorizedApplicationContext",
             "AutoCommit",
             "AutoDownloadSettings.Delimeter",
@@ -23333,6 +23361,8 @@
             "Chat.Service.DeclinedGroupCall",
             "Chat.Service.DisabledTheme",
             "Chat.Service.DisabledTheme.You",
+            "Chat.Service.Gift.Ribbon.Gift",
+            "Chat.Service.Gift.Ribbon.Sold",
             "Chat.Service.Gift.View",
             "Chat.Service.GiftLink",
             "Chat.Service.GiftLink.Sent",
@@ -23390,6 +23420,19 @@
             "Chat.Service.IncomingGroupCall",
             "Chat.Service.MissedGroupCall",
             "Chat.Service.NotOfficial",
+            "Chat.Service.Offer.Accept",
+            "Chat.Service.Offer.Accepted",
+            "Chat.Service.Offer.BoughtGift",
+            "Chat.Service.Offer.ConfirmSale",
+            "Chat.Service.Offer.ConfirmSaleOk",
+            "Chat.Service.Offer.Expired",
+            "Chat.Service.Offer.ExpiresIn",
+            "Chat.Service.Offer.ReceivedOffer",
+            "Chat.Service.Offer.Reject",
+            "Chat.Service.Offer.RejectConfirm",
+            "Chat.Service.Offer.Rejected",
+            "Chat.Service.Offer.SentOffer",
+            "Chat.Service.Offer.SoldGift",
             "Chat.Service.OutgoingGroupCall",
             "Chat.Service.PaymentSent1",
             "Chat.Service.PaymentSent1NoTitle",
@@ -23675,6 +23718,7 @@
             "Chat.VoiceChat.JoinLink.Text",
             "Chat.VoiceChat.JoinLink.Title",
             "Chat.VoiceChat.JoinLink.Unavailable",
+            "Chat.WP.Auction.Upcoming",
             "Chat.WP.BackgroundTitle",
             "Chat.WP.Color.FirstMessage",
             "Chat.WP.Color.SecondMessage",
@@ -24036,6 +24080,7 @@
             "ChatList.TopicsTag",
             "ChatList.UnhideMuted",
             "ChatList.UnsupportedMessage",
+            "ChatList.UpcomingAuction",
             "ChatListApps.Clear",
             "ChatListApps.RecentUsed.Header",
             "ChatListForumTopicData",
@@ -24670,6 +24715,7 @@
             "Crashlytics must be used with the default Firebase app.",
             "Crashlytics timed out while checking for Firebase Installation ID",
             "Create [%@] file to...\n%@",
+            "Create a Passkey",
             "Create a live smooth streaming feed (for pushing to a publishing point)",
             "Create call \n",
             "Create scalability structure ",
@@ -26022,6 +26068,16 @@
             "Ellipse 25.Ellipse 24.Обводка 1",
             "ElseNotEq",
             "Email address mismatch",
+            "Email.CodeExpiredError",
+            "Email.CodeFloodError",
+            "Email.EmailNotAllowedError",
+            "Email.Enter.Placeholder",
+            "Email.InvalidCodeError",
+            "Email.InvalidEmailAddressError",
+            "Email.InvalidEmailError",
+            "Email.InvalidEmailTokenError",
+            "Email.NetworkError",
+            "Email.UnknownError",
             "Emergency",
             "Emitting TargetBitrate XR for SSRC ",
             "Emo",
@@ -26227,6 +26283,8 @@
             "Enqueue SEND:type",
             "Ensure table failed. Database not open.",
             "Enter PEM pass phrase:",
+            "Enter Your Offer",
+            "Enter the number of Stars you'd like to offer **",
             "Enterprises",
             "Entertainment.Emoji",
             "Entertainment.Emoji.New",
@@ -29108,6 +29166,7 @@
             "Icon_AttachCamera",
             "Icon_AttachLocation",
             "Icon_AttachPhoto",
+            "Icon_AuctionPreview_Arrow",
             "Icon_Auction_Info_Option1",
             "Icon_Auction_Info_Option2",
             "Icon_Auction_Info_Option3",
@@ -29587,6 +29646,7 @@
             "Icon_PrivacySettings_ActiveSessions",
             "Icon_PrivacySettings_AutoDelete",
             "Icon_PrivacySettings_Blocked",
+            "Icon_PrivacySettings_Email",
             "Icon_PrivacySettings_TwoStep",
             "Icon_ProfileCall",
             "Icon_Profile_AddMember",
@@ -30873,6 +30933,7 @@
             "Le",
             "Lead artist/lead performer/soloist",
             "Leaflet page",
+            "Learn more about wearing Telegram Gifts >",
             "Left",
             "Left channel",
             "Left surround channel",
@@ -30942,6 +31003,14 @@
             "LiteMode.LowPower.Info",
             "LiteMode.LowPower.InfoFull",
             "Live",
+            "LiveStream.AllowComments",
+            "LiveStream.AllowScreenshots",
+            "LiveStream.PostToChannelInfo",
+            "LiveStream.PostToChannelProfile",
+            "LiveStream.PricePerComment",
+            "LiveStream.PricePerCommentInfo",
+            "LiveStream.Report",
+            "LiveStream.Title",
             "Lj",
             "Ll",
             "Lo-Fi",
@@ -30971,6 +31040,8 @@
             "LocationPreview.OpenInMaps",
             "LocationPreview.Title",
             "Log",
+            "Log in safely and keep your account secure.",
+            "Log in with Touch ID",
             "Log square root",
             "Log.Restart.Info",
             "Logging event: origin, name, params",
@@ -30980,7 +31051,11 @@
             "Login.ConnectionError.TryAgain",
             "Login.ConnectionError.UseProxy",
             "Login.ContinueOnLanguage",
+            "Login.EmailChanged",
             "Login.EnterCodeFromApp",
+            "Login.EnterCodeNewEmailText",
+            "Login.EnterCodeNewEmailTitle",
+            "Login.EnterNewEmailTitle",
             "Login.EnterPasswoуrdDescription",
             "Login.EnterPhraseBeginningText",
             "Login.EnterPhrasePlaceholder",
@@ -31056,6 +31131,10 @@
             "Login.passwordPlaceholder",
             "Login.phoneFieldPlaceholder",
             "Login.willSendSms",
+            "LoginEmail.Description",
+            "LoginEmail.Success.Text",
+            "LoginEmail.Success.Title",
+            "LoginEmail.Title",
             "LogoutOptions.AddAccountText",
             "LogoutOptions.AddAccountTitle",
             "LogoutOptions.AlternativeOptionsSection",
@@ -31270,6 +31349,7 @@
             "Main Still Picture",
             "Main event blob is nil in database",
             "Main freelist: ",
+            "Make a passkey to sign in easily and safely.",
             "Make the initial moov atom empty",
             "MakeRecord",
             "Making certificate for ",
@@ -32504,6 +32584,7 @@
             "Obtained XMS handle %u",
             "Octal escape sequence is invalid.",
             "Odd configuration: frame ",
+            "Offer 2000 Stars",
             "Offerer must use actpass value for setup attribute.",
             "Offerer must use current negotiated role for setup attribute.",
             "Offset",
@@ -33926,8 +34007,10 @@
             "Premium.Boarding.Peer.Gift.Info",
             "Premium.Boarding.Peer.Gift.LinkInfo",
             "Premium.Boarding.Peer.Gift.Title",
+            "Premium.Boarding.Peer.Gift.Title.Updated",
             "Premium.Boarding.Peer.Gift.You.Info",
             "Premium.Boarding.Peer.Gift.You.Title",
+            "Premium.Boarding.Peer.Gift.You.Title.Updated",
             "Premium.Boarding.Peer.Info",
             "Premium.Boarding.Peer.Title",
             "Premium.Boarding.PeerStatus.Custom.Title",
@@ -34242,6 +34325,11 @@
             "PrivacySettings.LastSeenContactsPlus",
             "PrivacySettings.LastSeenEverybodyMinus",
             "PrivacySettings.LastSeenNobodyPlus",
+            "PrivacySettings.LoginEmail",
+            "PrivacySettings.LoginEmailAlertChange",
+            "PrivacySettings.LoginEmailAlertText",
+            "PrivacySettings.LoginEmailInfo",
+            "PrivacySettings.LoginEmailSetupInfo",
             "PrivacySettings.Messages",
             "PrivacySettings.Messages.All",
             "PrivacySettings.Messages.Contacts",
@@ -34251,6 +34339,7 @@
             "PrivacySettings.Messages.MyContacts",
             "PrivacySettings.Messages.PremiumError",
             "PrivacySettings.Passcode",
+            "PrivacySettings.Passkey",
             "PrivacySettings.PeerSelect.AddNew",
             "PrivacySettings.PeerSelect.AddUserOrGroup",
             "PrivacySettings.PhoneNumber",
@@ -34411,6 +34500,7 @@
             "Property filter missing property name",
             "Property filter must have exactly one of number or string filter",
             "PropertyFilter",
+            "Protect your account",
             "ProtectionOverheadRateThreshold field trial is set to an invalid value, expecting a value between (0, 1].",
             "ProtectionOverheadRateThreshold is set to ",
             "Protocol",
@@ -37247,6 +37337,7 @@
             "StapA packet with incorrect NALU packet lengths.",
             "Star.Auction.Acquired.AcceptedBid",
             "Star.Auction.Acquired.BidAtLeast",
+            "Star.Auction.Acquired.GiftNumber",
             "Star.Auction.Acquired.ItemsBought_countable",
             "Star.Auction.Acquired.ItemsBought_few",
             "Star.Auction.Acquired.ItemsBought_many",
@@ -37272,6 +37363,7 @@
             "Star.Auction.Bid.EnterBid",
             "Star.Auction.Bid.Max",
             "Star.Auction.Bid.PlaceCustomBid",
+            "Star.Auction.Bid.PlaceEarlyBid",
             "Star.Auction.Bid.PlacedTitle",
             "Star.Auction.Bid.SubTitle.Bidders_countable",
             "Star.Auction.Bid.SubTitle.Bidders_few",
@@ -37281,6 +37373,7 @@
             "Star.Auction.Bid.SubTitle.Bidders_two",
             "Star.Auction.Bid.SubTitle.Bidders_zero",
             "Star.Auction.Bid.Top3Winners",
+            "Star.Auction.Bid.YouAreWinning",
             "Star.Auction.Bid.YouHaveBeenOutbid",
             "Star.Auction.Bid.YourBid",
             "Star.Auction.Bid.YourBidWillBe",
@@ -37329,7 +37422,9 @@
             "Star.Auction.Option.Info.YouHaveBeenOutbidInAll",
             "Star.Auction.Place",
             "Star.Auction.PlaceBid",
+            "Star.Auction.PlaceEarlyBid",
             "Star.Auction.Preview.Auction",
+            "Star.Auction.Preview.AuctionStartsIn",
             "Star.Auction.Preview.Availability",
             "Star.Auction.Preview.AveragePrice",
             "Star.Auction.Preview.Bidders_countable",
@@ -37340,6 +37435,7 @@
             "Star.Auction.Preview.Bidders_two",
             "Star.Auction.Preview.Bidders_zero",
             "Star.Auction.Preview.CurrentRound",
+            "Star.Auction.Preview.DurationEach",
             "Star.Auction.Preview.Ended",
             "Star.Auction.Preview.Ends",
             "Star.Auction.Preview.GiftsDroppedInfo_countable",
@@ -37351,9 +37447,16 @@
             "Star.Auction.Preview.GiftsDroppedInfo_zero",
             "Star.Auction.Preview.Join",
             "Star.Auction.Preview.LearnMore",
+            "Star.Auction.Preview.LearnMoreAboutGifts",
             "Star.Auction.Preview.Left",
             "Star.Auction.Preview.Of",
+            "Star.Auction.Preview.PlaceEarlyBid",
+            "Star.Auction.Preview.Quantity",
+            "Star.Auction.Preview.RoundSingle",
+            "Star.Auction.Preview.Rounds",
+            "Star.Auction.Preview.RoundsRange",
             "Star.Auction.Preview.Started",
+            "Star.Auction.Preview.Starts",
             "Star.Auction.Preview.TopBidders",
             "Star.Auction.Preview.TopBidders_countable",
             "Star.Auction.Preview.TopBidders_few",
@@ -37362,6 +37465,7 @@
             "Star.Auction.Preview.TopBidders_other",
             "Star.Auction.Preview.TopBidders_two",
             "Star.Auction.Preview.TopBidders_zero",
+            "Star.Auction.Preview.ViewVariants",
             "Star.Auction.PreviewSend.LearnMore",
             "Star.Auction.SendPreview.Left_countable",
             "Star.Auction.SendPreview.Left_few",
@@ -37577,7 +37681,37 @@
             "StarGift.ActionLockedOpen",
             "StarGift.ActionLockedText",
             "StarGift.ActionLockedTitle",
+            "StarGift.Auction.StartsIn",
             "StarGift.Badge.Auction",
+            "StarGift.Badge.Soon",
+            "StarGift.LearnAbout.Description",
+            "StarGift.LearnAbout.Title",
+            "StarGift.ModelBuilder.Backdrops",
+            "StarGift.ModelBuilder.CollectionFeatures_countable",
+            "StarGift.ModelBuilder.CollectionFeatures_few",
+            "StarGift.ModelBuilder.CollectionFeatures_many",
+            "StarGift.ModelBuilder.CollectionFeatures_one",
+            "StarGift.ModelBuilder.CollectionFeatures_other",
+            "StarGift.ModelBuilder.CollectionFeatures_two",
+            "StarGift.ModelBuilder.CollectionFeatures_zero",
+            "StarGift.ModelBuilder.Models",
+            "StarGift.ModelBuilder.RandomizeTraits",
+            "StarGift.ModelBuilder.SelectedTraits",
+            "StarGift.ModelBuilder.SubtextBackdrop",
+            "StarGift.ModelBuilder.SubtextModel",
+            "StarGift.ModelBuilder.SubtextSymbol",
+            "StarGift.ModelBuilder.Symbols",
+            "StarGift.Nft.ConfirmSale",
+            "StarGift.Nft.OfferToBuy",
+            "StarGift.Offer.ConfirmInfo",
+            "StarGift.Offer.ConfirmTitle",
+            "StarGift.Offer.CurrencyStars",
+            "StarGift.Offer.CurrencyTon",
+            "StarGift.Offer.Duration",
+            "StarGift.Offer.DurationDescription",
+            "StarGift.Offer.OfferLabel",
+            "StarGift.Offer.PayButton",
+            "StarGift.Offer.Title",
             "StarGift.OnBlockchain.Info",
             "StarGift.Option.Join",
             "StarGift.Preview.Title",
@@ -38038,6 +38172,7 @@
             "StorageUsage.TelegramUsage.Empty.Peer",
             "StorageUsage.TelegramUsage.Text",
             "StorageUsage.TelegramUsage.Text.Peer",
+            "Store Passkey Securely",
             "Stored an on-demand exception, starting delay %.20f",
             "Stored incoming frames: ",
             "Stored installation validation error: %@",
@@ -39354,6 +39489,7 @@
             "Telegram.DateSelectorView",
             "Telegram.DateView",
             "Telegram.Day",
+            "Telegram.Delegate",
             "Telegram.DeleteSupergroupMessagesModalController",
             "Telegram.DesktopCaptureListUI",
             "Telegram.DesktopCaptureListView",
@@ -39433,9 +39569,11 @@
             "Telegram.GifPreviewModalView",
             "Telegram.GiftAuctionPreviewView",
             "Telegram.GiftIconLayer",
+            "Telegram.GiftOfferView",
             "Telegram.GiftView",
             "Telegram.GlobalBadgeNode",
             "Telegram.GoldenStarSceneView",
+            "Telegram.GridController",
             "Telegram.GroupAdminsController",
             "Telegram.GroupCallActivity",
             "Telegram.GroupCallAvatarMenuItem",
@@ -39668,6 +39806,8 @@
             "Telegram.QuickLookPreviewItem",
             "Telegram.QuickSwitcherModalController",
             "Telegram.QuickSwitcherView",
+            "Telegram.RadialGradientView",
+            "Telegram.RandomizeView",
             "Telegram.ReactionCarouselView",
             "Telegram.ReactionPeerMenu",
             "Telegram.ReactionPeerMenuItem",
@@ -40141,6 +40281,7 @@
             "Telegram/GeneralInputRow.swift",
             "Telegram/GeneralInteractedRowView.swift",
             "Telegram/GeneralLoadingRowItem.swift",
+            "Telegram/GeneralOptionsRowItem.swift",
             "Telegram/GeneralRowView.swift",
             "Telegram/GeneralTextRowItem.swift",
             "Telegram/GifKeyboardController.swift",
@@ -40250,6 +40391,7 @@
             "Telegram/PCallSession.swift",
             "Telegram/PIPVideoWindow.swift",
             "Telegram/PasscodeLockController.swift",
+            "Telegram/PasskeysController.swift",
             "Telegram/PassportAcceptRowItem.swift",
             "Telegram/PassportController.swift",
             "Telegram/PassportDocumentRowItem.swift",
@@ -40358,6 +40500,7 @@
             "Telegram/SelectSizeRowItem.swift",
             "Telegram/SendingClockProgress.swift",
             "Telegram/SeparatorRowItem.swift",
+            "Telegram/SetupEmailController.swift",
             "Telegram/ShareModalController.swift",
             "Telegram/SharedFolderClosureController.swift",
             "Telegram/ShimmerEffect.swift",
@@ -40369,11 +40512,14 @@
             "Telegram/SmartThemeListRowItem.swift",
             "Telegram/SmartThemePreviewRowItem.swift",
             "Telegram/SoftwareVideoThumbnailLayer.swift",
+            "Telegram/StarGift_LearnAboutGifts.swift",
             "Telegram/StarGift_MarketplaceController.swift",
+            "Telegram/StarGift_ModelBuilderController.swift",
             "Telegram/StarGift_NftValue_Controller.swift",
             "Telegram/StarGift_Nft_Controller.swift",
-            "Telegram/StarGift_OffsetController.swift",
+            "Telegram/StarGift_OfferController.swift",
             "Telegram/StarGift_PriceDecrease.swift",
+            "Telegram/StarGift_SelfAuction_Controller.swift",
             "Telegram/StarUsePromoController.swift",
             "Telegram/Star_AuctionBidController.swift",
             "Telegram/Star_AuctionInfoController.swift",
@@ -40688,6 +40834,7 @@
             "The number of upload retries exceeds the limit. Will remain unchanged.",
             "The observation duration lower bound must be positive: ",
             "The observation window size must be at least 2: ",
+            "The offer from **",
             "The operation was unable to finish successfully.",
             "The over-use estimator's covariance matrix is no longer semi-definite.",
             "The params in SRTP transport are reset.",
@@ -41853,6 +42000,7 @@
             "Use MP4A-LATM packetization instead of MPEG4-GENERIC for AAC",
             "Use Native Graphic Context",
             "Use RFC 2190 packetization instead of RFC 4629 for H.263",
+            "Use Touch ID, or your passcode to sign in.",
             "Use mdta atom for metadata.",
             "Use mode 0 for H.264 in RTP",
             "Use negative CTS offsets (reducing the need for edit lists)",
@@ -43533,6 +43681,7 @@
             "You requested a copy of the original timecode track so timecode metadata are now ignored\n",
             "You'll need to update Telegram to the latest version before you can use the app.",
             "You're attempting to swizzle a method that doesn't exist. (%@, %@)",
+            "Your passkey is safely kept in your iCloud Keychain.",
             "Your platform doesn't support hardware accelerated AV1 decoding.\n",
             "Your_card_has_expired",
             "Your_card_was_declined",
@@ -44614,6 +44763,7 @@
             "_TtC12TelegramCore25TelegramStarPendingRating",
             "_TtC12TelegramCore25ViewCountMessageAttribute",
             "_TtC12TelegramCore26AccountBackupDataAttribute",
+            "_TtC12TelegramCore26AuthorizeWithPasskeyResult",
             "_TtC12TelegramCore26BoostCountMessageAttribute",
             "_TtC12TelegramCore26BotPreviewStoryListContext",
             "_TtC12TelegramCore26CloudDocumentMediaResource",
@@ -44710,6 +44860,7 @@
             "_TtC12TelegramCore31UnauthorizedAccountStateManager",
             "_TtC12TelegramCore31WrappedShortFunctionDescription",
             "_TtC12TelegramCore32AutoclearTimeoutMessageAttribute",
+            "_TtC12TelegramCore32CachedStartGiftUpgradeAttributes",
             "_TtC12TelegramCore32CloudChatRemoveMessagesOperation",
             "_TtC12TelegramCore32EmojiSearchQueryMessageAttribute",
             "_TtC12TelegramCore32EngineMessageReactionListContext",
@@ -45972,6 +46123,7 @@
             "_TtC8Telegram19AddContactTableItem",
             "_TtC8Telegram19AnimatedClueRowItem",
             "_TtC8Telegram19AnimatedEmojiesView",
+            "_TtC8Telegram19AuctionLimitRowItem",
             "_TtC8Telegram19Auth_CountryManager",
             "_TtC8Telegram19Auth_WordController",
             "_TtC8Telegram19Avatar_MonogramView",
@@ -46169,6 +46321,7 @@
             "_TtC8Telegram21GalleryPageController",
             "_TtC8Telegram21GalleryThumbContainer",
             "_TtC8Telegram21GeneralLoadingRowItem",
+            "_TtC8Telegram21GeneralOptionsRowItem",
             "_TtC8Telegram21GifKeyboardController",
             "_TtC8Telegram21GifKeyboardTabRowItem",
             "_TtC8Telegram21GroupCallControlsView",
@@ -46742,11 +46895,6 @@
             "_TtC8TelegramP33_036A4B258EA4DF9529F306BF295C6B6624BoostPerkLevelHeaderView",
             "_TtC8TelegramP33_03957C2FF5A0BF0F94440800F6DE932011LockControl",
             "_TtC8TelegramP33_03957C2FF5A0BF0F94440800F6DE932024StoryRecorderOverlayView",
-            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A710HeaderItem",
-            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A714HeaderItemView",
-            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A721StarNftOfferInputItem",
-            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A721StarNftOfferInputView",
-            "_TtC8TelegramP33_03BF00C619E763704386C92E9665F0A79Arguments",
             "_TtC8TelegramP33_0458D6193BE80C0882A61727F717918C9Arguments",
             "_TtC8TelegramP33_048A9AE199F9DACBB6168FCFF84BA5D615DocumentContext",
             "_TtC8TelegramP33_0637FD52D1A75501F7902E4380BF36CD21DisplayMeAsHeaderItem",
@@ -46754,6 +46902,11 @@
             "_TtC8TelegramP33_0637FD52D1A75501F7902E4380BF36CD9Arguments",
             "_TtC8TelegramP33_06598A36AF732F3893B24DA493DA758B25ChannelOverviewLayoutView",
             "_TtC8TelegramP33_06598A36AF732F3893B24DA493DA758B27ChannelOverviewStatsRowView",
+            "_TtC8TelegramP33_06E47436C81E4E5F5457FD98F082456210HeaderItem",
+            "_TtC8TelegramP33_06E47436C81E4E5F5457FD98F082456214HeaderItemView",
+            "_TtC8TelegramP33_06E47436C81E4E5F5457FD98F082456221StarNftOfferInputItem",
+            "_TtC8TelegramP33_06E47436C81E4E5F5457FD98F082456221StarNftOfferInputView",
+            "_TtC8TelegramP33_06E47436C81E4E5F5457FD98F08245629Arguments",
             "_TtC8TelegramP33_06EA5F012102CF2E4E10B26D291D788511WebpageView",
             "_TtC8TelegramP33_06EA5F012102CF2E4E10B26D291D788515NoScrollWebView",
             "_TtC8TelegramP33_06EA5F012102CF2E4E10B26D291D788524WeakScriptMessageHandler",
@@ -47015,6 +47168,11 @@
             "_TtC8TelegramP33_48D17A6FA12E0D5DBD041530A19CA95620AttributeMenuRowView",
             "_TtC8TelegramP33_48D17A6FA12E0D5DBD041530A19CA9569Arguments",
             "_TtC8TelegramP33_49D988B2164099990AC0D1AE83669FB816EmojiDataContext",
+            "_TtC8TelegramP33_4AFC0CD13DDD60A8B554CB7F9BBEC25110HeaderItem",
+            "_TtC8TelegramP33_4AFC0CD13DDD60A8B554CB7F9BBEC25110HeaderView",
+            "_TtC8TelegramP33_4AFC0CD13DDD60A8B554CB7F9BBEC25112GiftsRowItem",
+            "_TtC8TelegramP33_4AFC0CD13DDD60A8B554CB7F9BBEC25112GiftsRowView",
+            "_TtC8TelegramP33_4AFC0CD13DDD60A8B554CB7F9BBEC2519Arguments",
             "_TtC8TelegramP33_4B1525CBF35FD106E6D1B83B8FF9D27E18AvatarTabContainer",
             "_TtC8TelegramP33_4BA0441B230C231959DCADC0CEE0B0E930PaymentsCheckoutPreviewRowView",
             "_TtC8TelegramP33_4C12B75819D3DC6C2A168A51DC69138126ContextShowPeersHolderView",
@@ -47288,6 +47446,7 @@
             "_TtC8TelegramP33_8B79D5E609E72B3A28B8D27B4643D47029RestrictedControllerArguments",
             "_TtC8TelegramP33_8C197CDB8E031579FBB415E2103A722D20InputDataSecureField",
             "_TtC8TelegramP33_8CCFC48B947767094CACD69DED4F268B10CenterView",
+            "_TtC8TelegramP33_8CEA0B6C88379A5C5051F39CE5C1EA497RowView",
             "_TtC8TelegramP33_8D5B3E99A4BBDEF54436E3625C1FCAF99Arguments",
             "_TtC8TelegramP33_8D7094912A86D355348FD334D72994A88GiftView",
             "_TtC8TelegramP33_8DD547F986E100BB1CB5160437A9D79D25LogoutControllerArguments",
@@ -47360,6 +47519,9 @@
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B18AuctionPeerRowView",
             "_TtC8TelegramP33_A07DFB74FB12079A213E79B57630F54B9Arguments",
             "_TtC8TelegramP33_A08D7313212F16C7FC1122150EB501E351TwoStepVerificationPasswordEntryControllerArguments",
+            "_TtC8TelegramP33_A0BCB28ECB7BC1CB44F4E7EE9F1DC05012CodeEntryRow",
+            "_TtC8TelegramP33_A0BCB28ECB7BC1CB44F4E7EE9F1DC05016CodeEntryRowView",
+            "_TtC8TelegramP33_A0BCB28ECB7BC1CB44F4E7EE9F1DC0509Arguments",
             "_TtC8TelegramP33_A0E1E660A533AD675C7DD91C7EFE7DB020ArchiveStatusContext",
             "_TtC8TelegramP33_A0E1E660A533AD675C7DD91C7EFE7DB08Archiver",
             "_TtC8TelegramP33_A170934B8B28D59FB883A3C776DACEF615PopularPeerItem",
@@ -47391,7 +47553,6 @@
             "_TtC8TelegramP33_A633C44A67EFDE0A6075C4F9BBACE5BB14LimitedRowView",
             "_TtC8TelegramP33_A633C44A67EFDE0A6075C4F9BBACE5BB14PreviewRowItem",
             "_TtC8TelegramP33_A633C44A67EFDE0A6075C4F9BBACE5BB14PreviewRowView",
-            "_TtC8TelegramP33_A633C44A67EFDE0A6075C4F9BBACE5BB19AuctionLimitRowItem",
             "_TtC8TelegramP33_A633C44A67EFDE0A6075C4F9BBACE5BB19AuctionLimitRowView",
             "_TtC8TelegramP33_A633C44A67EFDE0A6075C4F9BBACE5BB9Arguments",
             "_TtC8TelegramP33_A69B17914A9E08ECFFF1622D9C8767FE19UserLocationRequest",
@@ -47498,6 +47659,17 @@
             "_TtC8TelegramP33_C822D1B159E42F44E42C55229E90E3A817WallpaperGridItem",
             "_TtC8TelegramP33_C822D1B159E42F44E42C55229E90E3A817WallpaperGridView",
             "_TtC8TelegramP33_C822D1B159E42F44E42C55229E90E3A89Arguments",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C10HeaderItem",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C10HeaderView",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C11AttrRowItem",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C11GridRowItem",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C14GridController",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C14SegmentRowItem",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C14SegmentRowView",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C15AttrRowItemView",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C15GridRowItemView",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C18RadialGradientView",
+            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C9Arguments",
             "_TtC8TelegramP33_C9F538E2EE9C7929F5B2A5A84A3AD3BB15OverviewRowView",
             "_TtC8TelegramP33_CA0A8E09BF4AF86ADEA1AD0F3780CA5725TitleAndInfoAlertItemView",
             "_TtC8TelegramP33_CA3FA5BEEC4923BD45B245D894126C2225DownloadSettingsArguments",
@@ -47514,6 +47686,9 @@
             "_TtC8TelegramP33_CF7AABDEAC88479B5CCA779B8AE42EB817ScrubberrightTrim",
             "_TtC8TelegramP33_D07BCBCD0F24D95FA9C4A858EA66A86B9LineLayer",
             "_TtC8TelegramP33_D0852A4854816D8EF6D70D878CCAAE959GAVPlayer",
+            "_TtC8TelegramP33_D225A8C1B7E92993F8D047FF879CE13C10HeaderItem",
+            "_TtC8TelegramP33_D225A8C1B7E92993F8D047FF879CE13C14HeaderItemView",
+            "_TtC8TelegramP33_D225A8C1B7E92993F8D047FF879CE13C9Arguments",
             "_TtC8TelegramP33_D2A431F4D29BD2F5E0A64BF89C36D14A18InstantPageWebView",
             "_TtC8TelegramP33_D2A431F4D29BD2F5E0A64BF89C36D14A41WeakInstantPageWebEmbedNodeMessageHandler",
             "_TtC8TelegramP33_D3E19A9A66F610D2BEE8C9D8D3885D9110PollOption",
@@ -47698,6 +47873,10 @@
             "_TtC8TelegramP33_FE92E0EC3BE4A15BC10DE3B440E1329210UpdateView",
             "_TtC8TelegramP33_FE92E0EC3BE4A15BC10DE3B440E1329215UpdateTableItem",
             "_TtC8TelegramP33_FE92E0EC3BE4A15BC10DE3B440E1329215UpdateTableView",
+            "_TtC8TelegramP33_FEF66675DF52F19D950729DFA9D9428D12EmptyRowItem",
+            "_TtC8TelegramP33_FEF66675DF52F19D950729DFA9D9428D12EmptyRowView",
+            "_TtC8TelegramP33_FEF66675DF52F19D950729DFA9D9428D8Delegate",
+            "_TtC8TelegramP33_FEF66675DF52F19D950729DFA9D9428D9Arguments",
             "_TtC8TelegramP33_FF4BB6C6611F9E60C8344BCA95E86BCA24UserInfoSuggestPhotoView",
             "_TtC8TelegramP33_FF77C09FE557827F6DBDB10A25CF948310HeaderItem",
             "_TtC8TelegramP33_FF77C09FE557827F6DBDB10A25CF948313HeaderRowView",
@@ -47971,6 +48150,7 @@
             "_TtCC8Telegram18ChatContactRowViewP33_2240E2FF0CE9648739CCF47B0F60F1CE9Container",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E310_StoryView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E311SuggestView",
+            "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E313GiftOfferView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E313WallpaperView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E315SuggestPostView",
             "_TtCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E316SetChatThemeView",
@@ -48016,7 +48196,7 @@
             "_TtCC8Telegram32PremiumBoardingExtraFeaturesView10HeaderView",
             "_TtCC8Telegram41AutomaticBusinessMessageSetupChatContentsP33_5BB9B7B6A7B5CDD0FF95F0BF75F237F621PendingMessageContext",
             "_TtCC8Telegram41AutomaticBusinessMessageSetupChatContentsP33_5BB9B7B6A7B5CDD0FF95F0BF75F237F64Impl",
-            "_TtCC8TelegramP33_03BF00C619E763704386C92E9665F0A721StarNftOfferInputView5Input",
+            "_TtCC8TelegramP33_06E47436C81E4E5F5457FD98F082456221StarNftOfferInputView5Input",
             "_TtCC8TelegramP33_06EA5F012102CF2E4E10B26D291D788511WebpageView10MainButton",
             "_TtCC8TelegramP33_06EA5F012102CF2E4E10B26D291D788511WebpageView12ButtonsBlock",
             "_TtCC8TelegramP33_06EA5F012102CF2E4E10B26D291D788531BotEmojiStatusPermissionRowView8PeerView",
@@ -48083,6 +48263,7 @@
             "_TtCC8TelegramP33_7E2A5B5D23E4BC2FABAF588BE9238C357RowView14DisclaimerView",
             "_TtCC8TelegramP33_86931150245D8D5519ACCAE45125B2389LimitView1V",
             "_TtCC8TelegramP33_8ABFB563FFD3C3CD29530371A8D763027RowView8PeerView",
+            "_TtCC8TelegramP33_8CEA0B6C88379A5C5051F39CE5C1EA497RowView10OptionView",
             "_TtCC8TelegramP33_8E6EE19AAE0060519EC50CD1E0C431DC15MessageItemView12PositionView",
             "_TtCC8TelegramP33_90F6020FB30E03EEB010615B6F66ED4823SearchGlobalApproveView11ApproveView",
             "_TtCC8TelegramP33_925AEF96737447EB32AC4FAFF1C1D5C226ChatTopicSeparatorItemView8LineView",
@@ -48111,6 +48292,10 @@
             "_TtCC8TelegramP33_BE8808C7A5D90FC20AF23E3E718D014D14WebappsControl7Control",
             "_TtCC8TelegramP33_BFFB5AD44AEBCD7456EABDA517309BDB19DesktopCapturerView5Micro",
             "_TtCC8TelegramP33_C1E4B76D38D065F936C4932CEFE5015E12DockIconView9Indicator",
+            "_TtCC8TelegramP33_C961FB93785147011B76C67C55EB361C10HeaderItem10ActionItem",
+            "_TtCC8TelegramP33_C961FB93785147011B76C67C55EB361C10HeaderView10ActionView",
+            "_TtCC8TelegramP33_C961FB93785147011B76C67C55EB361C10HeaderView13RandomizeView",
+            "_TtCC8TelegramP33_C961FB93785147011B76C67C55EB361C15AttrRowItemView10OptionView",
             "_TtCC8TelegramP33_CD16D913679D1C9FFF4C45454E21113314ColorsListView5Color",
             "_TtCC8TelegramP33_D4EA8102033D38E4E141A8246D271F9119ChatUserInfoRowView13ContainerView",
             "_TtCC8TelegramP33_D5E593B2DF034CF5A367DD0F07CEA68614HeaderItemView11JoinedBadge",
@@ -48136,6 +48321,7 @@
             "_TtCC8TelegramP33_F73364442443BE1757C62AACE72EBF339InputView5Input",
             "_TtCC8TelegramP33_F881A4155A1AA3D1044BAD47A5EDBD7E18FullscreenControls10MoreButton",
             "_TtCC8TelegramP33_F881A4155A1AA3D1044BAD47A5EDBD7E18FullscreenControls15BackCloseButton",
+            "_TtCC8TelegramP33_FEF66675DF52F19D950729DFA9D9428D12EmptyRowView10OptionView",
             "_TtCC9DustLayer9DustLayer16DustComputeState",
             "_TtCC9DustLayer9DustLayerP33_831799D85CBDA1C0AFDFDFAA4250EFDA11RenderState",
             "_TtCC9DustLayer9DustLayerP33_831799D85CBDA1C0AFDFDFAA4250EFDA4Item",
@@ -48159,6 +48345,7 @@
             "_TtCCC7Postbox10StorageBox5Stats16ContentTypeStats",
             "_TtCCC7Postbox19MediaBoxFileManager4Item8Accessor",
             "_TtCCC8Telegram15ChatInvoiceViewP33_958153F24FD191A58AE3F3299C4DFEC517ExtendedMediaView6Button",
+            "_TtCCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E313GiftOfferView8GiftView",
             "_TtCCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E316SetChatThemeView8GiftView",
             "_TtCCC8Telegram18ChatServiceRowViewP33_EE5A5E3F6F514C63ADD06E822ADBE5E319SuggestBirthdayView8DateView",
             "_TtCCC8Telegram18GiftOptionsRowView10OptionView13InvisibleView",
@@ -48255,6 +48442,7 @@
             "_aib",
             "_alertCheckBoxSelected",
             "_alertCheckBoxUnselected",
+            "_alpha",
             "_anchorPoint",
             "_animateArchive",
             "_animatedEmojies",
@@ -51232,6 +51420,7 @@
             "auctionContexts",
             "auctionGiftsPerRound",
             "auctionSlug",
+            "auctionStartDate",
             "auctionState",
             "audible_fixed_key",
             "audible_iv",
@@ -54292,6 +54481,7 @@
             "controller",
             "controllerAppear",
             "controllerDidChange",
+            "controllerMode",
             "controller_",
             "controllers",
             "controlling",
@@ -56499,6 +56689,7 @@
             "emojiGroupGreeting",
             "emojiGroupPremium",
             "emojiGroupsNotModified",
+            "emojiId",
             "emojiKeywordDeleted",
             "emojiKeywordsDifference",
             "emojiLayers",
@@ -58569,6 +58760,7 @@
             "giftEmojiFileId",
             "giftEmojiLayer",
             "giftId",
+            "giftOfferView",
             "giftPremium",
             "giftPremiumLayout",
             "giftStars",
@@ -60932,6 +61124,7 @@
             "iods_video_profile",
             "ios",
             "ios_disable_parallel_channel_reset_v2",
+            "ios_display_passkeys",
             "ios_killswitch_disable_downloadv2",
             "ios_killswitch_disable_request_timeout",
             "ios_side_menu_static",
@@ -61810,6 +62003,7 @@
             "lastUpdate",
             "lastUpdateTime",
             "lastUpdateTimestamp",
+            "lastUsageDate",
             "lastValidMessageId",
             "last_advertising_id_reset",
             "last_bundle_end_timestamp",
@@ -61898,6 +62092,7 @@
             "leadingDigitsPatterns",
             "leadingPreview",
             "leadingZeroPossible",
+            "learnMore",
             "leave",
             "leaveChannel",
             "leaveDisposable",
@@ -62506,6 +62701,8 @@
             "makeLinkManager",
             "makeLinkType",
             "makeNewActionAt",
+            "makeNextPattern",
+            "makeOffer",
             "makeParabollic",
             "makeParticipants",
             "makeRandomPadding",
@@ -63267,6 +63464,8 @@
             "messageActionSetChatWallPaper",
             "messageActionSetMessagesTTL",
             "messageActionStarGift",
+            "messageActionStarGiftPurchaseOffer",
+            "messageActionStarGiftPurchaseOfferDeclined",
             "messageActionStarGiftUnique",
             "messageActionSuggestBirthday",
             "messageActionSuggestProfilePhoto",
@@ -63737,6 +63936,7 @@
             "minHeight",
             "minMagnify",
             "minMessagePrice",
+            "minOfferStars",
             "minOffset",
             "minPartSize",
             "minPlayoutDelay",
@@ -63745,6 +63945,7 @@
             "minResaleStars",
             "minScale",
             "minSpeed",
+            "minStarAmount",
             "minTimestamp",
             "minValue",
             "minWidth",
@@ -63905,6 +64106,7 @@
             "mode_setup->mapping",
             "model",
             "modelIndex",
+            "modelView",
             "models",
             "modeof",
             "modifiedSize",
@@ -64950,6 +65152,7 @@
             "of length ",
             "off",
             "offForum",
+            "offerData",
             "offer_to_receive_audio > 1 is not supported.",
             "offer_to_receive_video > 1 is not supported.",
             "offlineBlurTimeoutMs",
@@ -65125,6 +65328,7 @@
             "openInviteLinks",
             "openKicked",
             "openLastSeenPrivacy",
+            "openLearn",
             "openLink",
             "openLiteMode",
             "openLocation",
@@ -65140,6 +65344,7 @@
             "openNetworkUsage",
             "openNewMethod",
             "openPasscode",
+            "openPasskey",
             "openPaymentMethod",
             "openPeer",
             "openPeerDisposable",
@@ -65193,6 +65398,7 @@
             "openUpdateApp",
             "openUrl",
             "openValue",
+            "openVariants",
             "openVoiceCallPrivacy",
             "openVoicePrivacy",
             "openWallpaper",
@@ -65798,6 +66004,7 @@
             "pass1",
             "pass2",
             "passLeftAction",
+            "passNext",
             "passed\n",
             "passed a null parameter",
             "passed invalid argument",
@@ -65917,6 +66124,7 @@
             "payments.getStarGiftAuctionAcquiredGifts",
             "payments.getStarGiftAuctionState",
             "payments.getStarGiftCollections",
+            "payments.getStarGiftUpgradeAttributes",
             "payments.getStarGiftUpgradePreview",
             "payments.getStarGiftWithdrawalUrl",
             "payments.getStarGifts",
@@ -65936,8 +66144,10 @@
             "payments.launchPrepaidGiveaway",
             "payments.refundStarsCharge",
             "payments.reorderStarGiftCollections",
+            "payments.resolveStarGiftOffer",
             "payments.saveStarGift",
             "payments.sendPaymentForm",
+            "payments.sendStarGiftOffer",
             "payments.sendStarsForm",
             "payments.toggleChatStarGiftNotifications",
             "payments.toggleStarGiftsPinnedToTop",
@@ -66510,6 +66720,7 @@
             "playStatusDisposable",
             "playThrottleDisposable",
             "playTimer",
+            "playView",
             "playable",
             "playbackAudioLevelView",
             "playbackBufferEmpty",
@@ -67518,6 +67729,7 @@
             "rangesDisposable",
             "ranks",
             "rarity",
+            "rarityTextView",
             "rasc",
             "rasterOrderGroupsSupported",
             "rate",
@@ -68143,6 +68355,7 @@
             "requestChatIsChannel",
             "requestChatTitle",
             "requestChunkLength",
+            "requestCreatePasskey",
             "requestData",
             "requestDisposable",
             "requestField",
@@ -69226,6 +69439,7 @@
             "selectAnimationData",
             "selectAppIcon",
             "selectAtIndex",
+            "selectAttribute",
             "selectBackground",
             "selectCamera",
             "selectCategory",
@@ -69870,6 +70084,7 @@
             "setupFilter",
             "setupGlobalAutoremove",
             "setupImpl",
+            "setupLoginEmail",
             "setupPrivacy",
             "setupReplyMessage",
             "setup_tbuf",
@@ -70879,13 +71094,17 @@
             "starGiftAttributePattern",
             "starGiftAuctionAcquiredGift",
             "starGiftAuctionAcquiredGifts",
+            "starGiftAuctionRound",
+            "starGiftAuctionRoundExtendable",
             "starGiftAuctionState",
             "starGiftAuctionStateFinished",
             "starGiftAuctionStateNotModified",
             "starGiftAuctionUserState",
+            "starGiftBackground",
             "starGiftCollection",
             "starGiftCollections",
             "starGiftCollectionsNotModified",
+            "starGiftUpgradeAttributes",
             "starGiftUpgradePreview",
             "starGiftUpgradePrice",
             "starGiftWithdrawalUrl",
@@ -71546,7 +71765,9 @@
             "substr",
             "substring",
             "subt",
+            "subtext",
             "subtextSpacing",
+            "subtextView",
             "subtitle",
             "subtitleView",
             "subtitle_text_color",
@@ -72570,6 +72791,7 @@
             "toggleMessageSourceValue",
             "toggleMessages",
             "toggleMessagesPreview",
+            "toggleMode",
             "toggleMonoforum",
             "toggleMonoforumState",
             "toggleMute",
@@ -72632,6 +72854,7 @@
             "toggleSearch",
             "toggleSecretChatWebPreview",
             "toggleSecretKey",
+            "toggleSection",
             "toggleSelect",
             "toggleSelected",
             "toggleSendAs",
@@ -73797,6 +74020,7 @@
             "update_ref_delta[i]",
             "update_with_analytics",
             "updated",
+            "updatedAccount",
             "updatedActive",
             "updatedAssociations",
             "updatedCacheEntryKeys",
@@ -73885,6 +74109,7 @@
             "upgradeSeparate",
             "upgradeStars",
             "upgradeToConference",
+            "upgradeVariantsCount",
             "upgradedConferenceCall",
             "upgradedMessageHoles",
             "upgradedToConferenceCompletions",
@@ -74280,6 +74505,9 @@
             "v32@0:8@\"<MTLTexture>\"16Q24",
             "v32@0:8@\"<MTLVisibleFunctionTable>\"16Q24",
             "v32@0:8@\"<SCNSceneRenderer>\"16d24",
+            "v32@0:8@\"ASAuthorizationController\"16@\"ASAuthorization\"24",
+            "v32@0:8@\"ASAuthorizationController\"16@\"NSError\"24",
+            "v32@0:8@\"ASAuthorizationController\"16@\"NSString\"24",
             "v32@0:8@\"AVAudioPlayer\"16@\"NSError\"24",
             "v32@0:8@\"CALayer\"16^{CGContext=}24",
             "v32@0:8@\"CLLocationManager\"16@\"CLHeading\"24",
@@ -74618,6 +74846,7 @@
             "valueIsUpdated",
             "valueLabelWidth",
             "valueRef",
+            "valueUsdAmount",
             "values",
             "valuesAnimators",
             "valuesDisposable",
@@ -75741,7 +75970,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 565372,
+          "size": 569392,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75754,7 +75983,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 36580,
+          "size": 36760,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75767,7 +75996,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 33504,
+          "size": 33744,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75806,7 +76035,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 309648,
+          "size": 310244,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75819,7 +76048,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 12560,
+          "size": 12600,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75832,7 +76061,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 276478,
+          "size": 276974,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -76657,6 +76886,7 @@
             "_avatar_star_badge_gray",
             "_avatar_star_badge_large_gray",
             "_background",
+            "_backgroundColor",
             "_backgroundColor",
             "_badge",
             "_badgeMuted",
@@ -78448,6 +78678,7 @@
             "auctionContexts",
             "auctionGiftsPerRound",
             "auctionSlug",
+            "auctionStartDate",
             "auctionState",
             "audio",
             "audio",
@@ -78644,6 +78875,7 @@
             "backSideDocument",
             "backSideDocument",
             "backdrop",
+            "background",
             "background",
             "background",
             "background",
@@ -81245,6 +81477,7 @@
             "emojiGroupPremium",
             "emojiGroups",
             "emojiGroupsNotModified",
+            "emojiId",
             "emojiKeyword",
             "emojiKeywordDeleted",
             "emojiKeywordsDifference",
@@ -81669,6 +81902,7 @@
             "exportedInvoice",
             "exportedMessageLink",
             "exportedStoryLink",
+            "extendable",
             "extendedMedia",
             "extendedMedia",
             "external",
@@ -82230,6 +82464,8 @@
             "generationTimestamp",
             "generator",
             "generator",
+            "generic",
+            "generic",
             "generic",
             "generic",
             "generic",
@@ -84516,6 +84752,7 @@
             "lastTimeStep",
             "lastTimestamp",
             "lastUpdateTimestamp",
+            "lastUsageDate",
             "lastWeek",
             "lastWeek",
             "later",
@@ -85402,6 +85639,8 @@
             "messageActionSetChatWallPaper",
             "messageActionSetMessagesTTL",
             "messageActionStarGift",
+            "messageActionStarGiftPurchaseOffer",
+            "messageActionStarGiftPurchaseOfferDeclined",
             "messageActionStarGiftUnique",
             "messageActionSuggestBirthday",
             "messageActionSuggestProfilePhoto",
@@ -85714,6 +85953,7 @@
             "minMagnify",
             "minMessageId",
             "minMessagePrice",
+            "minOfferStars",
             "minPartSize",
             "minPts",
             "minQuality",
@@ -86248,6 +86488,7 @@
             "numFrames",
             "numOfFields",
             "numSize",
+            "number",
             "number",
             "number",
             "number",
@@ -89099,6 +89340,7 @@
             "setupImpl",
             "setupLoginEmail",
             "setupLoginEmailBlocking",
+            "setupPasskey",
             "setupPassword",
             "setupPhoto",
             "setupPoll",
@@ -89521,17 +89763,22 @@
             "starGiftAuctionAcquiredGift",
             "starGiftAuctionAcquiredGifts",
             "starGiftAuctionBid",
+            "starGiftAuctionRound",
+            "starGiftAuctionRoundExtendable",
             "starGiftAuctionState",
             "starGiftAuctionState",
             "starGiftAuctionStateFinished",
             "starGiftAuctionStateNotModified",
             "starGiftAuctionUserState",
+            "starGiftBackground",
             "starGiftCollection",
             "starGiftCollections",
             "starGiftCollectionsNotModified",
             "starGiftDropOriginalDetails",
             "starGiftOutOfStock",
             "starGiftPrepaidUpgrade",
+            "starGiftPurchaseOffer",
+            "starGiftPurchaseOfferDeclined",
             "starGiftResale",
             "starGiftResellTooEarly",
             "starGiftResellTooEarly",
@@ -89539,6 +89786,7 @@
             "starGiftUnique",
             "starGiftUnique",
             "starGiftUpgrade",
+            "starGiftUpgradeAttributes",
             "starGiftUpgradePreview",
             "starGiftUpgradePrice",
             "starGiftUserLimit",
@@ -90424,7 +90672,6 @@
             "text",
             "textAnchor",
             "textBold",
-            "textColor",
             "textColor",
             "textColor",
             "textColor",
@@ -91446,6 +91693,7 @@
             "updated",
             "updated",
             "updated",
+            "updatedAccount",
             "updatedAssociations",
             "updatedCacheEntryKeys",
             "updatedCachedEntriesByNamespace",
@@ -91549,6 +91797,7 @@
             "upgradeSeparate",
             "upgradeStars",
             "upgradeToConference",
+            "upgradeVariantsCount",
             "upgradedMessageHoles",
             "upgrading",
             "upgrading",
@@ -91829,6 +92078,7 @@
             "valueLabelWidth",
             "valueNotFound",
             "valueRef",
+            "valueUsdAmount",
             "valueWithContext",
             "value_missingRequiredField",
             "values",
@@ -92305,7 +92555,7 @@
         {
           "sectname": "__swift5_assocty",
           "segname": "__TEXT",
-          "size": 21264,
+          "size": 21312,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92318,7 +92568,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 282084,
+          "size": 282792,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -92331,7 +92581,7 @@
         {
           "sectname": "__swift5_mpenum",
           "segname": "__TEXT",
-          "size": 18464,
+          "size": 18808,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93644,7 +93894,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 689412,
+          "size": 694032,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -93657,7 +93907,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 222136,
+          "size": 223032,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93672,10 +93922,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4385062912,
-      "vmsize": 26902528,
+      "vmaddr": 4385996800,
+      "vmsize": 26968064,
       "fileoff": 2096,
-      "filesize": 8323072,
+      "filesize": 8372224,
       "maxprot": {
         "read": true,
         "write": true,
@@ -93707,7 +93957,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 45944,
+          "size": 46048,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93746,7 +93996,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2311328,
+          "size": 2320416,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -93772,7 +94022,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 37712,
+          "size": 38016,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93817,7 +94067,7 @@
         {
           "sectname": "__objc_protolist",
           "segname": "__DATA",
-          "size": 2192,
+          "size": 2208,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93843,7 +94093,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1682536,
+          "size": 1691304,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93856,7 +94106,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 52360,
+          "size": 52432,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93871,7 +94121,7 @@
         {
           "sectname": "__objc_protorefs",
           "segname": "__DATA",
-          "size": 1104,
+          "size": 1120,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93884,7 +94134,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 7056,
+          "size": 7088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93927,7 +94177,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2634376,
+          "size": 2671624,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -93940,7 +94190,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1230101,
+          "size": 1235237,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -94057,7 +94307,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1363688,
+          "size": 1368808,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -94070,7 +94320,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 17215896,
+          "size": 17216024,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -94085,10 +94335,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4411965440,
-      "vmsize": 5242880,
+      "vmaddr": 4412964864,
+      "vmsize": 5259264,
       "fileoff": 4488,
-      "filesize": 5234800,
+      "filesize": 5256000,
       "maxprot": {
         "read": true,
         "write": false,
@@ -94109,10 +94359,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 102509480,
-      "nsyms": 4711,
-      "stroff": 102626464,
-      "strsize": 204088,
+      "symoff": 103505288,
+      "nsyms": 4716,
+      "stroff": 103622408,
+      "strsize": 204328,
       "fileoff": 4608
     },
     {
@@ -94122,15 +94372,15 @@
       "iextdefsym": 1,
       "nextdefsym": 684,
       "iundefsym": 685,
-      "nundefsym": 4026,
+      "nundefsym": 4031,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 102584856,
-      "nindirectsyms": 10402,
+      "indirectsymoff": 103580744,
+      "nindirectsyms": 10415,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -94158,7 +94408,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20600944,
+      "entryoff": 21201712,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -94235,12 +94485,20 @@
       "fileoff": 5424
     },
     {
+      "type": "load_weak_dylib",
+      "name": "/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/AuthenticationServices",
+      "timestamp": 2,
+      "current_version": 40370459,
+      "compatibility_version": 65536,
+      "fileoff": 5528
+    },
+    {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit",
       "timestamp": 2,
       "current_version": 39256064,
       "compatibility_version": 65536,
-      "fileoff": 5528
+      "fileoff": 5648
     },
     {
       "type": "load_dylib",
@@ -94248,7 +94506,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 0,
-      "fileoff": 5624
+      "fileoff": 5744
     },
     {
       "type": "load_dylib",
@@ -94256,7 +94514,7 @@
       "timestamp": 2,
       "current_version": 11141120,
       "compatibility_version": 131072,
-      "fileoff": 5720
+      "fileoff": 5840
     },
     {
       "type": "load_dylib",
@@ -94264,7 +94522,7 @@
       "timestamp": 2,
       "current_version": 40370459,
       "compatibility_version": 65536,
-      "fileoff": 5808
+      "fileoff": 5928
     },
     {
       "type": "load_dylib",
@@ -94272,7 +94530,7 @@
       "timestamp": 2,
       "current_version": 65544,
       "compatibility_version": 65536,
-      "fileoff": 5896
+      "fileoff": 6016
     },
     {
       "type": "load_dylib",
@@ -94280,7 +94538,7 @@
       "timestamp": 2,
       "current_version": 10420224,
       "compatibility_version": 65536,
-      "fileoff": 5952
+      "fileoff": 6072
     },
     {
       "type": "load_dylib",
@@ -94288,7 +94546,7 @@
       "timestamp": 2,
       "current_version": 22351872,
       "compatibility_version": 65536,
-      "fileoff": 6048
+      "fileoff": 6168
     },
     {
       "type": "load_weak_dylib",
@@ -94296,7 +94554,7 @@
       "timestamp": 2,
       "current_version": 148638208,
       "compatibility_version": 65536,
-      "fileoff": 6136
+      "fileoff": 6256
     },
     {
       "type": "load_weak_dylib",
@@ -94304,7 +94562,7 @@
       "timestamp": 2,
       "current_version": 70912,
       "compatibility_version": 67072,
-      "fileoff": 6240
+      "fileoff": 6360
     },
     {
       "type": "load_dylib",
@@ -94312,7 +94570,7 @@
       "timestamp": 2,
       "current_version": 236847360,
       "compatibility_version": 0,
-      "fileoff": 6312
+      "fileoff": 6432
     },
     {
       "type": "load_dylib",
@@ -94320,7 +94578,7 @@
       "timestamp": 2,
       "current_version": 68352,
       "compatibility_version": 66048,
-      "fileoff": 6408
+      "fileoff": 6528
     },
     {
       "type": "load_dylib",
@@ -94328,7 +94586,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6504
+      "fileoff": 6624
     },
     {
       "type": "load_dylib",
@@ -94336,7 +94594,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 6608
+      "fileoff": 6728
     },
     {
       "type": "load_dylib",
@@ -94344,7 +94602,7 @@
       "timestamp": 2,
       "current_version": 458752,
       "compatibility_version": 458752,
-      "fileoff": 6704
+      "fileoff": 6824
     },
     {
       "type": "load_dylib",
@@ -94352,7 +94610,7 @@
       "timestamp": 2,
       "current_version": 91160580,
       "compatibility_version": 65536,
-      "fileoff": 6760
+      "fileoff": 6880
     },
     {
       "type": "load_dylib",
@@ -94360,7 +94618,7 @@
       "timestamp": 2,
       "current_version": 80347136,
       "compatibility_version": 65536,
-      "fileoff": 6872
+      "fileoff": 6992
     },
     {
       "type": "load_dylib",
@@ -94368,7 +94626,7 @@
       "timestamp": 2,
       "current_version": 66816,
       "compatibility_version": 66048,
-      "fileoff": 6976
+      "fileoff": 7096
     },
     {
       "type": "load_dylib",
@@ -94376,7 +94634,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7072
+      "fileoff": 7192
     },
     {
       "type": "load_dylib",
@@ -94384,7 +94642,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7168
+      "fileoff": 7288
     },
     {
       "type": "load_dylib",
@@ -94392,7 +94650,7 @@
       "timestamp": 2,
       "current_version": 18022400,
       "compatibility_version": 65536,
-      "fileoff": 7256
+      "fileoff": 7376
     },
     {
       "type": "load_dylib",
@@ -94400,7 +94658,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 7344
+      "fileoff": 7464
     },
     {
       "type": "load_dylib",
@@ -94408,7 +94666,7 @@
       "timestamp": 2,
       "current_version": 40370459,
       "compatibility_version": 65536,
-      "fileoff": 7440
+      "fileoff": 7560
     },
     {
       "type": "load_dylib",
@@ -94416,7 +94674,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 7544
+      "fileoff": 7664
     },
     {
       "type": "load_dylib",
@@ -94424,7 +94682,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7632
+      "fileoff": 7752
     },
     {
       "type": "load_dylib",
@@ -94432,7 +94690,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 19660800,
-      "fileoff": 7720
+      "fileoff": 7840
     },
     {
       "type": "load_dylib",
@@ -94440,7 +94698,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 7816
+      "fileoff": 7936
     },
     {
       "type": "load_dylib",
@@ -94448,7 +94706,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7920
+      "fileoff": 8040
     },
     {
       "type": "load_dylib",
@@ -94456,7 +94714,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 8016
+      "fileoff": 8136
     },
     {
       "type": "load_dylib",
@@ -94464,7 +94722,7 @@
       "timestamp": 2,
       "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 8072
+      "fileoff": 8192
     },
     {
       "type": "load_dylib",
@@ -94472,7 +94730,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8128
+      "fileoff": 8248
     },
     {
       "type": "load_dylib",
@@ -94480,7 +94738,7 @@
       "timestamp": 2,
       "current_version": 4194304,
       "compatibility_version": 65536,
-      "fileoff": 8216
+      "fileoff": 8336
     },
     {
       "type": "load_dylib",
@@ -94488,7 +94746,7 @@
       "timestamp": 2,
       "current_version": 65536000,
       "compatibility_version": 65536,
-      "fileoff": 8328
+      "fileoff": 8448
     },
     {
       "type": "load_dylib",
@@ -94496,7 +94754,7 @@
       "timestamp": 2,
       "current_version": 96600064,
       "compatibility_version": 65536,
-      "fileoff": 8432
+      "fileoff": 8552
     },
     {
       "type": "load_dylib",
@@ -94504,7 +94762,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8528
+      "fileoff": 8648
     },
     {
       "type": "load_dylib",
@@ -94512,7 +94770,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 8624
+      "fileoff": 8744
     },
     {
       "type": "load_dylib",
@@ -94520,7 +94778,7 @@
       "timestamp": 2,
       "current_version": 116260868,
       "compatibility_version": 4194304,
-      "fileoff": 8728
+      "fileoff": 8848
     },
     {
       "type": "load_dylib",
@@ -94528,7 +94786,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65537,
-      "fileoff": 8832
+      "fileoff": 8952
     },
     {
       "type": "load_dylib",
@@ -94536,7 +94794,7 @@
       "timestamp": 2,
       "current_version": 189137667,
       "compatibility_version": 65536,
-      "fileoff": 8928
+      "fileoff": 9048
     },
     {
       "type": "load_dylib",
@@ -94544,7 +94802,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9032
+      "fileoff": 9152
     },
     {
       "type": "load_dylib",
@@ -94552,7 +94810,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9128
+      "fileoff": 9248
     },
     {
       "type": "load_dylib",
@@ -94560,7 +94818,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9224
+      "fileoff": 9344
     },
     {
       "type": "load_weak_dylib",
@@ -94568,7 +94826,7 @@
       "timestamp": 2,
       "current_version": 15401472,
       "compatibility_version": 65536,
-      "fileoff": 9312
+      "fileoff": 9432
     },
     {
       "type": "load_dylib",
@@ -94576,7 +94834,7 @@
       "timestamp": 2,
       "current_version": 8323091,
       "compatibility_version": 65536,
-      "fileoff": 9424
+      "fileoff": 9544
     },
     {
       "type": "load_weak_dylib",
@@ -94584,7 +94842,7 @@
       "timestamp": 2,
       "current_version": 7471104,
       "compatibility_version": 65536,
-      "fileoff": 9544
+      "fileoff": 9664
     },
     {
       "type": "load_weak_dylib",
@@ -94592,7 +94850,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9648
+      "fileoff": 9768
     },
     {
       "type": "load_weak_dylib",
@@ -94600,7 +94858,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9736
+      "fileoff": 9856
     },
     {
       "type": "load_weak_dylib",
@@ -94608,7 +94866,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9824
+      "fileoff": 9944
     },
     {
       "type": "load_dylib",
@@ -94616,7 +94874,7 @@
       "timestamp": 2,
       "current_version": 458797,
       "compatibility_version": 65536,
-      "fileoff": 9936
+      "fileoff": 10056
     },
     {
       "type": "load_dylib",
@@ -94624,7 +94882,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10024
+      "fileoff": 10144
     },
     {
       "type": "load_weak_dylib",
@@ -94632,7 +94890,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10080
+      "fileoff": 10200
     },
     {
       "type": "load_weak_dylib",
@@ -94640,7 +94898,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10152
+      "fileoff": 10272
     },
     {
       "type": "load_weak_dylib",
@@ -94648,7 +94906,7 @@
       "timestamp": 2,
       "current_version": 123011140,
       "compatibility_version": 65536,
-      "fileoff": 10216
+      "fileoff": 10336
     },
     {
       "type": "load_weak_dylib",
@@ -94656,7 +94914,7 @@
       "timestamp": 2,
       "current_version": 361103619,
       "compatibility_version": 65536,
-      "fileoff": 10280
+      "fileoff": 10400
     },
     {
       "type": "load_weak_dylib",
@@ -94664,7 +94922,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 10352
+      "fileoff": 10472
     },
     {
       "type": "load_weak_dylib",
@@ -94672,7 +94930,7 @@
       "timestamp": 2,
       "current_version": 101057536,
       "compatibility_version": 65536,
-      "fileoff": 10416
+      "fileoff": 10536
     },
     {
       "type": "load_weak_dylib",
@@ -94680,7 +94938,7 @@
       "timestamp": 2,
       "current_version": 64618496,
       "compatibility_version": 65536,
-      "fileoff": 10480
+      "fileoff": 10600
     },
     {
       "type": "load_weak_dylib",
@@ -94688,7 +94946,7 @@
       "timestamp": 2,
       "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 10552
+      "fileoff": 10672
     },
     {
       "type": "load_weak_dylib",
@@ -94696,7 +94954,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 10632
+      "fileoff": 10752
     },
     {
       "type": "load_weak_dylib",
@@ -94704,7 +94962,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10704
+      "fileoff": 10824
     },
     {
       "type": "load_weak_dylib",
@@ -94712,7 +94970,7 @@
       "timestamp": 2,
       "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 10768
+      "fileoff": 10888
     },
     {
       "type": "load_weak_dylib",
@@ -94720,7 +94978,7 @@
       "timestamp": 2,
       "current_version": 2949120,
       "compatibility_version": 65536,
-      "fileoff": 10832
+      "fileoff": 10952
     },
     {
       "type": "load_dylib",
@@ -94728,7 +94986,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 10888
+      "fileoff": 11008
     },
     {
       "type": "load_dylib",
@@ -94736,7 +94994,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 10944
+      "fileoff": 11064
     },
     {
       "type": "load_dylib",
@@ -94744,7 +95002,7 @@
       "timestamp": 2,
       "current_version": 7889920,
       "compatibility_version": 65536,
-      "fileoff": 11000
+      "fileoff": 11120
     },
     {
       "type": "load_dylib",
@@ -94752,7 +95010,7 @@
       "timestamp": 2,
       "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 11064
+      "fileoff": 11184
     },
     {
       "type": "load_weak_dylib",
@@ -94760,7 +95018,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 11128
+      "fileoff": 11248
     },
     {
       "type": "load_weak_dylib",
@@ -94768,7 +95026,7 @@
       "timestamp": 2,
       "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 11184
+      "fileoff": 11304
     },
     {
       "type": "load_dylib",
@@ -94776,7 +95034,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 11248
+      "fileoff": 11368
     },
     {
       "type": "load_dylib",
@@ -94784,7 +95042,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 11304
+      "fileoff": 11424
     },
     {
       "type": "load_dylib",
@@ -94792,7 +95050,7 @@
       "timestamp": 2,
       "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 11360
+      "fileoff": 11480
     },
     {
       "type": "load_weak_dylib",
@@ -94800,7 +95058,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 11416
+      "fileoff": 11536
     },
     {
       "type": "load_weak_dylib",
@@ -94808,7 +95066,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11472
+      "fileoff": 11592
     },
     {
       "type": "load_weak_dylib",
@@ -94816,7 +95074,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11528
+      "fileoff": 11648
     },
     {
       "type": "load_weak_dylib",
@@ -94824,7 +95082,7 @@
       "timestamp": 2,
       "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 11584
+      "fileoff": 11704
     },
     {
       "type": "load_weak_dylib",
@@ -94832,7 +95090,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11640
+      "fileoff": 11760
     },
     {
       "type": "load_weak_dylib",
@@ -94840,7 +95098,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11696
+      "fileoff": 11816
     },
     {
       "type": "load_weak_dylib",
@@ -94848,7 +95106,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11752
+      "fileoff": 11872
     },
     {
       "type": "load_dylib",
@@ -94856,7 +95114,7 @@
       "timestamp": 2,
       "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 11816
+      "fileoff": 11936
     },
     {
       "type": "load_dylib",
@@ -94864,7 +95122,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11872
+      "fileoff": 11992
     },
     {
       "type": "load_dylib",
@@ -94872,7 +95130,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11928
+      "fileoff": 12048
     },
     {
       "type": "load_weak_dylib",
@@ -94880,7 +95138,7 @@
       "timestamp": 2,
       "current_version": 196611,
       "compatibility_version": 65536,
-      "fileoff": 11984
+      "fileoff": 12104
     },
     {
       "type": "load_weak_dylib",
@@ -94888,7 +95146,7 @@
       "timestamp": 2,
       "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 12040
+      "fileoff": 12160
     },
     {
       "type": "load_weak_dylib",
@@ -94896,7 +95154,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 12096
+      "fileoff": 12216
     },
     {
       "type": "load_weak_dylib",
@@ -94904,7 +95162,7 @@
       "timestamp": 2,
       "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 12160
+      "fileoff": 12280
     },
     {
       "type": "load_weak_dylib",
@@ -94912,7 +95170,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 12208
+      "fileoff": 12328
     },
     {
       "type": "load_dylib",
@@ -94920,35 +95178,35 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 12264
+      "fileoff": 12384
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 12320
+      "fileoff": 12440
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 12352
+      "fileoff": 12472
     },
     {
       "type": "function_starts",
-      "dataoff": 102049144,
-      "datasize": 422800,
-      "fileoff": 12400
+      "dataoff": 103043000,
+      "datasize": 424648,
+      "fileoff": 12520
     },
     {
       "type": "data_in_code",
-      "dataoff": 102471944,
-      "datasize": 37536,
-      "fileoff": 12416
+      "dataoff": 103467648,
+      "datasize": 37640,
+      "fileoff": 12536
     },
     {
       "type": "code_signature",
-      "dataoff": 102830560,
-      "datasize": 822928,
-      "fileoff": 12432
+      "dataoff": 103826736,
+      "datasize": 830992,
+      "fileoff": 12552
     }
   ],
   "hsize": 32
