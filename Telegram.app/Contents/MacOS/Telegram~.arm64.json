@@ -11899,7 +11899,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 389295,
+          "size": 389301,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -11912,7 +11912,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 2085870,
+          "size": 2085934,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -38846,6 +38846,7 @@
             "TGUIKit.PollBubbleTimerView",
             "TGUIKit.Popover",
             "TGUIKit.ProgressModalController",
+            "TGUIKit.RadialGradientView",
             "TGUIKit.RadialProgressContainerView",
             "TGUIKit.RadialProgressParameters",
             "TGUIKit.RadialProgressView",
@@ -38934,6 +38935,7 @@
             "TGUIKit/Popover.swift",
             "TGUIKit/ProgressIndicator.swift",
             "TGUIKit/ProgressModal.swift",
+            "TGUIKit/RadialGradientView.swift",
             "TGUIKit/RadialProgressContainerView.swift",
             "TGUIKit/RadialProgressView.swift",
             "TGUIKit/SImageLayer.swift",
@@ -39902,7 +39904,6 @@
             "Telegram.QuickLookPreviewItem",
             "Telegram.QuickSwitcherModalController",
             "Telegram.QuickSwitcherView",
-            "Telegram.RadialGradientView",
             "Telegram.RandomizeView",
             "Telegram.ReactionCarouselView",
             "Telegram.ReactionPeerMenu",
@@ -45698,6 +45699,7 @@
             "_TtC7TGUIKit17TooltipController",
             "_TtC7TGUIKit18CustomViewHandlers",
             "_TtC7TGUIKit18MarkdownAttributes",
+            "_TtC7TGUIKit18RadialGradientView",
             "_TtC7TGUIKit18RadialProgressView",
             "_TtC7TGUIKit18SearchInteractions",
             "_TtC7TGUIKit18TextViewBlockQuote",
@@ -47753,7 +47755,6 @@
             "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C14SegmentRowView",
             "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C15AttrRowItemView",
             "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C15GridRowItemView",
-            "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C18RadialGradientView",
             "_TtC8TelegramP33_C961FB93785147011B76C67C55EB361C9Arguments",
             "_TtC8TelegramP33_C9F538E2EE9C7929F5B2A5A84A3AD3BB15OverviewRowView",
             "_TtC8TelegramP33_CA0A8E09BF4AF86ADEA1AD0F3780CA5725TitleAndInfoAlertItemView",
@@ -73692,6 +73693,8 @@
             "unwrap failure",
             "up",
             "up to date",
+            "upcomingLayout",
+            "upcomingView",
             "update",
             "update all records value",
             "update on postboxQueue: ",
@@ -75955,7 +75958,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 569364,
+          "size": 569356,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -76020,7 +76023,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 310244,
+          "size": 310284,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -76046,7 +76049,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 276974,
+          "size": 276990,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -79926,6 +79929,7 @@
             "colors",
             "colors",
             "colors",
+            "colors",
             "colspan",
             "combined",
             "combinedChatStickers",
@@ -82685,6 +82689,7 @@
             "gradient",
             "gradient",
             "gradient",
+            "gradientLayer",
             "gradientLayer",
             "graphControllers",
             "graphControllers",
@@ -94085,7 +94090,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1491488,
+          "size": 1491584,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -94169,7 +94174,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2438312,
+          "size": 2438336,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -94182,7 +94187,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 1230754,
+          "size": 1230778,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -94304,7 +94309,7 @@
       "vmaddr": 4398727168,
       "vmsize": 4980736,
       "fileoff": 4480,
-      "filesize": 4972224,
+      "filesize": 4972816,
       "maxprot": {
         "read": true,
         "write": false,
@@ -94325,9 +94330,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 89131976,
+      "symoff": 89132568,
       "nsyms": 4152,
-      "stroff": 89233960,
+      "stroff": 89234552,
       "strsize": 167904,
       "fileoff": 4600
     },
@@ -94345,7 +94350,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 89198408,
+      "indirectsymoff": 89199000,
       "nindirectsyms": 8888,
       "extreloff": 0,
       "nextrel": 0,
@@ -94371,7 +94376,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17388816,
+      "entryoff": 17388892,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -95155,19 +95160,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 88727128,
-      "datasize": 404848,
+      "dataoff": 88727704,
+      "datasize": 404864,
       "fileoff": 12720
     },
     {
       "type": "data_in_code",
-      "dataoff": 89131976,
+      "dataoff": 89132568,
       "datasize": 0,
       "fileoff": 12736
     },
     {
       "type": "code_signature",
-      "dataoff": 89401872,
+      "dataoff": 89402464,
       "datasize": 718000,
       "fileoff": 12752
     }

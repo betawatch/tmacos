@@ -136,7 +136,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 45020,
+          "size": 45092,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -162,7 +162,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 294234,
+          "size": 294240,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3554,7 +3554,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 234432,
+          "size": 234476,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3593,7 +3593,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 246569,
+          "size": 246585,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -7212,6 +7212,7 @@
             "colors",
             "colors",
             "colors",
+            "colors",
             "colspan",
             "combined",
             "combinedChatStickers",
@@ -9540,6 +9541,7 @@
             "gradient",
             "gradient",
             "gradient",
+            "gradientLayer",
             "gradientLayer",
             "gray",
             "grayBackground",
@@ -18176,7 +18178,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 280456,
+          "size": 280496,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -18228,7 +18230,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 18496,
+          "size": 18500,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -18241,7 +18243,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1084944,
+          "size": 1085072,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33754,6 +33756,7 @@
             "TGUIKit.PollBubbleTimerView",
             "TGUIKit.Popover",
             "TGUIKit.ProgressModalController",
+            "TGUIKit.RadialGradientView",
             "TGUIKit.RadialProgressContainerView",
             "TGUIKit.RadialProgressParameters",
             "TGUIKit.RadialProgressView",
@@ -33842,6 +33845,7 @@
             "TGUIKit/Popover.swift",
             "TGUIKit/ProgressIndicator.swift",
             "TGUIKit/ProgressModal.swift",
+            "TGUIKit/RadialGradientView.swift",
             "TGUIKit/RadialProgressContainerView.swift",
             "TGUIKit/RadialProgressView.swift",
             "TGUIKit/SImageLayer.swift",
@@ -36842,6 +36846,7 @@
             "_TtC7TGUIKit17TooltipController",
             "_TtC7TGUIKit18CustomViewHandlers",
             "_TtC7TGUIKit18MarkdownAttributes",
+            "_TtC7TGUIKit18RadialGradientView",
             "_TtC7TGUIKit18RadialProgressView",
             "_TtC7TGUIKit18SearchInteractions",
             "_TtC7TGUIKit18TextViewBlockQuote",
@@ -54129,7 +54134,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 382256,
+          "size": 382288,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -54181,7 +54186,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 21136,
+          "size": 21144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54233,7 +54238,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 12384,
+          "size": 12392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54326,7 +54331,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 531776,
+          "size": 531920,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54412,7 +54417,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 278744,
+          "size": 279648,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54425,7 +54430,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 421682,
+          "size": 421738,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54444,7 +54449,9 @@
           "nreloc": 0,
           "type": "regular",
           "attributes": {
-            "usr": {},
+            "usr": {
+              "no_dead_strip": true
+            },
             "sys": {}
           }
         },
@@ -54534,7 +54541,7 @@
       "vmaddr": 4352917504,
       "vmsize": 4014080,
       "fileoff": 4240,
-      "filesize": 4012224,
+      "filesize": 4013040,
       "maxprot": {
         "read": true,
         "write": false,
@@ -54555,10 +54562,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 42819688,
-      "nsyms": 11226,
-      "stroff": 43023200,
-      "strsize": 280504,
+      "symoff": 42820336,
+      "nsyms": 11229,
+      "stroff": 43023904,
+      "strsize": 280624,
       "fileoff": 4360
     },
     {
@@ -54566,17 +54573,17 @@
       "ilocalsym": 0,
       "nlocalsym": 1,
       "iextdefsym": 1,
-      "nextdefsym": 9853,
-      "iundefsym": 9854,
-      "nundefsym": 1372,
+      "nextdefsym": 9855,
+      "iundefsym": 9856,
+      "nundefsym": 1373,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 42999304,
-      "nindirectsyms": 5974,
+      "indirectsymoff": 43000000,
+      "nindirectsyms": 5975,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -55062,19 +55069,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 42608616,
-      "datasize": 211072,
+      "dataoff": 42609232,
+      "datasize": 211104,
       "fileoff": 8960
     },
     {
       "type": "data_in_code",
-      "dataoff": 42819688,
+      "dataoff": 42820336,
       "datasize": 0,
       "fileoff": 8976
     },
     {
       "type": "code_signature",
-      "dataoff": 43303712,
+      "dataoff": 43304528,
       "datasize": 357792,
       "fileoff": 8992
     }

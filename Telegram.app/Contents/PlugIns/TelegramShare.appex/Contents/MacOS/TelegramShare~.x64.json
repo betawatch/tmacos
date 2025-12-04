@@ -69,7 +69,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 39757248,
+          "size": 39761344,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -133,7 +133,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 294234,
+          "size": 294240,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3525,7 +3525,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 234432,
+          "size": 234476,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3564,7 +3564,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 246569,
+          "size": 246585,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -7183,6 +7183,7 @@
             "colors",
             "colors",
             "colors",
+            "colors",
             "colspan",
             "combined",
             "combinedChatStickers",
@@ -9511,6 +9512,7 @@
             "gradient",
             "gradient",
             "gradient",
+            "gradientLayer",
             "gradientLayer",
             "gray",
             "grayBackground",
@@ -18147,7 +18149,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 280456,
+          "size": 280496,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -18199,7 +18201,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 18496,
+          "size": 18500,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -18212,7 +18214,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1086692,
+          "size": 1086820,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33680,6 +33682,7 @@
             "TGUIKit.PollBubbleTimerView",
             "TGUIKit.Popover",
             "TGUIKit.ProgressModalController",
+            "TGUIKit.RadialGradientView",
             "TGUIKit.RadialProgressContainerView",
             "TGUIKit.RadialProgressParameters",
             "TGUIKit.RadialProgressView",
@@ -33768,6 +33771,7 @@
             "TGUIKit/Popover.swift",
             "TGUIKit/ProgressIndicator.swift",
             "TGUIKit/ProgressModal.swift",
+            "TGUIKit/RadialGradientView.swift",
             "TGUIKit/RadialProgressContainerView.swift",
             "TGUIKit/RadialProgressView.swift",
             "TGUIKit/SImageLayer.swift",
@@ -36770,6 +36774,7 @@
             "_TtC7TGUIKit17TooltipController",
             "_TtC7TGUIKit18CustomViewHandlers",
             "_TtC7TGUIKit18MarkdownAttributes",
+            "_TtC7TGUIKit18RadialGradientView",
             "_TtC7TGUIKit18RadialProgressView",
             "_TtC7TGUIKit18SearchInteractions",
             "_TtC7TGUIKit18TextViewBlockQuote",
@@ -54170,7 +54175,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 321800,
+          "size": 321824,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -54224,7 +54229,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 28400,
+          "size": 28408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54289,7 +54294,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 12384,
+          "size": 12392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54345,7 +54350,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 579200,
+          "size": 579344,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54431,7 +54436,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 315864,
+          "size": 316896,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -54444,7 +54449,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 423461,
+          "size": 423509,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -54579,7 +54584,7 @@
       "vmaddr": 4360355840,
       "vmsize": 4128768,
       "fileoff": 4168,
-      "filesize": 4126480,
+      "filesize": 4127344,
       "maxprot": {
         "read": true,
         "write": false,
@@ -54600,10 +54605,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 50264936,
-      "nsyms": 12038,
-      "stroff": 50485152,
-      "strsize": 312624,
+      "symoff": 50265576,
+      "nsyms": 12041,
+      "stroff": 50485848,
+      "strsize": 312752,
       "fileoff": 4288
     },
     {
@@ -54611,17 +54616,17 @@
       "ilocalsym": 0,
       "nlocalsym": 1,
       "iextdefsym": 1,
-      "nextdefsym": 10657,
-      "iundefsym": 10658,
-      "nundefsym": 1380,
+      "nextdefsym": 10659,
+      "iundefsym": 10660,
+      "nundefsym": 1381,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 50457544,
-      "nindirectsyms": 6902,
+      "indirectsymoff": 50458232,
+      "nindirectsyms": 6903,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -55110,20 +55115,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 50051048,
-      "datasize": 213888,
+      "dataoff": 50051656,
+      "datasize": 213920,
       "fileoff": 8728
     },
     {
       "type": "data_in_code",
-      "dataoff": 50264936,
+      "dataoff": 50265576,
       "datasize": 0,
       "fileoff": 8744
     },
     {
       "type": "code_signature",
-      "dataoff": 50797776,
-      "datasize": 416320,
+      "dataoff": 50798608,
+      "datasize": 416352,
       "fileoff": 8760
     }
   ],
